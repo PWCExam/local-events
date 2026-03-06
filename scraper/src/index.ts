@@ -13,6 +13,7 @@ import { scrapeIslandBrewing } from './scrapers/islandBrewing.js';
 import { scrapeBrightSpark } from './scrapers/brightSpark.js';
 import { scrapeThirdWindow } from './scrapers/thirdWindow.js';
 import { scrapeVenturaRaceway } from './scrapers/venturaRaceway.js';
+import { scrapeCalendar805 } from './scrapers/calendar805.js';
 import { dedupeEvents, filterFutureEvents } from './utils.js';
 import type { ScraperResult } from './types.js';
 
@@ -37,6 +38,7 @@ async function main() {
     scrapeBrightSpark(),
     scrapeThirdWindow(),
     scrapeVenturaRaceway(),
+    scrapeCalendar805(),
   ]);
 
   // Collect all events

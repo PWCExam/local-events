@@ -18,9 +18,14 @@ export default function CalendarHeader({
 }: CalendarHeaderProps) {
   return (
     <div className="flex items-center justify-between mb-4">
-      <h2 className="text-lg font-semibold text-green-500">
-        {formatMonthYear(currentMonth)}
-      </h2>
+      <div>
+        <h2 className="text-lg font-semibold text-green-500">
+          {formatMonthYear(currentMonth)}
+        </h2>
+        <p className="text-xs text-zinc-500 tracking-widest uppercase">
+          805 Surf, Beer, Music, Nature
+        </p>
+      </div>
       <div className="flex items-center gap-1">
         <button
           onClick={onToday}

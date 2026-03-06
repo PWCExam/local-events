@@ -44,7 +44,7 @@ export default function CalendarGrid({ events, onDelete }: CalendarGridProps) {
     : [];
 
   return (
-    <div className="bg-zinc-900 rounded-xl border border-white/5 p-4 sm:p-6">
+    <div className="bg-zinc-900 rounded-xl border border-white/5 p-2 sm:p-6">
       <CalendarHeader
         currentMonth={currentMonth}
         onPrevMonth={handlePrevMonth}
@@ -52,31 +52,35 @@ export default function CalendarGrid({ events, onDelete }: CalendarGridProps) {
         onToday={handleToday}
       />
 
-      <div className="grid grid-cols-7 mb-1">
-        {WEEKDAYS.map((day) => (
-          <div
-            key={day}
-            className="text-center text-xs font-medium text-zinc-300 uppercase tracking-wider py-2"
-          >
-            {day}
+      <div className="overflow-x-auto -mx-2 sm:mx-0">
+        <div className="min-w-[320px]">
+          <div className="grid grid-cols-7 mb-1">
+            {WEEKDAYS.map((day) => (
+              <div
+                key={day}
+                className="text-center text-[10px] sm:text-xs font-medium text-zinc-300 uppercase tracking-wider py-1 sm:py-2"
+              >
+                {day}
+              </div>
+            ))}
           </div>
-        ))}
+
+          <div className="grid grid-cols-7">
+            {days.map((day, i) => (
+              <DayCell
+                key={i}
+                day={day}
+                currentMonth={currentMonth}
+                selectedDate={selectedDate}
+                events={events}
+                onClick={handleDayClick}
+              />
+            ))}
+          </div>
+        </div>
       </div>
 
-      <div className="grid grid-cols-7">
-        {days.map((day, i) => (
-          <DayCell
-            key={i}
-            day={day}
-            currentMonth={currentMonth}
-            selectedDate={selectedDate}
-            events={events}
-            onClick={handleDayClick}
-          />
-        ))}
-      </div>
-
-      <div className="flex items-center justify-between mt-4 pt-4 border-t border-white/5">
+      <div className="hidden sm:flex items-center justify-between mt-4 pt-4 border-t border-white/5">
         <button
           onClick={handlePrevMonth}
           className="inline-flex items-center gap-1 px-4 py-2 text-sm font-medium text-zinc-500 hover:text-zinc-300 rounded-lg transition-colors"

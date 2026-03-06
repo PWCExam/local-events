@@ -8,7 +8,7 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "Ventura & Santa Barbara Event Calendar",
+  title: "Ventura & Santa Barbara Events",
   description: "Surf, beer, and art events happening in Ventura County and Santa Barbara.",
 };
 
