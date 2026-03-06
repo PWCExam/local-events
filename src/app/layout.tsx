@@ -8,8 +8,8 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "Ventura & Santa Barbara Events",
-  description: "Surf, beer, and art events happening in Ventura County and Santa Barbara.",
+  title: "805 Surf, Beer, Music, Nature, Events",
+  description: "Local events happening in the 805 — Ventura, Santa Barbara, and Ojai.",
 };
 
 export default function RootLayout({

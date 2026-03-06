@@ -43,9 +43,6 @@ export default function CalendarHeader({
           </button>
         </div>
       </div>
-      <p className="text-xs text-white tracking-widest uppercase text-center mt-2">
-        805 Surf, Beer, Music, Nature
-      </p>
     </div>
   );
 }
