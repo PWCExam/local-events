@@ -22,41 +22,46 @@ export default function DayCell({ day, currentMonth, selectedDate, events, onCli
     <button
       onClick={() => onClick(day)}
       className={`
-        relative flex flex-col items-start p-2 sm:p-3 min-h-[140px] sm:min-h-[180px] border border-gray-200 transition-colors text-left
-        ${!isCurrentMonth ? 'text-gray-300 opacity-40' : 'text-gray-900'}
-        ${isSelected ? 'bg-teal-50 ring-2 ring-teal-500' : 'hover:bg-gray-50'}
-        ${today && !isSelected ? 'bg-teal-50/50' : ''}
+        relative flex flex-col items-start p-2 sm:p-3 min-h-[240px] sm:min-h-[360px] border border-white/15 transition-colors text-left overflow-hidden
+        ${!isCurrentMonth ? 'text-zinc-700 opacity-30' : 'text-white'}
+        ${isSelected ? 'bg-teal-900/20 ring-1 ring-teal-500/50' : 'hover:bg-white/5'}
+        ${today && !isSelected ? 'bg-white/5' : ''}
       `}
     >
       <span
         className={`
-          text-sm font-medium mb-1
-          ${today ? 'bg-teal-600 text-white w-7 h-7 rounded-full flex items-center justify-center' : ''}
+          text-sm sm:text-base font-bold mb-2 shrink-0
+          ${today ? 'bg-teal-400 text-black w-7 h-7 sm:w-8 sm:h-8 rounded-full flex items-center justify-center' : ''}
         `}
       >
         {day.getDate()}
       </span>
 
       {dayEvents.length > 0 && (
-        <div className="flex flex-col gap-0.5 w-full overflow-hidden">
-          {dayEvents.slice(0, 4).map((event) => {
+        <div className="flex flex-col gap-1.5 w-full overflow-hidden flex-1">
+          {dayEvents.slice(0, 10).map((event) => {
             const catInfo = CATEGORIES.find((c) => c.value === event.category);
             return (
               <div
                 key={event.id}
-                className={`text-[11px] sm:text-xs leading-snug px-1.5 py-1 rounded font-medium ${catInfo?.color || 'bg-gray-100 text-gray-600'}`}
+                className="flex items-start gap-1.5 min-w-0"
               >
-                <div>{event.title}</div>
-                {event.instagramHandle && (
-                  <div className="opacity-60 font-normal">{event.instagramHandle}</div>
-                )}
+                <div className={`w-1.5 h-1.5 rounded-full shrink-0 mt-[5px] ${catInfo?.dotColor || 'bg-zinc-500'}`} />
+                <div className="min-w-0 leading-tight">
+                  <span className="text-xs sm:text-sm text-white line-clamp-2">
+                    {event.title}
+                  </span>
+                  {event.time && (
+                    <span className="text-[11px] text-zinc-300 block">{event.time}</span>
+                  )}
+                </div>
               </div>
             );
           })}
-          {dayEvents.length > 4 && (
-            <div className="text-[11px] sm:text-xs text-gray-500 font-medium px-1.5 py-0.5">
-              +{dayEvents.length - 4} more
-            </div>
+          {dayEvents.length > 10 && (
+            <span className="text-xs text-zinc-300 pl-3">
+              +{dayEvents.length - 10} more
+            </span>
           )}
         </div>
       )}

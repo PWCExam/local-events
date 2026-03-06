@@ -2,6 +2,10 @@
 
 :root {
   --font-sans: var(--font-space);
+  --color-accent: #5eead4;
+  --color-accent-dim: #2dd4bf;
+  --color-surface: #18181b;
+  --color-surface-raised: #27272a;
 }
 
 @theme inline {
@@ -10,6 +14,10 @@
 
 * {
   box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -43,4 +51,13 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 input[type="date"]::-webkit-calendar-picker-indicator:hover {
   opacity: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

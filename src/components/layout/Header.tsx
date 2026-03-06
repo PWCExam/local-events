@@ -1,6 +1,7 @@
 'use client';
 
 import { Waves } from 'lucide-react';
+import { motion } from 'framer-motion';
 
 interface HeaderProps {
   activeTab: string;
@@ -27,21 +28,24 @@ export default function Header({ activeTab, onTabChange }: HeaderProps) {
           </div>
         </div>
 
-        <nav className="flex gap-1 -mb-px">
+        <nav className="flex gap-1 -mb-px relative">
           {TABS.map((tab) => (
             <button
               key={tab.id}
               onClick={() => onTabChange(tab.id)}
               className={`
-                px-4 py-2.5 text-sm font-medium border-b-2 transition-colors
-                ${
-                  activeTab === tab.id
-                    ? 'border-teal-200 text-white'
-                    : 'border-transparent text-teal-300 hover:text-white hover:border-teal-400'
-                }
+                relative px-4 py-2.5 text-sm font-medium transition-colors
+                ${activeTab === tab.id ? 'text-white' : 'text-zinc-500 hover:text-zinc-300'}
               `}
             >
               {tab.label}
+              {activeTab === tab.id && (
+                <motion.div
+                  layoutId="activeTab"
+                  className="absolute inset-x-0 bottom-0 h-0.5 bg-teal-300"
+                  transition={{ type: 'spring', stiffness: 400, damping: 30 }}
+                />
+              )}
             </button>
           ))}
         </nav>

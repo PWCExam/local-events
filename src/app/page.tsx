@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { AnimatePresence, motion } from 'framer-motion';
 import Header from '@/components/layout/Header';
 import VisitorCounter from '@/components/layout/VisitorCounter';
 import CalendarGrid from '@/components/calendar/CalendarGrid';
@@ -29,7 +30,7 @@ export default function Home() {
   if (!isLoaded) {
     return (
       <div className="min-h-screen flex items-center justify-center">
-        <div className="animate-pulse text-gray-400">Loading...</div>
+        <div className="animate-pulse text-zinc-600">Loading...</div>
       </div>
     );
   }
@@ -39,20 +40,46 @@ export default function Home() {
       <Header activeTab={activeTab} onTabChange={setActiveTab} />
 
       <main className="max-w-7xl mx-auto px-4 py-6 pb-16">
-        {activeTab === 'calendar' && (
-          <CalendarGrid events={events} onDelete={handleDeleteEvent} />
-        )}
+        <AnimatePresence mode="wait">
+          {activeTab === 'calendar' && (
+            <motion.div
+              key="calendar"
+              initial={{ opacity: 0, y: 8 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -8 }}
+              transition={{ duration: 0.25 }}
+            >
+              <CalendarGrid events={events} onDelete={handleDeleteEvent} />
+            </motion.div>
+          )}
 
-        {activeTab === 'events' && (
-          <EventList events={events} onDelete={handleDeleteEvent} />
-        )}
+          {activeTab === 'events' && (
+            <motion.div
+              key="events"
+              initial={{ opacity: 0, y: 8 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -8 }}
+              transition={{ duration: 0.25 }}
+            >
+              <EventList events={events} onDelete={handleDeleteEvent} />
+            </motion.div>
+          )}
 
-        {activeTab === 'add' && (
-          <div className="bg-zinc-900 rounded-xl border border-white/10 shadow-lg p-6">
-            <h2 className="text-lg font-semibold text-white mb-4">Add Event</h2>
-            <EventForm onSubmit={handleAddEvent} />
-          </div>
-        )}
+          {activeTab === 'add' && (
+            <motion.div
+              key="add"
+              initial={{ opacity: 0, y: 8 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -8 }}
+              transition={{ duration: 0.25 }}
+            >
+              <div className="bg-zinc-900 rounded-xl border border-white/5 shadow-lg p-6">
+                <h2 className="text-lg font-semibold text-white mb-4">Add Event</h2>
+                <EventForm onSubmit={handleAddEvent} />
+              </div>
+            </motion.div>
+          )}
+        </AnimatePresence>
       </main>
 
       <VisitorCounter />

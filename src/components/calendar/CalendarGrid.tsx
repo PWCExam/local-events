@@ -44,7 +44,7 @@ export default function CalendarGrid({ events, onDelete }: CalendarGridProps) {
     : [];
 
   return (
-    <div className="bg-white rounded-xl shadow-lg p-4 sm:p-6">
+    <div className="bg-zinc-900 rounded-xl border border-white/5 p-4 sm:p-6">
       <CalendarHeader
         currentMonth={currentMonth}
         onPrevMonth={handlePrevMonth}
@@ -56,14 +56,14 @@ export default function CalendarGrid({ events, onDelete }: CalendarGridProps) {
         {WEEKDAYS.map((day) => (
           <div
             key={day}
-            className="text-center text-xs font-semibold text-gray-500 uppercase tracking-wide py-2"
+            className="text-center text-xs font-medium text-zinc-300 uppercase tracking-wider py-2"
           >
             {day}
           </div>
         ))}
       </div>
 
-      <div className="grid grid-cols-7 -mx-px">
+      <div className="grid grid-cols-7">
         {days.map((day, i) => (
           <DayCell
             key={i}
@@ -76,23 +76,23 @@ export default function CalendarGrid({ events, onDelete }: CalendarGridProps) {
         ))}
       </div>
 
-      <div className="flex items-center justify-between mt-4 pt-4 border-t border-gray-200">
+      <div className="flex items-center justify-between mt-4 pt-4 border-t border-white/5">
         <button
           onClick={handlePrevMonth}
-          className="inline-flex items-center gap-1 px-4 py-2 text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg transition-colors"
+          className="inline-flex items-center gap-1 px-4 py-2 text-sm font-medium text-zinc-500 hover:text-zinc-300 rounded-lg transition-colors"
         >
           <ChevronLeft className="h-4 w-4" />
           {formatMonthYear(subMonths(currentMonth, 1))}
         </button>
         <button
           onClick={handleToday}
-          className="px-3 py-1.5 text-sm font-medium text-teal-600 hover:bg-teal-50 rounded-lg transition-colors"
+          className="px-3 py-1.5 text-sm font-medium text-teal-400 hover:text-teal-300 rounded-lg transition-colors"
         >
           Today
         </button>
         <button
           onClick={handleNextMonth}
-          className="inline-flex items-center gap-1 px-4 py-2 text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg transition-colors"
+          className="inline-flex items-center gap-1 px-4 py-2 text-sm font-medium text-zinc-500 hover:text-zinc-300 rounded-lg transition-colors"
         >
           {formatMonthYear(addMonths(currentMonth, 1))}
           <ChevronRight className="h-4 w-4" />
