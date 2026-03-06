@@ -2,6 +2,20 @@ import * as cheerio from 'cheerio';
 import type { ScrapedEvent, ScraperResult } from '../types.js';
 import { generateEventId, parseDate, parseTime, inferLocation, inferCategory } from '../utils.js';
 
+// Exclude events from areas outside the 805 core (south of Oxnard, inland valleys, LA area)
+const EXCLUDED_AREAS = [
+  'simi valley', 'simi', 'agoura hills', 'agoura', 'thousand oaks',
+  'camarillo', 'moorpark', 'newbury park', 'westlake', 'woodland hills',
+  'calabasas', 'chatsworth', 'canoga park', 'northridge', 'panorama city',
+  'panorama', 'the canyon', 'the oaks', 'tarantula hill', 'borchard',
+  'warner ranch', 'lompoc', 'reagan library',
+];
+
+function isExcludedArea(text: string): boolean {
+  const lower = text.toLowerCase();
+  return EXCLUDED_AREAS.some((area) => lower.includes(area));
+}
+
 export async function scrapeCalendar805(): Promise<ScraperResult> {
   const events: ScrapedEvent[] = [];
 
@@ -130,6 +144,9 @@ function parseEventLine(
   }
 
   if (!title || title.length < 3) return;
+
+  // Skip events from excluded areas (south of Oxnard, inland valleys, LA)
+  if (isExcludedArea(title) || isExcludedArea(venue) || isExcludedArea(text)) return;
 
   const location = inferLocation(venue || title);
   const category = inferCategory(venue || '', title);
