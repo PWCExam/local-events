@@ -22,7 +22,7 @@ export default function Header({ activeTab, onTabChange }: HeaderProps) {
           <div className="flex items-center gap-3 sm:gap-4">
             <Waves className="h-8 w-8 sm:h-12 sm:w-12 text-teal-200 shrink-0" />
             <div className="min-w-0">
-              <h1 className="text-2xl sm:text-5xl font-bold text-white leading-tight truncate">805 Surf, Beer, Music, Nature, Events</h1>
+              <h1 className="text-2xl sm:text-5xl font-bold text-white leading-tight truncate">805 Surf, Beer, Music, Nature Events</h1>
               <span className="text-xl sm:text-5xl font-bold text-zinc-300 block mt-0.5 sm:mt-1 truncate">サーフ・ビール・音楽・自然・イベント</span>
             </div>
           </div>
