@@ -14,6 +14,9 @@ import { scrapeBrightSpark } from './scrapers/brightSpark.js';
 import { scrapeThirdWindow } from './scrapers/thirdWindow.js';
 import { scrapeVenturaRaceway } from './scrapers/venturaRaceway.js';
 import { scrapeCalendar805 } from './scrapers/calendar805.js';
+import { scrapeEventbrite } from './scrapers/eventbrite.js';
+import { scrapeBandsintown } from './scrapers/bandsintown.js';
+import { scrapePopmenuSites } from './scrapers/popmenuSites.js';
 import { dedupeEvents, filterFutureEvents } from './utils.js';
 import type { ScraperResult } from './types.js';
 
@@ -39,6 +42,9 @@ async function main() {
     scrapeThirdWindow(),
     scrapeVenturaRaceway(),
     scrapeCalendar805(),
+    scrapeEventbrite(),
+    scrapeBandsintown(),
+    scrapePopmenuSites(),
   ]);
 
   // Collect all events
