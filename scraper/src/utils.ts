@@ -192,16 +192,109 @@ export function isOnTopic(event: ScrapedEvent): boolean {
 }
 
 /**
- * Deduplicate events by their deterministic ID.
+ * Normalize a title for fuzzy matching: lowercase, strip punctuation,
+ * collapse whitespace, remove common suffixes like "tour" names.
+ */
+function normalizeTitle(title: string): string {
+  return title
+    .toLowerCase()
+    .replace(/\s*[–—|].*$/, '')            // strip "Artist – Tour Name", "Artist | Opener"
+    .replace(/\s+-\s+.*$/, '')             // strip "Artist - Tour Name" (spaced dash only)
+    .replace(/[^a-z0-9\s]/g, '')           // strip punctuation
+    .replace(/\s+/g, ' ')                  // collapse whitespace
+    .trim();
+}
+
+/** Extract significant words (3+ chars) from a title for overlap matching */
+function titleWords(title: string): Set<string> {
+  return new Set(
+    normalizeTitle(title)
+      .split(' ')
+      .filter((w) => w.length >= 3)
+  );
+}
+
+/**
+ * Venue-specific sources are preferred over aggregator sources when deduping.
+ * Lower number = higher priority (keep this one).
+ */
+function sourcePriority(source: string): number {
+  if (source === 'ventura-music-hall' || source === 'sbbowl' || source === 'deer-lodge') return 0;
+  if (source.startsWith('eventcalendarapp-')) return 1;
+  if (source === 'leashless' || source === 'island-brewing' || source === 'ovlc') return 1;
+  if (source === 'third-window' || source === 'ventura-raceway' || source === 'bright-spark') return 1;
+  if (source === '805calendar') return 2;
+  if (source === 'bandsintown') return 3;
+  if (source === 'eventbrite') return 4;
+  return 5;
+}
+
+/**
+ * Deduplicate events. Two passes:
+ * 1. Exact ID match (deterministic hash)
+ * 2. Fuzzy: same date + similar normalized title → keep the higher-priority source
  */
 export function dedupeEvents(events: ScrapedEvent[]): ScrapedEvent[] {
+  // Pass 1: exact ID dedup
   const seen = new Map<string, ScrapedEvent>();
   for (const event of events) {
-    if (!seen.has(event.id)) {
+    const existing = seen.get(event.id);
+    if (!existing || sourcePriority(event.source) < sourcePriority(existing.source)) {
       seen.set(event.id, event);
     }
   }
-  return Array.from(seen.values());
+  const afterIdDedup = Array.from(seen.values());
+
+  // Pass 2: fuzzy title+date dedup
+  // Group by date, then within each date compare normalized titles
+  const byDate = new Map<string, ScrapedEvent[]>();
+  for (const event of afterIdDedup) {
+    const list = byDate.get(event.date) || [];
+    list.push(event);
+    byDate.set(event.date, list);
+  }
+
+  const result: ScrapedEvent[] = [];
+  for (const [, dayEvents] of byDate) {
+    // Sort by priority so we process venue-specific first
+    dayEvents.sort((a, b) => sourcePriority(a.source) - sourcePriority(b.source));
+
+    const keptNormTitles: { norm: string; words: Set<string>; event: ScrapedEvent }[] = [];
+
+    for (const event of dayEvents) {
+      const norm = normalizeTitle(event.title);
+      if (norm.length < 3) {
+        result.push(event);
+        continue;
+      }
+
+      const words = titleWords(event.title);
+
+      // Check if a similar title was already kept for this date
+      const isDup = keptNormTitles.some(({ norm: kept, words: keptWords }) => {
+        if (kept === norm) return true;
+        // One contains the other (e.g. "disclosure" vs "disclosure todd edwards")
+        if (kept.includes(norm) || norm.includes(kept)) return true;
+        // Share a significant leading portion (first 10+ chars match)
+        const minLen = Math.min(kept.length, norm.length);
+        if (minLen >= 10 && kept.slice(0, minLen) === norm.slice(0, minLen)) return true;
+        // Significant word overlap (>=50% of smaller set's words match)
+        if (words.size >= 2 && keptWords.size >= 2) {
+          const overlap = [...words].filter((w) => keptWords.has(w)).length;
+          const smaller = Math.min(words.size, keptWords.size);
+          if (overlap / smaller >= 0.5) return true;
+        }
+        return false;
+      });
+
+      if (!isDup) {
+        keptNormTitles.push({ norm, words, event });
+        result.push(event);
+      }
+    }
+  }
+
+  return result;
 }
 
 /**
