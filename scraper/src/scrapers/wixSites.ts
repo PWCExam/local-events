@@ -40,10 +40,20 @@ async function scrapeWixSite(site: WixSite): Promise<ScrapedEvent[]> {
     try {
       const page = await browser.newPage();
       await page.setUserAgent('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36');
-      await page.goto(site.url, { waitUntil: 'networkidle2', timeout: 30000 });
+      await page.goto(site.url, { waitUntil: 'networkidle0', timeout: 45000 });
 
-      // Wait for dynamic content to load
-      await page.waitForFunction(() => document.body.innerText.length > 100, { timeout: 10000 }).catch(() => {});
+      // Wix Events widgets load lazily — wait for event-related elements
+      await page.waitForFunction(
+        () => {
+          const hasEvents = document.querySelectorAll('[data-hook="ev-rsvp-button"], [data-hook="event-list-item"], [class*="event-card"], [class*="eventTitle"]').length > 0;
+          const hasText = document.body.innerText.length > 500;
+          return hasEvents || hasText;
+        },
+        { timeout: 15000 }
+      ).catch(() => {});
+
+      // Extra wait for Wix hydration
+      await new Promise((r) => setTimeout(r, 3000));
 
       // Extract events from the page
       const extracted = await page.evaluate(() => {

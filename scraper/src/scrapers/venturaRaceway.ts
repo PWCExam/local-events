@@ -1,99 +1,58 @@
-import * as cheerio from 'cheerio';
 import type { ScrapedEvent, ScraperResult } from '../types.js';
-import { generateEventId, parseDate, parseTime } from '../utils.js';
+import { generateEventId } from '../utils.js';
+
+/**
+ * Ventura Raceway 2026 schedule — parsed from their official PDF at
+ * https://venturaraceway.com/wp-content/uploads/2026-Schedule.pdf
+ *
+ * Gates open at 3 PM, racing at 5:30 PM every Saturday.
+ * "OFF NIGHT" dates are excluded.
+ */
+const SCHEDULE_2026: { date: string; title: string }[] = [
+  { date: '2026-03-07', title: 'VRA Sprint Cars, Senior Sprints, VRA Dwarf Cars, Hobby Stocks, IMCA Sport Compacts, VRA Junior Classes' },
+  { date: '2026-03-21', title: 'VRA Sprint Cars, California Lightning Sprints, NMRA TQ Midgets, Mini Stocks, Motorcycles' },
+  { date: '2026-03-28', title: 'IMCA Modifieds, IMCA Sport Mods, VRA Dwarf Cars, Hobby Stocks, IMCA Sport Compacts, VRA Junior Classes' },
+  { date: '2026-04-04', title: 'VRA Sprint Cars, Senior Sprints, VRA Dwarf Cars, IMCA Modifieds, NMRA TQ Midgets, Motorcycles' },
+  { date: '2026-04-11', title: 'VRA Dwarf Cars, IMCA Modifieds, VRA Hobby Stocks, IMCA Sport Compacts, VRA Junior Classes, Motorcycles' },
+  { date: '2026-04-25', title: 'American Flat Track Motorcycles' },
+  { date: '2026-05-02', title: 'USAC/CRA Sprint Cars, USAC Midgets, VRA Hobby Stocks, IMCA Sport Compacts, VRA Junior Classes' },
+  { date: '2026-05-09', title: 'VRA Sprint Cars, Senior Sprints, VRA Dwarf Cars, NMRA TQ Midgets, Mini Stocks, VRA Junior Classes' },
+  { date: '2026-05-23', title: 'VRA Sprint Cars, Senior Sprints, VRA Dwarf Cars, IMCA Modifieds, IMCA Sport Compacts, Motorcycles' },
+  { date: '2026-05-30', title: 'VRA Sprint Cars, Senior Sprints, VRA Dwarf Cars, California Lightning Sprints, NMRA TQ Midgets, Motorcycles' },
+  { date: '2026-06-13', title: 'VRA Sprint Cars, Senior Sprints, VRA Dwarf Cars, IMCA Modifieds, California Lightning Sprints, VRA Junior Classes' },
+  { date: '2026-06-27', title: 'USCS Sprint Cars, VRA Dwarf Cars, IMCA Sport Compacts, VRA Junior Classes' },
+  { date: '2026-07-11', title: 'IMCA Modifieds, IMCA Sport Mods, VRA Dwarf Cars, Hobby Stocks, West Coast Sport Compacts, Demolition Derby #1' },
+  { date: '2026-08-29', title: 'USCS Sprint Cars, California Lightning Sprints, WRA Vintage, IMCA Sport Compacts, NMRA TQ Midgets' },
+  { date: '2026-09-12', title: 'USAC Midgets, VRA Dwarf Cars, IMCA Sport Compacts, NMRA TQ Midgets, Mini Stocks' },
+  { date: '2026-09-19', title: 'VRA Sprint Cars, Senior Sprints, VRA Dwarf Cars, West Coast Sport Compacts, VRA Junior Classes' },
+  { date: '2026-09-26', title: 'World of Outlaws, California Lightning Sprints' },
+  { date: '2026-10-03', title: 'VRA Sprint Cars, Senior Sprints, VRA Dwarf Cars, VRA Hobby Stocks, IMCA Modifieds, IMCA Sport Mods, Motorcycles' },
+  { date: '2026-10-17', title: 'USAC Midgets, VRA Dwarf Cars, VRA Hobby Stocks, IMCA Sport Compacts, NMRA TQ Midgets, VRA Junior Classes' },
+  { date: '2026-10-24', title: 'VRA Sprint Cars, Senior Sprints, IMCA Modifieds, California Lightning Sprints, VRA Hobby Stocks, Demolition Derby #2' },
+  { date: '2026-11-07', title: 'USCS Sprint Cars, VRA Dwarf Cars, VRA Hobby Stocks, IMCA Sport Compacts, VRA Junior Classes' },
+  { date: '2026-11-27', title: '85th Turkey Night Grand Prix — USAC Midgets and Sprint Cars (Day 1)' },
+  { date: '2026-11-28', title: '85th Turkey Night Grand Prix — USAC Midgets and Sprint Cars (Day 2)' },
+];
 
 export async function scrapeVenturaRaceway(): Promise<ScraperResult> {
-  const events: ScrapedEvent[] = [];
+  const today = new Date().toISOString().slice(0, 10);
 
-  try {
-    // Try the Tribe Events REST API first
-    const now = new Date();
-    const months = [0, 1, 2, 3, 4, 5]; // Check 6 months ahead
+  const events: ScrapedEvent[] = SCHEDULE_2026
+    .filter((e) => e.date >= today)
+    .map((e) => ({
+      id: generateEventId(e.title, e.date, 'Ventura Raceway'),
+      title: `Ventura Raceway: ${e.title}`,
+      description: 'Gates open at 3 PM, Racing at 5:30 PM. At the Ventura County Fairgrounds.',
+      date: e.date,
+      time: '5:30 PM',
+      category: 'art' as const,
+      location: 'Ventura' as const,
+      venue: 'Ventura Raceway',
+      externalUrl: 'https://venturaraceway.com/printable-schedule/',
+      instagramHandle: '@venturaraceway',
+      source: 'ventura-raceway',
+    }));
 
-    for (const offset of months) {
-      const targetDate = new Date(now.getFullYear(), now.getMonth() + offset, 1);
-      const monthStr = `${targetDate.getFullYear()}-${String(targetDate.getMonth() + 1).padStart(2, '0')}`;
-      const url = `https://venturaraceway.com/events/month/${monthStr}/`;
-
-      try {
-        const res = await fetch(url, {
-          headers: {
-            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36',
-          },
-        });
-
-        if (!res.ok) continue;
-        const html = await res.text();
-        const $ = cheerio.load(html);
-        const today = now.toISOString().slice(0, 10);
-
-        // Tribe Events selectors
-        $('.tribe-events-calendar td[data-day]').each((_, el) => {
-          const $el = $(el);
-          const day = $el.attr('data-day');
-          if (!day || day < today) return;
-
-          $el.find('.tribe-events-tooltip, .tribe-events-month-event-title, [class*="event"]').each((_, eventEl) => {
-            const title = $(eventEl).text().trim();
-            if (!title || title.length < 3) return;
-
-            events.push({
-              id: generateEventId(title, day, 'Ventura Raceway'),
-              title,
-              description: '',
-              date: day,
-              time: undefined,
-              category: 'art',
-              location: 'Ventura',
-              venue: 'Ventura Raceway',
-              externalUrl: `https://venturaraceway.com/events/month/${monthStr}/`,
-              instagramHandle: '@venturaraceway',
-              source: 'ventura-raceway',
-            });
-          });
-        });
-
-        // Also try list view items
-        $('.tribe-events-list .type-tribe_events, .tribe-event-item').each((_, el) => {
-          const $el = $(el);
-          const title = $el.find('.tribe-events-list-event-title, h2, h3').first().text().trim();
-          if (!title) return;
-
-          const dateText = $el.find('.tribe-event-schedule-details, [datetime], time').first().text().trim()
-            || $el.find('[datetime]').first().attr('datetime') || '';
-          const date = parseDate(dateText);
-          if (!date || date < today) return;
-
-          const timeText = $el.find('.tribe-event-time').first().text().trim();
-          const time = timeText ? parseTime(timeText) : undefined;
-
-          const link = $el.find('a').first().attr('href') || '';
-
-          events.push({
-            id: generateEventId(title, date, 'Ventura Raceway'),
-            title,
-            description: '',
-            date,
-            time: time || undefined,
-            category: 'art',
-            location: 'Ventura',
-            venue: 'Ventura Raceway',
-            externalUrl: link.startsWith('http') ? link : url,
-            instagramHandle: '@venturaraceway',
-            source: 'ventura-raceway',
-          });
-        });
-      } catch {
-        continue;
-      }
-    }
-
-    console.log(`  [VenturaRaceway] ${events.length} events`);
-  } catch (err) {
-    const msg = err instanceof Error ? err.message : String(err);
-    console.error(`  [VenturaRaceway] Error - ${msg}`);
-    return { source: 'ventura-raceway', events: [], error: msg };
-  }
-
+  console.log(`  [VenturaRaceway] ${events.length} events`);
   return { source: 'ventura-raceway', events };
 }
