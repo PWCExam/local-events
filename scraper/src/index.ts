@@ -17,7 +17,7 @@ import { scrapeCalendar805 } from './scrapers/calendar805.js';
 import { scrapeEventbrite } from './scrapers/eventbrite.js';
 import { scrapeBandsintown } from './scrapers/bandsintown.js';
 import { scrapePopmenuSites } from './scrapers/popmenuSites.js';
-import { dedupeEvents, filterFutureEvents } from './utils.js';
+import { dedupeEvents, filterFutureEvents, isOnTopic } from './utils.js';
 import type { ScraperResult } from './types.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -54,9 +54,10 @@ async function main() {
     return [];
   });
 
-  // Dedupe and filter to future events only
+  // Dedupe, filter to on-topic + future events only
   const dedupedEvents = dedupeEvents(allEvents);
-  const futureEvents = filterFutureEvents(dedupedEvents);
+  const onTopicEvents = dedupedEvents.filter(isOnTopic);
+  const futureEvents = filterFutureEvents(onTopicEvents);
 
   // Sort by date
   futureEvents.sort((a, b) => a.date.localeCompare(b.date));
@@ -69,6 +70,7 @@ async function main() {
   console.log('\n--- Scrape Summary ---');
   console.log(`Total events scraped: ${allEvents.length}`);
   console.log(`After dedup: ${dedupedEvents.length}`);
+  console.log(`On-topic: ${onTopicEvents.length}`);
   console.log(`Future events written: ${futureEvents.length}`);
   console.log(`Output: ${OUTPUT_PATH}`);
   console.log(`Time: ${elapsed}s`);

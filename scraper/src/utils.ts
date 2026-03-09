@@ -109,6 +109,89 @@ export function inferCategory(venue: string, title: string): 'surf' | 'beer' | '
 }
 
 /**
+ * Filter out events that don't match our theme: surf, beer, music, nature.
+ * Removes business meetups, health workshops, career fairs, kids classes,
+ * religious events, real estate, etc.
+ */
+const OFF_TOPIC_PATTERNS = [
+  // Business / professional
+  /\bbusiness\b/i, /\bnetworking\b/i, /\bcareer\b/i, /\bhiring\b/i,
+  /\bjob fair\b/i, /\breal estate\b/i, /\bmarketing\b/i, /\bsales\s+(train|summit|event)/i,
+  /\bentrepreneur/i, /\bstartup\b/i, /\binvestment\b/i, /\bfinance\b/i,
+  /\btax\b/i, /\blegal\b/i, /\bresume\b/i, /\bleadership\b/i,
+  /\bcoach(ing)?\b/i, /\bseminar\b/i, /\bpitchfest/i, /\binnovation awards/i,
+  /\bsenior expo\b/i, /\bsponsorship\b/i, /\bdonor\b/i,
+  /\bsoft skills\b/i, /\bmanagement\s+train/i, /\bautomation workshop/i,
+  /\bhow i built this/i, /\bprotect your legacy/i, /\bemerging professionals/i,
+
+  // Health / wellness / medical
+  /\bgut[\s-](health|endo|reset)/i, /\bperimenopausi/i, /\bdental\b/i,
+  /\bskin\s*care\b/i, /\bweight\s*loss/i, /\bcounseling\b/i,
+  /\bsupport\s+group\b/i, /\bgrief\b/i, /\btherapy\b/i,
+  /\bfirst\s+aid\b/i, /\bcpr\b/i, /\bk9\s+emergency/i,
+  /\bstrengthening parent/i, /\bmanaging emotions/i,
+  /\bflower essence/i, /\bbirthing\b/i,
+
+  // Yoga / meditation / spiritual (keep sound bath / gong at music venues)
+  /\byoga\b/i, /\bpilates\b/i, /\bmeditation\b/i,
+  /\bkundalini\b/i, /\breiki\b/i, /\bchakra\b/i,
+  /\bpsychic\b/i, /\btarot\b/i, /\bastrology\b/i,
+  /\bprayer\b/i, /\bbible\b/i, /\bchurch\b/i,
+  /\bspiritual\b/i, /\bcacao circle/i, /\bbreathwork\b/i,
+
+  // Kids / family specific
+  /\bkids\b.*\bclass/i, /\bages\s+\d+\+?\b/i, /\bpre-junior/i,
+  /\bhello kitty\b/i, /\bslime kitchen\b/i,
+  /\bparenting\b/i, /\bmother-daughter\b/i,
+
+  // Education / training (non-music)
+  /\btraining\b.*\b(installer|enphase|career|soft skill)/i,
+  /\binstaller training\b/i, /\bcertification\b/i,
+  /\bcómo planificar/i, /\brendir más/i,
+  /\bconversatorios de carreras/i, /\bentrenamiento alpha/i,
+  /\bmasterclass.*futuro/i, /\bencuentro exclusivo/i,
+
+  // Misc off-topic
+  /\bboutique\b.*\bvendor/i, /\bscavenger hunt\b/i,
+  /\bbingo\b/i, /\bcasino\b/i, /\bbook\s+(club|fair|talk)\b/i,
+  /\bknitting\b/i, /\bsewing\b/i,
+  /\bwedding\b/i, /\bbridal\b/i,
+  /\bdivorce\b/i, /\bpotluck\b/i,
+  /\bluncheon\b.*\bsponsorship/i, /\bladies luncheon/i,
+  /\bparkinson/i, /\bmoving day\b/i,
+
+  // Calendar site boilerplate / spam
+  /\bemail.*@.*to\s+(advertise|learn)/i, /\bbecome a sponsor/i,
+  /\b805calendar\.com\b/i, /\bemail your event/i,
+];
+
+/**
+ * Sources whose events are curated by the venue itself (music venues,
+ * breweries, nature orgs) — we trust these are on-topic.
+ */
+const TRUSTED_SOURCES = new Set([
+  'ventura-music-hall', 'sbbowl', 'deer-lodge', 'leashless',
+  'island-brewing', 'bright-spark', 'ventura-raceway', 'ovlc',
+  'bandsintown', 'third-window',
+]);
+
+export function isOnTopic(event: ScrapedEvent): boolean {
+  // Trust venue-specific scrapers — they only list their own events
+  if (TRUSTED_SOURCES.has(event.source)) return true;
+  // Topa Topa & MadeWest are beer venues
+  if (event.source.startsWith('eventcalendarapp-')) return true;
+
+  const text = `${event.title} ${event.description}`.toLowerCase();
+
+  // Check against off-topic patterns
+  for (const pattern of OFF_TOPIC_PATTERNS) {
+    if (pattern.test(`${event.title} ${event.description}`)) return false;
+  }
+
+  return true;
+}
+
+/**
  * Deduplicate events by their deterministic ID.
  */
 export function dedupeEvents(events: ScrapedEvent[]): ScrapedEvent[] {

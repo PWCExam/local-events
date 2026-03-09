@@ -154,36 +154,6 @@
     "source": "805calendar"
   },
   {
-    "id": "cd539d9a265630a0",
-    "title": "The Gut-Endo Reset",
-    "description": "",
-    "date": "2026-03-10",
-    "category": "art",
-    "location": "Ventura",
-    "externalUrl": "https://www.eventbrite.com.au/e/the-gut-endo-reset-tickets-1981509607577",
-    "source": "eventbrite"
-  },
-  {
-    "id": "333761b159cd4b58",
-    "title": "The Art of Business Networking",
-    "description": "",
-    "date": "2026-03-10",
-    "category": "art",
-    "location": "Ventura",
-    "externalUrl": "https://www.eventbrite.com/e/the-art-of-business-networking-tickets-1982403196325",
-    "source": "eventbrite"
-  },
-  {
-    "id": "67d0924638eb23ca",
-    "title": "Conversatorios de carreras: Negocios e Ingenierías en Sistemas, Informática",
-    "description": "",
-    "date": "2026-03-10",
-    "category": "art",
-    "location": "Ventura",
-    "externalUrl": "https://www.eventbrite.com.mx/e/conversatorios-de-carreras-negocios-e-ingenierias-en-sistemas-informatica-tickets-1984340651305",
-    "source": "eventbrite"
-  },
-  {
     "id": "c56882e977fb9400",
     "title": "Second Tuesday Tasting: Bouillabaisse Spectacular",
     "description": "at Bluewater Grill",
@@ -296,17 +266,6 @@
     "source": "eventbrite"
   },
   {
-    "id": "e2042e56a819146e",
-    "title": "Kundalini Yoga , Meditation & Gong Sound Healing",
-    "description": "at Third Eye Moon Meditation Center",
-    "date": "2026-03-11",
-    "category": "art",
-    "location": "Ventura",
-    "venue": "Third Eye Moon Meditation Center",
-    "externalUrl": "https://www.eventbrite.com/e/kundalini-yoga-meditation-gong-sound-healing-tickets-942908523777",
-    "source": "eventbrite"
-  },
-  {
     "id": "2e4ff2d660298832",
     "title": "What's in a Name? The Streets of Santa Barbara",
     "description": "at Santa Barbara Historical Museum",
@@ -315,26 +274,6 @@
     "location": "Santa Barbara",
     "venue": "Santa Barbara Historical Museum",
     "externalUrl": "https://www.eventbrite.com/e/whats-in-a-name-the-streets-of-santa-barbara-tickets-1980672665260",
-    "source": "eventbrite"
-  },
-  {
-    "id": "24d1bee7aef595ee",
-    "title": "Círculo de Mujeres: Perimenopausia sin filtros",
-    "description": "",
-    "date": "2026-03-11",
-    "category": "art",
-    "location": "Ventura",
-    "externalUrl": "https://www.eventbrite.co/e/circulo-de-mujeres-perimenopausia-sin-filtros-tickets-1984166044050",
-    "source": "eventbrite"
-  },
-  {
-    "id": "1ff858c082c76694",
-    "title": "Entrenamiento Alpha Ados: la Serie",
-    "description": "",
-    "date": "2026-03-11",
-    "category": "art",
-    "location": "Ventura",
-    "externalUrl": "https://www.eventbrite.com.mx/e/entrenamiento-alpha-ados-la-serie-tickets-1983997685485",
     "source": "eventbrite"
   },
   {
@@ -485,25 +424,14 @@
     "source": "eventbrite"
   },
   {
-    "id": "61025aea0fea5d43",
-    "title": "Installer Training:  Grow your business with Enphase & Greentech Finance",
-    "description": "at Greentech Renewables Ventura",
+    "id": "9ae2e68fe4a4a5ae",
+    "title": "Ecstatic Dance Healing Rhythms",
+    "description": "at The Dance Hub",
     "date": "2026-03-12",
     "category": "art",
-    "location": "Ventura",
-    "venue": "Greentech Renewables Ventura",
-    "externalUrl": "https://www.eventbrite.com/e/installer-training-grow-your-business-with-enphase-greentech-finance-tickets-1983655322468",
-    "source": "eventbrite"
-  },
-  {
-    "id": "06a767794d5b2131",
-    "title": "Self-Care City Scavenger Hunt: Based on Hot Habits Series - Ventura Area",
-    "description": "at *Recommended scavenger starting point or other city spot of your choice! (YOU MUST USE PDF TICKETS EMAILED FOR EVENT- NO MOBILE APP OR QR CODES ACCEPTED)",
-    "date": "2026-03-12",
-    "category": "art",
-    "location": "Ventura",
-    "venue": "*Recommended scavenger starting point or other city spot of your choice! (YOU MUST USE PDF TICKETS EMAILED FOR EVENT- NO MOBILE APP OR QR CODES ACCEPTED)",
-    "externalUrl": "https://www.eventbrite.com/e/self-care-city-scavenger-hunt-based-on-hot-habits-series-ventura-area-tickets-1054332720549",
+    "location": "Santa Barbara",
+    "venue": "The Dance Hub",
+    "externalUrl": "https://www.eventbrite.com/e/ecstatic-dance-healing-rhythms-tickets-1984105340484",
     "source": "eventbrite"
   },
   {
@@ -648,6 +576,17 @@
     "location": "Santa Barbara",
     "venue": "EOS Lounge",
     "externalUrl": "https://www.eventbrite.com/e/barbara-arias-neon-b-day-freakshow-tickets-1983973120009",
+    "source": "eventbrite"
+  },
+  {
+    "id": "eaaeb2f42918fad8",
+    "title": "Santa Barbara Friday Night Laughs",
+    "description": "at Speakeasy Comedy Bar",
+    "date": "2026-03-13",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "Speakeasy Comedy Bar",
+    "externalUrl": "https://www.eventbrite.com/e/santa-barbara-friday-night-laughs-tickets-1984094646498",
     "source": "eventbrite"
   },
   {
@@ -838,17 +777,6 @@
     "source": "805calendar"
   },
   {
-    "id": "f4de69a48cf0fee4",
-    "title": "March 14 Free Trial  Pre-Junior Music Class  (Ventura, CA)",
-    "description": "at Children's Music Academy of Ventura",
-    "date": "2026-03-14",
-    "category": "art",
-    "location": "Ventura",
-    "venue": "Children's Music Academy of Ventura",
-    "externalUrl": "https://www.eventbrite.com/e/march-14-free-trial-pre-junior-music-class-ventura-ca-tickets-1983391650819",
-    "source": "eventbrite"
-  },
-  {
     "id": "b148086198cf2a51",
     "title": "Bejewel a Book at Smitten",
     "description": "at Smitten",
@@ -879,17 +807,6 @@
     "location": "Ventura",
     "venue": "Speranza Academy of Performing Arts",
     "externalUrl": "https://www.eventbrite.com/e/parentstudent-theater-improvization-free-trial-class-tickets-1983730006851",
-    "source": "eventbrite"
-  },
-  {
-    "id": "4ce35b39ccdc6278",
-    "title": "Hello Kitty & Friends  Easter Workshop | Ages 4+",
-    "description": "at Kids Slime Club",
-    "date": "2026-03-14",
-    "category": "art",
-    "location": "Ventura",
-    "venue": "Kids Slime Club",
-    "externalUrl": "https://www.eventbrite.com/e/hello-kitty-friends-easter-workshop-ages-4-tickets-1984510445163",
     "source": "eventbrite"
   },
   {
@@ -937,16 +854,6 @@
     "source": "eventbrite"
   },
   {
-    "id": "d4b2070157473dc8",
-    "title": "Cómo planificar, estudiar menos y rendir más",
-    "description": "",
-    "date": "2026-03-14",
-    "category": "art",
-    "location": "Ventura",
-    "externalUrl": "https://www.eventbrite.com/e/entradas-como-planificar-estudiar-menos-y-rendir-mas-1982872938336",
-    "source": "eventbrite"
-  },
-  {
     "id": "ea1d1f586377a382",
     "title": "Santa Barbara St. Patrick's Day Weekend Bar Crawl 2026",
     "description": "at Shaker Mill",
@@ -966,6 +873,17 @@
     "location": "Santa Barbara",
     "venue": "Jefferson Hall",
     "externalUrl": "https://www.eventbrite.com/e/two-prov-show-tickets-1982292206351",
+    "source": "eventbrite"
+  },
+  {
+    "id": "394a0945ac827fde",
+    "title": "Sounds on State",
+    "description": "at Paseo Nuevo",
+    "date": "2026-03-14",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "Paseo Nuevo",
+    "externalUrl": "https://www.eventbrite.com/e/sounds-on-state-tickets-1902329461629",
     "source": "eventbrite"
   },
   {
@@ -1101,28 +1019,6 @@
     "location": "Ventura",
     "venue": "695 E Main St, Ventura, CA 93001",
     "externalUrl": "https://www.eventbrite.com/e/circulo-de-apoyo-de-embarazo-y-posparto-con-fatima-chavez-tickets-1983135239887",
-    "source": "eventbrite"
-  },
-  {
-    "id": "e60585c345e2c8aa",
-    "title": "Tea Tasting & Story Circle - The Third Sunday Gathering",
-    "description": "at Santa Barbara Yoga Center",
-    "date": "2026-03-15",
-    "category": "art",
-    "location": "Santa Barbara",
-    "venue": "Santa Barbara Yoga Center",
-    "externalUrl": "https://www.eventbrite.com/e/tea-tasting-story-circle-the-third-sunday-gathering-tickets-1982919920862",
-    "source": "eventbrite"
-  },
-  {
-    "id": "db8ffab39dca7f44",
-    "title": "Release & Receive : Breathwork, Movement & Cacao Circle",
-    "description": "at Light and Space",
-    "date": "2026-03-15",
-    "category": "art",
-    "location": "Ojai",
-    "venue": "Light and Space",
-    "externalUrl": "https://www.eventbrite.com/e/release-receive-breathwork-movement-cacao-circle-tickets-1984234354368",
     "source": "eventbrite"
   },
   {
@@ -1293,16 +1189,6 @@
     "source": "eventbrite"
   },
   {
-    "id": "0220d3cea49f3b6f",
-    "title": "Encuentro exclusivo con Lana Corujo",
-    "description": "",
-    "date": "2026-03-17",
-    "category": "art",
-    "location": "Ventura",
-    "externalUrl": "https://www.eventbrite.es/e/entradas-encuentro-exclusivo-con-lana-corujo-1983865908336",
-    "source": "eventbrite"
-  },
-  {
     "id": "cd613a85d8afce81",
     "title": "Food Truck: NICK'S SMASH BURGERS",
     "description": "Come grabs some cold brews and great smash burgers!",
@@ -1368,17 +1254,6 @@
     "source": "ovlc"
   },
   {
-    "id": "1138ae2d24bd8550",
-    "title": "Pacific Coast Network - Spring Networking Event in the 805",
-    "description": "at Bright Spark Brewing & Restaurant",
-    "date": "2026-03-18",
-    "category": "beer",
-    "location": "Ventura",
-    "venue": "Bright Spark Brewing & Restaurant",
-    "externalUrl": "https://www.eventbrite.com/e/pacific-coast-network-spring-networking-event-in-the-805-tickets-1981866838063",
-    "source": "eventbrite"
-  },
-  {
     "id": "8c76b0c9a2a15464",
     "title": "ACNL - Ventura/Santa Barbara Chapter Event - Santa Barbara Cottage Hospital",
     "description": "at Santa Barbara Cottage Hospital",
@@ -1398,16 +1273,6 @@
     "location": "Santa Barbara",
     "venue": "CEC's Environmental Hub",
     "externalUrl": "https://www.eventbrite.com/e/aiasb-march-general-meeting-tickets-1983995944277",
-    "source": "eventbrite"
-  },
-  {
-    "id": "505989851a5e7d4f",
-    "title": "Masterclass “Diseñar (estratégicamente) el futuro”, con Eurídice Cabañes",
-    "description": "",
-    "date": "2026-03-18",
-    "category": "art",
-    "location": "Ventura",
-    "externalUrl": "https://www.eventbrite.es/e/entradas-masterclass-disenar-estrategicamente-el-futuro-con-euridice-cabanes-1982777530970",
     "source": "eventbrite"
   },
   {
@@ -1496,39 +1361,6 @@
     "externalUrl": "https://thirdwindowbrewing.com/pages/events",
     "instagramHandle": "@thirdwindowbrewing",
     "source": "third-window"
-  },
-  {
-    "id": "ceb0559fb68d39f8",
-    "title": "Yoga with Sofia",
-    "description": "at Ventura Cycling Center - Matt's Cycling Center",
-    "date": "2026-03-19",
-    "category": "art",
-    "location": "Ventura",
-    "venue": "Ventura Cycling Center - Matt's Cycling Center",
-    "externalUrl": "https://www.eventbrite.com/e/yoga-with-sofia-tickets-1984157393175",
-    "source": "eventbrite"
-  },
-  {
-    "id": "284c90ea8b35780a",
-    "title": "2026 Central Coast Innovation Awards",
-    "description": "at Hilton Santa Barbara",
-    "date": "2026-03-19",
-    "category": "art",
-    "location": "Santa Barbara",
-    "venue": "Hilton Santa Barbara",
-    "externalUrl": "https://www.eventbrite.com/e/2026-central-coast-innovation-awards-tickets-1979235734361",
-    "source": "eventbrite"
-  },
-  {
-    "id": "ddf77f3493cca384",
-    "title": "11 Soft Skills for Career Success 1 Day Training | Santa Maria, CA",
-    "description": "at For venue details reach us at info@learnerring.com",
-    "date": "2026-03-19",
-    "category": "art",
-    "location": "Ventura",
-    "venue": "For venue details reach us at info@learnerring.com",
-    "externalUrl": "https://www.eventbrite.com/e/11-soft-skills-for-career-success-1-day-training-santa-maria-ca-tickets-1969510490896",
-    "source": "eventbrite"
   },
   {
     "id": "3a6d0d72836f6e33",
@@ -1732,17 +1564,6 @@
     "source": "ventura-raceway"
   },
   {
-    "id": "9683964ae1afa2c8",
-    "title": "The Ventura Emblem Club's 6th Annual Spring Boutique & Elks Lodge BBQ Enjoy a wonderful shopping experience with over 35 vendors and support local vendors/crafters/small businesses. There will be opportunity drawings, handmade crafts/decor/gifts, blankets, jewelry, clothing, painted gourds, succulent plants, sweet treats, and much, much more. Proceeds from the Boutique will help benefit various charities and scholarships in Ventura County. -",
-    "description": "at Ventura Elks Lodge, 2126 Knoll Drive, Ventura. For additional information, please contact Christie at: 805-260-8229",
-    "date": "2026-03-21",
-    "category": "art",
-    "location": "Ventura",
-    "venue": "Ventura Elks Lodge, 2126 Knoll Drive, Ventura. For additional information, please contact Christie at: 805-260-8229",
-    "externalUrl": "tel:805-260-8229",
-    "source": "805calendar"
-  },
-  {
     "id": "33f4524ab6c2e48d",
     "title": "Celebration of Mermaids & Pirates",
     "description": "at Ventura Harbor Village Return for another ocean‑fantasy afternoon featuring mermaid meet & greets, DJ‑powered dance party, photos with pirates, swim‑with‑a‑mermaid fun, bubble shows, steel drum and ukulele music, kids crafts, mermaid vendors, and live seaside entertainment for all ages. Noon– at Ventura Harbor Village; free admission. For Mermaid Month highlights and offers: click here",
@@ -1762,6 +1583,28 @@
     "location": "Ventura",
     "venue": "JEST Improv",
     "externalUrl": "https://www.eventbrite.com/e/saturday-afternoon-intro-to-improv-comedy-drop-in-class-tickets-1017396940637",
+    "source": "eventbrite"
+  },
+  {
+    "id": "e4f6b1b27a5b1292",
+    "title": "Concierto Íntimo",
+    "description": "at Santa Barbara Historical Museum",
+    "date": "2026-03-21",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "Santa Barbara Historical Museum",
+    "externalUrl": "https://www.eventbrite.com/e/concierto-intimo-tickets-1981455210875",
+    "source": "eventbrite"
+  },
+  {
+    "id": "ff060df3557503b0",
+    "title": "Repair Cafe",
+    "description": "at CEC's Environmental Hub",
+    "date": "2026-03-21",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "CEC's Environmental Hub",
+    "externalUrl": "https://www.eventbrite.com/e/repair-cafe-tickets-1983579644112",
     "source": "eventbrite"
   },
   {
@@ -1841,17 +1684,6 @@
     "source": "third-window"
   },
   {
-    "id": "d26628dd5825149f",
-    "title": "Flower Essence Workshop with Jessy Raspiller",
-    "description": "at 695 E Main St, Ventura, CA 93001",
-    "date": "2026-03-22",
-    "category": "art",
-    "location": "Ventura",
-    "venue": "695 E Main St, Ventura, CA 93001",
-    "externalUrl": "https://www.eventbrite.com/e/flower-essence-workshop-with-jessy-raspiller-tickets-1983208832003",
-    "source": "eventbrite"
-  },
-  {
     "id": "3206e9daa49cb4e9",
     "title": "Jeff Tweedy, Liam Kazar",
     "description": "at Majestic Ventura Theater",
@@ -1927,17 +1759,6 @@
     "externalUrl": "https://topatopa.beer/pages/happenings",
     "instagramHandle": "@topatopabrewingco",
     "source": "eventcalendarapp-topa-topa-ojai"
-  },
-  {
-    "id": "e63c8fc4dd090f83",
-    "title": "Prema Birthing Teacher & Practitioner Training and Initiation {Southern CA}",
-    "description": "at Private Home: Ventura",
-    "date": "2026-03-23",
-    "category": "art",
-    "location": "Ventura",
-    "venue": "Private Home: Ventura",
-    "externalUrl": "https://www.eventbrite.com/e/prema-birthing-teacher-practitioner-training-and-initiation-southern-ca-tickets-1984155636922",
-    "source": "eventbrite"
   },
   {
     "id": "cff847e11f118465",
@@ -2092,28 +1913,6 @@
     "source": "eventbrite"
   },
   {
-    "id": "bb8f7d3cd56b409c",
-    "title": "CFROG Donor Happy Hour",
-    "description": "at Topa Topa Brewing Co.",
-    "date": "2026-03-25",
-    "category": "beer",
-    "location": "Ventura",
-    "venue": "Topa Topa Brewing Co.",
-    "externalUrl": "https://www.eventbrite.com/e/cfrog-donor-happy-hour-tickets-1982463252956",
-    "source": "eventbrite"
-  },
-  {
-    "id": "3801f0aed835ca51",
-    "title": "How I Built This- Santa Barbara Edition",
-    "description": "at Cabrillo Pavilion Arts Center",
-    "date": "2026-03-25",
-    "category": "art",
-    "location": "Santa Barbara",
-    "venue": "Cabrillo Pavilion Arts Center",
-    "externalUrl": "https://www.eventbrite.com/e/how-i-built-this-santa-barbara-edition-tickets-1980617845292",
-    "source": "eventbrite"
-  },
-  {
     "id": "04a205674aadcc52",
     "title": "Black Dog Trivia ",
     "description": "Come test your knowledge with Black Dog Trivia",
@@ -2161,28 +1960,6 @@
     "externalUrl": "https://thirdwindowbrewing.com/pages/events",
     "instagramHandle": "@thirdwindowbrewing",
     "source": "third-window"
-  },
-  {
-    "id": "683985922a97cda6",
-    "title": "Protect Your Legacy",
-    "description": "at Pacific & Main - Creative Workspace",
-    "date": "2026-03-26",
-    "category": "art",
-    "location": "Ventura",
-    "venue": "Pacific & Main - Creative Workspace",
-    "externalUrl": "https://www.eventbrite.com/e/protect-your-legacy-tickets-1983799525784",
-    "source": "eventbrite"
-  },
-  {
-    "id": "72b88ae749cdcd07",
-    "title": "Emerging Professionals Open House at Bildsten Architecture and Planning",
-    "description": "at 30 W Figueroa St",
-    "date": "2026-03-26",
-    "category": "art",
-    "location": "Santa Barbara",
-    "venue": "30 W Figueroa St",
-    "externalUrl": "https://www.eventbrite.com/e/emerging-professionals-open-house-at-bildsten-architecture-and-planning-tickets-1983553550064",
-    "source": "eventbrite"
   },
   {
     "id": "200edc0fdcb1a4b2",
@@ -2272,16 +2049,6 @@
     "externalUrl": "https://thirdwindowbrewing.com/pages/events",
     "instagramHandle": "@thirdwindowbrewing",
     "source": "third-window"
-  },
-  {
-    "id": "b2bdaf6d5af50968",
-    "title": "Career Fair: Exclusive Tech Hiring Event-New Tickets Available",
-    "description": "",
-    "date": "2026-03-27",
-    "category": "art",
-    "location": "Ventura",
-    "externalUrl": "https://www.eventbrite.com/e/career-fair-exclusive-tech-hiring-event-new-tickets-available-tickets-63049080497",
-    "source": "eventbrite"
   },
   {
     "id": "18287dc2ce0351a7",
@@ -2746,27 +2513,6 @@
     "source": "ventura-music-hall"
   },
   {
-    "id": "302dab07684f8cc4",
-    "title": "NASA's Artemis II Mission Launch",
-    "description": "",
-    "date": "2026-04-01",
-    "category": "art",
-    "location": "Ventura",
-    "externalUrl": "https://www.eventbrite.com/e/nasas-artemis-ii-mission-launch-registration-1074571685839",
-    "source": "eventbrite"
-  },
-  {
-    "id": "f6c0244669ea7587",
-    "title": "Harmon Nature Meditation",
-    "description": "at Harmon Canyon Preserve",
-    "date": "2026-04-01",
-    "category": "art",
-    "location": "Ventura",
-    "venue": "Harmon Canyon Preserve",
-    "externalUrl": "https://www.eventbrite.com/e/harmon-nature-meditation-tickets-1981791700324",
-    "source": "eventbrite"
-  },
-  {
     "id": "c776b3f37cc09379",
     "title": "Black Dog Trivia ",
     "description": "Come test your knowledge with Black Dog Trivia",
@@ -2839,16 +2585,6 @@
     "externalUrl": "https://thirdwindowbrewing.com/pages/events",
     "instagramHandle": "@thirdwindowbrewing",
     "source": "third-window"
-  },
-  {
-    "id": "fd406a9fe16d73ad",
-    "title": "Charlotte Hiring Event",
-    "description": "",
-    "date": "2026-04-02",
-    "category": "art",
-    "location": "Ventura",
-    "externalUrl": "https://www.eventbrite.com/e/charlotte-hiring-event-tickets-767132121827",
-    "source": "eventbrite"
   },
   {
     "id": "3da63350fe36a0ed",
@@ -3416,27 +3152,6 @@
     "source": "third-window"
   },
   {
-    "id": "0b6d8b5c609498a2",
-    "title": "Strengthening Parent-Youth Relationships: Managing Emotions",
-    "description": "",
-    "date": "2026-04-09",
-    "category": "art",
-    "location": "Ventura",
-    "externalUrl": "https://www.eventbrite.sg/e/strengthening-parent-youth-relationships-managing-emotions-tickets-1984112810828",
-    "source": "eventbrite"
-  },
-  {
-    "id": "eadf33f34cb5da1f",
-    "title": "\"The Invention of Infinite Growth\" , a book talk with author Chris Jones",
-    "description": "at CEC's Environmental Hub",
-    "date": "2026-04-09",
-    "category": "art",
-    "location": "Santa Barbara",
-    "venue": "CEC's Environmental Hub",
-    "externalUrl": "https://www.eventbrite.com/e/the-invention-of-infinite-growth-a-book-talk-with-author-chris-jones-tickets-1983916958027",
-    "source": "eventbrite"
-  },
-  {
     "id": "8022ea516a326645",
     "title": "aurorawave, Brace Yourself",
     "description": "at Ventura Music Hall",
@@ -3708,6 +3423,17 @@
     "externalUrl": "https://thirdwindowbrewing.com/pages/events",
     "instagramHandle": "@thirdwindowbrewing",
     "source": "third-window"
+  },
+  {
+    "id": "952d3b9cdaebecd6",
+    "title": "Day Party : Ohgeesy & DJ Vision",
+    "description": "at EOS Lounge",
+    "date": "2026-04-12",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "EOS Lounge",
+    "externalUrl": "https://www.eventbrite.com/e/day-party-ohgeesy-dj-vision-tickets-1982760248277",
+    "source": "eventbrite"
   },
   {
     "id": "f6282438c0445a4c",
@@ -4367,17 +4093,6 @@
     "source": "ventura-music-hall"
   },
   {
-    "id": "5ec0d933fa745c1b",
-    "title": "Empowered Mothers Empower Daughters: Mother-Daughter Cooking Experience",
-    "description": "at 614 E Haley St",
-    "date": "2026-04-21",
-    "category": "art",
-    "location": "Santa Barbara",
-    "venue": "614 E Haley St",
-    "externalUrl": "https://www.eventbrite.com/e/empowered-mothers-empower-daughters-mother-daughter-cooking-experience-tickets-1983488920756",
-    "source": "eventbrite"
-  },
-  {
     "id": "c3e29571455a5857",
     "title": "Food Truck: NICK'S SMASH BURGERS",
     "description": "Come grabs some cold brews and great smash burgers!",
@@ -4428,28 +4143,6 @@
     "externalUrl": "https://topatopa.beer/pages/happenings",
     "instagramHandle": "@topatopabrewingco",
     "source": "eventcalendarapp-topa-topa-ojai"
-  },
-  {
-    "id": "f8d19ec9dea22375",
-    "title": "PitchFest 26",
-    "description": "at Cabrillo Pavilion Arts Center",
-    "date": "2026-04-22",
-    "category": "art",
-    "location": "Santa Barbara",
-    "venue": "Cabrillo Pavilion Arts Center",
-    "externalUrl": "https://www.eventbrite.com/e/pitchfest-26-tickets-1981792461601",
-    "source": "eventbrite"
-  },
-  {
-    "id": "a95031bfccf1439f",
-    "title": "Hospitality & Recreation Job Fair",
-    "description": "at Santa Barbara City College, Cliff Drive, Santa Barbara, CA, USA",
-    "date": "2026-04-22",
-    "category": "art",
-    "location": "Santa Barbara",
-    "venue": "Santa Barbara City College, Cliff Drive, Santa Barbara, CA, USA",
-    "externalUrl": "https://www.eventbrite.com/e/hospitality-recreation-job-fair-tickets-1982929810442",
-    "source": "eventbrite"
   },
   {
     "id": "21979e590cb784f2",
@@ -4565,17 +4258,6 @@
     "source": "third-window"
   },
   {
-    "id": "2580204bb4ad43c4",
-    "title": "AI for Business Leaders & Their Teams: A Hands-On Automation Workshop",
-    "description": "at 5200 Valentine Rd",
-    "date": "2026-04-24",
-    "category": "art",
-    "location": "Ventura",
-    "venue": "5200 Valentine Rd",
-    "externalUrl": "https://www.eventbrite.com/e/ai-for-business-leaders-their-teams-a-hands-on-automation-workshop-tickets-1983469039290",
-    "source": "eventbrite"
-  },
-  {
     "id": "a98e2008d63a5017",
     "title": "FT: Gustos Sandwiches 12:30-6:60",
     "description": "An Ojai based company with Italian style deli sanwiches!",
@@ -4674,27 +4356,6 @@
     "externalUrl": "https://venturaraceway.com/printable-schedule/",
     "instagramHandle": "@venturaraceway",
     "source": "ventura-raceway"
-  },
-  {
-    "id": "6cd80397cdd04bc1",
-    "title": "Moving Day Ventura County – A Walk for Parkinson’s Join people living with Parkinson’s, their families, friends, and care teams",
-    "description": "at Ventura County Fairgrounds for an inspiring morning of movement starting at , featuring a community walk, activity zones, and local resource booths while raising crucial funds for research, care, and programs. Walkers, teams, volunteers, and supporters — please register or donate: click here",
-    "date": "2026-04-25",
-    "category": "art",
-    "location": "Ventura",
-    "venue": "Ventura County Fairgrounds for an inspiring morning of movement starting at , featuring a community walk, activity zones, and local resource booths while raising crucial funds for research, care, and programs. Walkers, teams, volunteers, and supporters — please register or donate: click here",
-    "externalUrl": "https://movingdaywalk.org/event/moving-day-ventura-county/",
-    "source": "805calendar"
-  },
-  {
-    "id": "23ff0741a87c27b6",
-    "title": "Black Girl Book Fair!",
-    "description": "",
-    "date": "2026-04-25",
-    "category": "art",
-    "location": "Ventura",
-    "externalUrl": "https://www.eventbrite.com/e/black-girl-book-fair-tickets-1979838497241",
-    "source": "eventbrite"
   },
   {
     "id": "8050e465f5441d36",
@@ -5221,6 +4882,17 @@
     "externalUrl": "https://thirdwindowbrewing.com/pages/events",
     "instagramHandle": "@thirdwindowbrewing",
     "source": "third-window"
+  },
+  {
+    "id": "bef2524a9698337b",
+    "title": "Women’s Health, Wealth & Happiness:   Santa Barbara Literary Festival",
+    "description": "at CEC's Environmental Hub",
+    "date": "2026-05-03",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "CEC's Environmental Hub",
+    "externalUrl": "https://www.eventbrite.com/e/womens-health-wealth-happiness-santa-barbara-literary-festival-tickets-1983583443476",
+    "source": "eventbrite"
   },
   {
     "id": "63bef955bcdb9190",
@@ -5923,17 +5595,6 @@
     "externalUrl": "https://thirdwindowbrewing.com/pages/events",
     "instagramHandle": "@thirdwindowbrewing",
     "source": "third-window"
-  },
-  {
-    "id": "c7d6d743acc66c53",
-    "title": "Real Estate Summit",
-    "description": "at Ventura Beach Marriott",
-    "date": "2026-05-14",
-    "category": "art",
-    "location": "Ventura",
-    "venue": "Ventura Beach Marriott",
-    "externalUrl": "https://www.eventbrite.com/e/real-estate-summit-tickets-1983137827627",
-    "source": "eventbrite"
   },
   {
     "id": "078bfc97b51f53a6",
@@ -6999,17 +6660,6 @@
     "source": "ventura-raceway"
   },
   {
-    "id": "945db7d8b14d60ce",
-    "title": "VCDFA - Project Medics K9 Emergency First Aid & CPR",
-    "description": "at Ventura County Fairgrounds and Event Center - McBride Building",
-    "date": "2026-05-30",
-    "category": "art",
-    "location": "Ventura",
-    "venue": "Ventura County Fairgrounds and Event Center - McBride Building",
-    "externalUrl": "https://www.eventbrite.com/e/vcdfa-project-medics-k9-emergency-first-aid-cpr-tickets-1984253795517",
-    "source": "eventbrite"
-  },
-  {
     "id": "fc7faf74fe68fa37",
     "title": "Football Sundays, Open at 10!",
     "description": "Come join us for NFL Football in the Taproom!",
@@ -7569,17 +7219,6 @@
     "externalUrl": "https://topatopa.beer/pages/happenings",
     "instagramHandle": "@topatopabrewingco",
     "source": "eventcalendarapp-topa-topa-ojai"
-  },
-  {
-    "id": "789131d72f4c2ccb",
-    "title": "Ventura County Senior Expo",
-    "description": "at Ventura County Fairgrounds and Event Center",
-    "date": "2026-06-09",
-    "category": "art",
-    "location": "Ventura",
-    "venue": "Ventura County Fairgrounds and Event Center",
-    "externalUrl": "https://www.eventbrite.com/e/ventura-county-senior-expo-tickets-1979900151651",
-    "source": "eventbrite"
   },
   {
     "id": "05d962c61fca70ed",
@@ -8861,17 +8500,6 @@
     "externalUrl": "https://thirdwindowbrewing.com/pages/events",
     "instagramHandle": "@thirdwindowbrewing",
     "source": "third-window"
-  },
-  {
-    "id": "4444d6f6c2724133",
-    "title": "Ladies Luncheon July Sponsorship",
-    "description": "at The Greek Mediterranean Steak and Seafood",
-    "date": "2026-07-02",
-    "category": "art",
-    "location": "Ventura",
-    "venue": "The Greek Mediterranean Steak and Seafood",
-    "externalUrl": "https://www.eventbrite.com/e/ladies-luncheon-july-sponsorship-tickets-1984440879089",
-    "source": "eventbrite"
   },
   {
     "id": "7d2a4b1623a0721e",
@@ -11209,35 +10837,6 @@
     "category": "art",
     "location": "Ventura",
     "externalUrl": "http://www.camarillofarmersmarket.com/",
-    "source": "805calendar"
-  },
-  {
-    "id": "73c39874f2704db2",
-    "title": "Do you have an event you'd like to add to our site & list? Email your event details to: [email protected]",
-    "description": "",
-    "date": "2026-08-23",
-    "category": "art",
-    "location": "Ventura",
-    "externalUrl": "/cdn-cgi/l/email-protection#345142515a4047740c0401575558515a5055461a575b590b4741565e515740097142515a4014674156595d47475d5b5a",
-    "source": "805calendar"
-  },
-  {
-    "id": "af88eaa6b6b2c8a4",
-    "title": "805CALENDAR.com is made possible by contributions from our fine sponsors. Please consider giving them your support when making your buying decisions, and please tell them you saw their ad here!",
-    "description": "",
-    "date": "2026-08-23",
-    "category": "art",
-    "location": "Ventura",
-    "source": "805calendar"
-  },
-  {
-    "id": "14f6600ff826aedd",
-    "title": "Become a sponsor! Email [email protected] to to learn about advertising opportunities.",
-    "description": "",
-    "date": "2026-08-23",
-    "category": "art",
-    "location": "Ventura",
-    "externalUrl": "/cdn-cgi/l/email-protection#84e5e0f7c4bcb4b1e7e5e8e1eae0e5f6aae7ebe9",
     "source": "805calendar"
   },
   {
@@ -16962,17 +16561,6 @@
     "location": "Ventura",
     "venue": "Ventura Harbor Village Make a splash at the waterfront with mermaid meet & greets, a Mermaid DJ dance party, bubble shows, swim-with-a-mermaid sessions, tropical steel drum and ukulele tunes, kids crafts, ocean‑themed vendors, live music and more along the harbor promenade. Noon– at Ventura Harbor Village; free admission. For full Mermaid Month details and specials: click here",
     "externalUrl": "https://www.venturaharborvillage.com/event/march-is-mermaid-month/2026-03-31/",
-    "source": "805calendar"
-  },
-  {
-    "id": "4ea6c06662b86b35",
-    "title": "Slime Kitchen Oxnard Grand Opening Dive into gooey fun",
-    "description": "at the ribbon-cutting for Slime Kitchen’s newest spot at The Collection Riverpark, featuring a candy bar, hands-on DIY slime-making with scents, colors, textures, and mix-ins, plus the first 50 who complete an experience score a free special slime surprise. – at 2751 Park View Ct, Oxnard; free admission, RSVP appreciated via Eventbrite, DIY sessions for purchase. Info/RSVP: click here",
-    "date": "2027-03-07",
-    "category": "surf",
-    "location": "Ventura",
-    "venue": "the ribbon-cutting for Slime Kitchen’s newest spot at The Collection Riverpark, featuring a candy bar, hands-on DIY slime-making with scents, colors, textures, and mix-ins, plus the first 50 who complete an experience score a free special slime surprise. – at 2751 Park View Ct, Oxnard; free admission, RSVP appreciated via Eventbrite, DIY sessions for purchase. Info/RSVP: click here",
-    "externalUrl": "https://www.eventbrite.com/e/slime-kitchen-oxnard-grand-opening-tickets-1983915884817?aff=CalendarListing",
     "source": "805calendar"
   },
   {
