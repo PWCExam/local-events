@@ -115,16 +115,6 @@
     "source": "805calendar"
   },
   {
-    "id": "d7d40e9d5a75ff66",
-    "title": "Introduction and Awareness of Computational Modelling in Fire Safety",
-    "description": "",
-    "date": "2026-03-10",
-    "category": "art",
-    "location": "Ventura",
-    "externalUrl": "https://www.eventbrite.com/e/introduction-and-awareness-of-computational-modelling-in-fire-safety-tickets-1978408277415",
-    "source": "eventbrite"
-  },
-  {
     "id": "c56882e977fb9400",
     "title": "Second Tuesday Tasting: Bouillabaisse Spectacular",
     "description": "at Bluewater Grill",
@@ -201,16 +191,6 @@
     "source": "ovlc"
   },
   {
-    "id": "eb2d7252789d188a",
-    "title": "L’IA dans la vie des femmes : au-delà des clichés",
-    "description": "",
-    "date": "2026-03-11",
-    "category": "art",
-    "location": "Ventura",
-    "externalUrl": "https://www.eventbrite.fr/e/billets-lia-dans-la-vie-des-femmes-au-dela-des-cliches-1983889338416",
-    "source": "eventbrite"
-  },
-  {
     "id": "0e7a47147959e74e",
     "title": "Jest Improv 102 Program Auditions: Characters!",
     "description": "at The Bunker Theater",
@@ -255,6 +235,18 @@
     "externalUrl": "https://tixr.com/e/172036",
     "instagramHandle": "@venturamusichall",
     "source": "ventura-music-hall"
+  },
+  {
+    "id": "76fe0170970a0aec",
+    "title": "ASHUN",
+    "description": "Free, all ages show.Kitchen open until 8PMAshun, world class Classical, Flamenco, Jazz, &amp; Rock&nbsp;guitarist who regularly serves many VIPs and celebrities including Clint Eastwood,&nbsp;Dr Phil, Mel&nbsp;Gibson, ex LA mayor&nbsp;Richard Riordan (I am also a guitar teacher of his grandson), Deepak Chopra , Pamela Anderson, &nbsp;Eddie Van Helen, Duran Duran and many others!&nbsp; I also performed with eminent musicians such as Bobby McFerrin,&nbsp;&nbsp;Poncho Sanchez,&nbsp; Late Fredi Hubert, a original member of Gypsy kings.&nbsp;",
+    "date": "2026-03-12",
+    "category": "art",
+    "location": "Ojai",
+    "venue": "Deer Lodge",
+    "externalUrl": "https://www.deerlodgeojai.com/live-music/ashun-31226-6pm",
+    "instagramHandle": "@ojaideerlodge",
+    "source": "deer-lodge"
   },
   {
     "id": "6d57e2e3e0976900",
@@ -377,16 +369,6 @@
     "location": "Ventura",
     "venue": "Deep Sea Wine Tasting Room Ventura",
     "externalUrl": "https://www.eventbrite.com/e/beach-pups-paint-party-at-deep-sea-tasting-room-tickets-1981374277802",
-    "source": "eventbrite"
-  },
-  {
-    "id": "630fa96984ecb2e3",
-    "title": "Lire autrement : transformer la lecture en jeu interactif",
-    "description": "",
-    "date": "2026-03-12",
-    "category": "art",
-    "location": "Ventura",
-    "externalUrl": "https://www.eventbrite.ca/e/billets-lire-autrement-transformer-la-lecture-en-jeu-interactif-1983611831385",
     "source": "eventbrite"
   },
   {
@@ -731,14 +713,14 @@
     "source": "eventbrite"
   },
   {
-    "id": "e4b4522288f536c3",
-    "title": "Two-Prov Show",
-    "description": "at Jefferson Hall",
+    "id": "2d2876cfc6a42ec6",
+    "title": "Jest Improv's Mainstage Improv Comedy Show: The Jesties & Besties Show!",
+    "description": "at The Bunker Theater",
     "date": "2026-03-14",
     "category": "art",
-    "location": "Santa Barbara",
-    "venue": "Jefferson Hall",
-    "externalUrl": "https://www.eventbrite.com/e/two-prov-show-tickets-1982292206351",
+    "location": "Ventura",
+    "venue": "The Bunker Theater",
+    "externalUrl": "https://www.eventbrite.com/e/jest-improvs-mainstage-improv-comedy-show-the-jesties-besties-show-tickets-1977095858936",
     "source": "eventbrite"
   },
   {
@@ -826,29 +808,6 @@
     "externalUrl": "https://thirdwindowbrewing.com/pages/events",
     "instagramHandle": "@thirdwindowbrewing",
     "source": "third-window"
-  },
-  {
-    "id": "aaa1d57c8614871b",
-    "title": "California Young Artists Symphony – Mendelssohn’s Psalm 42, Sibelius 4, and Strauss’ Macbeth Experience the season’s capstone concert with CYAS musicians from premier Southern California music schools, joined by the Conejo Valley Choral Society. Maestro Alexander Tseitlin conducts an inspiring program",
-    "description": "at Rothenberg Hall, The Huntington, Pasadena. . Tickets/info: cyasymphony.org",
-    "date": "2026-03-15",
-    "time": "6:00 PM",
-    "category": "art",
-    "location": "Ventura",
-    "venue": "Rothenberg Hall, The Huntington, Pasadena. . Tickets/info: cyasymphony.org",
-    "externalUrl": "https://cyasymphony.org/concerts/",
-    "source": "805calendar"
-  },
-  {
-    "id": "9a42c6952c97baf1",
-    "title": "Círculo de apoyo de embarazo y posparto con Fatima Chavez",
-    "description": "at 695 E Main St, Ventura, CA 93001",
-    "date": "2026-03-15",
-    "category": "art",
-    "location": "Ventura",
-    "venue": "695 E Main St, Ventura, CA 93001",
-    "externalUrl": "https://www.eventbrite.com/e/circulo-de-apoyo-de-embarazo-y-posparto-con-fatima-chavez-tickets-1983135239887",
-    "source": "eventbrite"
   },
   {
     "id": "169acc8f097ab6f9",
@@ -968,26 +927,6 @@
     "source": "ovlc"
   },
   {
-    "id": "e7851bb7185e49c0",
-    "title": "Annoncer une mauvaise nouvelle en médecine : entre compassion et compétence",
-    "description": "",
-    "date": "2026-03-17",
-    "category": "art",
-    "location": "Ventura",
-    "externalUrl": "https://www.eventbrite.ca/e/billets-annoncer-une-mauvaise-nouvelle-en-medecine-entre-compassion-et-competence-1976194108777",
-    "source": "eventbrite"
-  },
-  {
-    "id": "ea54c62a05af18f7",
-    "title": "Atelier en ligne Psycom : prise en main du Cosmos Mental",
-    "description": "",
-    "date": "2026-03-17",
-    "category": "art",
-    "location": "Ventura",
-    "externalUrl": "https://www.eventbrite.com/e/billets-atelier-en-ligne-psycom-prise-en-main-du-cosmos-mental-1967493942345",
-    "source": "eventbrite"
-  },
-  {
     "id": "9fc5acfe1920aab3",
     "title": "St. Patrick's Day Construction Happy Hour",
     "description": "at Mission Audio Video",
@@ -1049,16 +988,6 @@
     "externalUrl": "https://ovlc.org/events/alq2xiorgwcu5dekm7v3qtqi1hdxa8-hkn72-x4f63-9x735-hra3x-xt8fr-9btm5-agnph-7rs9f-r22tn-6zk54",
     "instagramHandle": "@ojaivalleylandconservancy",
     "source": "ovlc"
-  },
-  {
-    "id": "d958113a7b313270",
-    "title": "Visas de travail (H-1B/L-1/E-2)",
-    "description": "",
-    "date": "2026-03-18",
-    "category": "art",
-    "location": "Ventura",
-    "externalUrl": "https://www.eventbrite.com/e/billets-visas-de-travail-h-1bl-1e-2-1980830876474",
-    "source": "eventbrite"
   },
   {
     "id": "8c76b0c9a2a15464",
@@ -1158,16 +1087,6 @@
     "source": "third-window"
   },
   {
-    "id": "2aa015e7904dfbcd",
-    "title": "Mémoire, oublis, difficultés de concentration : agissons dès maintenant !",
-    "description": "",
-    "date": "2026-03-19",
-    "category": "art",
-    "location": "Ventura",
-    "externalUrl": "https://www.eventbrite.fr/e/billets-memoire-oublis-difficultes-de-concentration-agissons-des-maintenant-1982868476992",
-    "source": "eventbrite"
-  },
-  {
     "id": "3a6d0d72836f6e33",
     "title": "Tierra Sol presents: Toubab Krewe Encore in Ojai",
     "description": "at Hotel El Roblar",
@@ -1179,9 +1098,19 @@
     "source": "eventbrite"
   },
   {
+    "id": "14582fdc00e1988c",
+    "title": "An Evening with Kate Bowler and Jen Garner",
+    "description": "",
+    "date": "2026-03-19",
+    "category": "art",
+    "location": "Ventura",
+    "externalUrl": "https://www.eventbrite.com/e/an-evening-with-kate-bowler-and-jen-garner-tickets-1982794546865",
+    "source": "eventbrite"
+  },
+  {
     "id": "b780a69803cdf715",
     "title": "SIPPY",
-    "description": "$25 — Show 8pmGA tickets are standing room only, with very limited seating available first come, first served.Ventura Music Hall Presents:SIPPYSIPPY is a Sydney-born bass music powerhouse whose name has become synonymous with fearless sound design, unapologetic intensity, and stage-commanding energy. Now ",
+    "description": "$25 — Show 8pmGA tickets are standing room only, with very limited seating available first come, first served.Ventura Music Hall Presents:SIPPYwith special guests WHITESANDJANE OF THE JUNGLE-SIPPY is a Sydney-born bass music powerhouse whose name has become synonymous with fearless sound design, unapologe",
     "date": "2026-03-20",
     "time": "8:00 PM",
     "category": "art",
@@ -1378,6 +1307,17 @@
     "source": "eventbrite"
   },
   {
+    "id": "f8de39860b9e4e1d",
+    "title": "Standing Room: A Standup Showcase",
+    "description": "at The Bunker Theater",
+    "date": "2026-03-21",
+    "category": "art",
+    "location": "Ventura",
+    "venue": "The Bunker Theater",
+    "externalUrl": "https://www.eventbrite.com/e/standing-room-a-standup-showcase-tickets-1984440824927",
+    "source": "eventbrite"
+  },
+  {
     "id": "7b952bab27c19777",
     "title": "Kelly's Lot",
     "description": "Free show ! All ages !Recently Ventura based, Kelly’s Lot,&nbsp; has brought their music to folks in Texas, France, Ireland, Croatia and Switzerland and a lot of shows in their home base of Southern California. In 2026, they will tour with a 4WD version of Kelly’s Lot, a four piece band that includes Matt McFadden on Bass, Mike Sauer on Drums, Perry Robertson on Guitar and Kelly Z, ‘singing her heart out’. Like always, they'll be playing lots of original Blues and Americana styles to create an eclectic mix of fun.&nbsp;",
@@ -1503,27 +1443,6 @@
     "externalUrl": "https://topatopa.beer/pages/happenings",
     "instagramHandle": "@topatopabrewingco",
     "source": "eventcalendarapp-topa-topa-ventura"
-  },
-  {
-    "id": "e639fe18901aa697",
-    "title": "Maîtrisez l'IA & l'Automatisation",
-    "description": "",
-    "date": "2026-03-23",
-    "category": "art",
-    "location": "Ventura",
-    "externalUrl": "https://www.eventbrite.fr/e/billets-maitrisez-lia-lautomatisation-1980704414222",
-    "source": "eventbrite"
-  },
-  {
-    "id": "cff847e11f118465",
-    "title": "The California Agave Symposium",
-    "description": "at Hilton Santa Barbara Beachfront Resort",
-    "date": "2026-03-23",
-    "category": "art",
-    "location": "Santa Barbara",
-    "venue": "Hilton Santa Barbara Beachfront Resort",
-    "externalUrl": "https://www.eventbrite.com/e/the-california-agave-symposium-tickets-1976789490580",
-    "source": "eventbrite"
   },
   {
     "id": "fdf7c378ad4a7cd0",
@@ -1778,18 +1697,6 @@
     "externalUrl": "https://tixr.com/e/163678",
     "instagramHandle": "@venturamusichall",
     "source": "ventura-music-hall"
-  },
-  {
-    "id": "a86a3a9603507791",
-    "title": "Soul Revival Band",
-    "description": "Born from a deep love for blues, soul, and classic rock grooves, Soul Revival Band delivers a raw, high-energy sound that revives the spirit of timeless American roots music. Blending gritty blues riffs, soulful vocals, and driving rock rhythms, the band creates a feel-good experience that keeps crowds moving.With influences ranging from vintage blues legends to modern roots rock, Soul Revival Band brings authenticity to every performance. Their music is built on tight musicianship, emotional storytelling, and a groove that hits straight to the soul.More than just a band, Soul Revival Band is a movement—bringing people together through music that feels real, honest, and alive.",
-    "date": "2026-03-28",
-    "category": "art",
-    "location": "Ojai",
-    "venue": "Deer Lodge",
-    "externalUrl": "https://www.deerlodgeojai.com/live-music/soul-revival-band-32826-9pm",
-    "instagramHandle": "@ojaideerlodge",
-    "source": "deer-lodge"
   },
   {
     "id": "16b8e58f280205d8",
@@ -2154,6 +2061,16 @@
     "source": "eventcalendarapp-topa-topa-santa-barbara"
   },
   {
+    "id": "302dab07684f8cc4",
+    "title": "NASA's Artemis II Mission Launch",
+    "description": "",
+    "date": "2026-04-01",
+    "category": "art",
+    "location": "Ventura",
+    "externalUrl": "https://www.eventbrite.com/e/nasas-artemis-ii-mission-launch-registration-1074571685839",
+    "source": "eventbrite"
+  },
+  {
     "id": "c5c6b311282ffa09",
     "title": "FIA - THE LOVE ME TOUR",
     "description": "$25 — Show 8pmGA tickets are standing room only, with very limited seating available first come, first served. Ventura Music Hall Presents:FIAFIA is a five-time Island Music Award winner from Nanakuli, Hawai‘i, known for blending R&B, soul, and reggae into a style that connects across generations. His bre",
@@ -2165,18 +2082,6 @@
     "externalUrl": "https://tixr.com/e/168388",
     "instagramHandle": "@venturamusichall",
     "source": "ventura-music-hall"
-  },
-  {
-    "id": "faa7925b021171c7",
-    "title": "Lael Neale | Guy Blakeslee",
-    "description": "(((folkYEAH!) presents Tickets are available here for purchase",
-    "date": "2026-04-02",
-    "category": "art",
-    "location": "Ojai",
-    "venue": "Deer Lodge",
-    "externalUrl": "https://www.deerlodgeojai.com/live-music/lael-neale-guy-blakeslee-4226-8pm",
-    "instagramHandle": "@ojaideerlodge",
-    "source": "deer-lodge"
   },
   {
     "id": "c776b3f37cc09379",
@@ -2288,6 +2193,18 @@
     "externalUrl": "https://tixr.com/e/168213",
     "instagramHandle": "@venturamusichall",
     "source": "ventura-music-hall"
+  },
+  {
+    "id": "03847ad7c92f136b",
+    "title": "Lael Neale | Guy Blakeslee",
+    "description": "(((folkYEAH!) presents Tickets are available here for purchase",
+    "date": "2026-04-04",
+    "category": "art",
+    "location": "Ojai",
+    "venue": "Deer Lodge",
+    "externalUrl": "https://www.deerlodgeojai.com/live-music/lael-neale-guy-blakeslee-4226-8pm",
+    "instagramHandle": "@ojaideerlodge",
+    "source": "deer-lodge"
   },
   {
     "id": "406b0ca9bd87761c",
@@ -2695,6 +2612,18 @@
     "source": "ventura-music-hall"
   },
   {
+    "id": "e0defb317c776c00",
+    "title": "Onnagäta",
+    "description": "Doors @ 8PMOnnagäta is a hard rock quartet from the Ventura and Los Angeles County area. They have a forthcoming 7 inch single for this spring and a full length to follow. Their alternative rock sound brings an unfamiliar nostalgia with a raucous, danceable energy.",
+    "date": "2026-04-10",
+    "category": "art",
+    "location": "Ojai",
+    "venue": "Deer Lodge",
+    "externalUrl": "https://www.deerlodgeojai.com/live-music/onnagta-41026-9pm",
+    "instagramHandle": "@ojaideerlodge",
+    "source": "deer-lodge"
+  },
+  {
     "id": "99083594a59f79ca",
     "title": "Food Truck: NICK'S SMASH BURGERS",
     "description": "Come grabs some cold brews and great smash burgers!",
@@ -2757,6 +2686,18 @@
     "externalUrl": "https://tixr.com/e/173254",
     "instagramHandle": "@venturamusichall",
     "source": "ventura-music-hall"
+  },
+  {
+    "id": "8e67b492dce06c0a",
+    "title": "Soul Revival Band",
+    "description": "Born from a deep love for blues, soul, and classic rock grooves, Soul Revival Band delivers a raw, high-energy sound that revives the spirit of timeless American roots music. Blending gritty blues riffs, soulful vocals, and driving rock rhythms, the band creates a feel-good experience that keeps crowds moving.With influences ranging from vintage blues legends to modern roots rock, Soul Revival Band brings authenticity to every performance. Their music is built on tight musicianship, emotional storytelling, and a groove that hits straight to the soul.More than just a band, Soul Revival Band is a movement—bringing people together through music that feels real, honest, and alive.",
+    "date": "2026-04-11",
+    "category": "art",
+    "location": "Ojai",
+    "venue": "Deer Lodge",
+    "externalUrl": "https://www.deerlodgeojai.com/live-music/soul-revival-band-32826-9pm",
+    "instagramHandle": "@ojaideerlodge",
+    "source": "deer-lodge"
   },
   {
     "id": "f27e80dbe2403f77",
@@ -2960,7 +2901,7 @@
   {
     "id": "c71058826f6e36d5",
     "title": "David Byrne",
-    "description": "&nbsp; 🎟️ Ticketing &amp; Sales AXS is the official ticketing partner for the Santa Barbara Bowl. All ticket links redirect to AXS. AXS Premium tickets are limited, market-driven-priced seats available only through AXS.com. AXS Official Resale is a secure platform for reselling and buying tickets—e",
+    "description": "🎟️ Ticketing &amp; Sales AXS is the official ticketing partner for the Santa Barbara Bowl. All ticket links redirect to AXS. AXS Premium tickets are limited, market-driven-priced seats available only through AXS.com. AXS Official Resale is a secure platform for reselling and buying tickets—even for",
     "date": "2026-04-14",
     "category": "art",
     "location": "Santa Barbara",
@@ -3061,11 +3002,11 @@
     "source": "eventcalendarapp-topa-topa-santa-barbara"
   },
   {
-    "id": "f68985d4e49153c3",
-    "title": "Print Exchange  6pm - 9pm",
-    "description": "Join for a pop-up community-curated art show. All artists in the community are invited to bring a few prints of their work and display it around our patio as long as space and magnets abound.&nbsp;\nEvery month, we celebrate a member of the Print Exchange Community with a featured artist Gallery Disp",
+    "id": "587e27cc84d2d233",
+    "title": "Food Truck: ANAS FONDA ",
+    "description": "Please come enjoy some amazing food and cold brews!&nbsp;\nAnas Fonda:\n-Tortas\n-Pozole\n-Gorditas",
     "date": "2026-04-16",
-    "time": "6:00 PM",
+    "time": "3:30 PM",
     "category": "beer",
     "location": "Ventura",
     "venue": "Topa Topa Brewing - Ventura",
@@ -3074,11 +3015,11 @@
     "source": "eventcalendarapp-topa-topa-ventura"
   },
   {
-    "id": "587e27cc84d2d233",
-    "title": "Food Truck: ANAS FONDA ",
-    "description": "Please come enjoy some amazing food and cold brews!&nbsp;\nAnas Fonda:\n-Tortas\n-Pozole\n-Gorditas",
+    "id": "f68985d4e49153c3",
+    "title": "Print Exchange  6pm - 9pm",
+    "description": "Join for a pop-up community-curated art show. All artists in the community are invited to bring a few prints of their work and display it around our patio as long as space and magnets abound.&nbsp;\nEvery month, we celebrate a member of the Print Exchange Community with a featured artist Gallery Disp",
     "date": "2026-04-16",
-    "time": "3:30 PM",
+    "time": "6:00 PM",
     "category": "beer",
     "location": "Ventura",
     "venue": "Topa Topa Brewing - Ventura",
@@ -3198,9 +3139,9 @@
     "source": "deer-lodge"
   },
   {
-    "id": "ddbdd53349aba5bd",
-    "title": " LIVE MUSIC // Natalie Wattre 3-6:00 PM",
-    "description": "Join us for COLD brews and GREAT tunes!",
+    "id": "e058d952af39f995",
+    "title": "FT: Gustos Sandwiches 12:30-6:60",
+    "description": "An Ojai based company with Italian style deli sanwiches!",
     "date": "2026-04-18",
     "time": "3:00 PM",
     "category": "beer",
@@ -3211,9 +3152,9 @@
     "source": "eventcalendarapp-topa-topa-ventura"
   },
   {
-    "id": "e058d952af39f995",
-    "title": "FT: Gustos Sandwiches 12:30-6:60",
-    "description": "An Ojai based company with Italian style deli sanwiches!",
+    "id": "ddbdd53349aba5bd",
+    "title": " LIVE MUSIC // Natalie Wattre 3-6:00 PM",
+    "description": "Join us for COLD brews and GREAT tunes!",
     "date": "2026-04-18",
     "time": "3:00 PM",
     "category": "beer",
@@ -3408,19 +3349,6 @@
     "source": "ventura-music-hall"
   },
   {
-    "id": "a632c824de40181c",
-    "title": "LIVE MUSIC// VINNY BERRY 5-7:30",
-    "description": "Come enjoy some cold brews and great tunes!",
-    "date": "2026-04-21",
-    "time": "5:00 PM",
-    "category": "beer",
-    "location": "Ventura",
-    "venue": "Topa Topa Brewing - Ventura",
-    "externalUrl": "https://topatopa.beer/pages/happenings",
-    "instagramHandle": "@topatopabrewingco",
-    "source": "eventcalendarapp-topa-topa-ventura"
-  },
-  {
     "id": "90484aaf042b91c6",
     "title": "Food Truck: Easy Thai Street Food 3:00pm - 8:30pm",
     "description": "Easy Thai Street Food serves up delicious authentic Thai Cuisine with plenty of options for both vegetarian and meat lovers alike. Their menu includes favorites such as Pad See Ew, Teriyaki Chicken Wings, Spring Rolls, Curry Bowls and so much more!\n&nbsp;\n\nFollow Easy Thai Street Food on Instagram f",
@@ -3439,6 +3367,19 @@
     "description": "Calling all surfers! After catching some waves, we are offering a special happy hour just for you! Come eat some grub and grab some cold brews, while meeting other surf minded people!&nbsp;",
     "date": "2026-04-21",
     "time": "4:00 PM",
+    "category": "beer",
+    "location": "Ventura",
+    "venue": "Topa Topa Brewing - Ventura",
+    "externalUrl": "https://topatopa.beer/pages/happenings",
+    "instagramHandle": "@topatopabrewingco",
+    "source": "eventcalendarapp-topa-topa-ventura"
+  },
+  {
+    "id": "a632c824de40181c",
+    "title": "LIVE MUSIC// VINNY BERRY 5-7:30",
+    "description": "Come enjoy some cold brews and great tunes!",
+    "date": "2026-04-21",
+    "time": "5:00 PM",
     "category": "beer",
     "location": "Ventura",
     "venue": "Topa Topa Brewing - Ventura",
@@ -3826,11 +3767,11 @@
     "source": "eventcalendarapp-topa-topa-ventura"
   },
   {
-    "id": "57211d75634a6245",
-    "title": "Surf Club 4:00-7:00 ",
-    "description": "Calling all surfers! After catching some waves, we are offering a special happy hour just for you! Come eat some grub and grab some cold brews, while meeting other surf minded people!&nbsp;",
+    "id": "415d999bba48c691",
+    "title": "Food Truck: Easy Thai Street Food 3:00pm - 8:30pm",
+    "description": "Easy Thai Street Food serves up delicious authentic Thai Cuisine with plenty of options for both vegetarian and meat lovers alike. Their menu includes favorites such as Pad See Ew, Teriyaki Chicken Wings, Spring Rolls, Curry Bowls and so much more!\n&nbsp;\n\nFollow Easy Thai Street Food on Instagram f",
     "date": "2026-04-28",
-    "time": "4:00 PM",
+    "time": "12:00 PM",
     "category": "beer",
     "location": "Ventura",
     "venue": "Topa Topa Brewing - Ventura",
@@ -3839,11 +3780,11 @@
     "source": "eventcalendarapp-topa-topa-ventura"
   },
   {
-    "id": "415d999bba48c691",
-    "title": "Food Truck: Easy Thai Street Food 3:00pm - 8:30pm",
-    "description": "Easy Thai Street Food serves up delicious authentic Thai Cuisine with plenty of options for both vegetarian and meat lovers alike. Their menu includes favorites such as Pad See Ew, Teriyaki Chicken Wings, Spring Rolls, Curry Bowls and so much more!\n&nbsp;\n\nFollow Easy Thai Street Food on Instagram f",
+    "id": "57211d75634a6245",
+    "title": "Surf Club 4:00-7:00 ",
+    "description": "Calling all surfers! After catching some waves, we are offering a special happy hour just for you! Come eat some grub and grab some cold brews, while meeting other surf minded people!&nbsp;",
     "date": "2026-04-28",
-    "time": "12:00 PM",
+    "time": "4:00 PM",
     "category": "beer",
     "location": "Ventura",
     "venue": "Topa Topa Brewing - Ventura",
@@ -4228,6 +4169,19 @@
     "source": "ventura-music-hall"
   },
   {
+    "id": "915345342cb44c10",
+    "title": "Food Truck: Easy Thai Street Food 3:00pm - 8:30pm",
+    "description": "Easy Thai Street Food serves up delicious authentic Thai Cuisine with plenty of options for both vegetarian and meat lovers alike. Their menu includes favorites such as Pad See Ew, Teriyaki Chicken Wings, Spring Rolls, Curry Bowls and so much more!\n&nbsp;\n\nFollow Easy Thai Street Food on Instagram f",
+    "date": "2026-05-05",
+    "time": "12:00 PM",
+    "category": "beer",
+    "location": "Ventura",
+    "venue": "Topa Topa Brewing - Ventura",
+    "externalUrl": "https://topatopa.beer/pages/happenings",
+    "instagramHandle": "@topatopabrewingco",
+    "source": "eventcalendarapp-topa-topa-ventura"
+  },
+  {
     "id": "e2a545e9dee07a3f",
     "title": "Surf Club 4:00-7:00 ",
     "description": "Calling all surfers! After catching some waves, we are offering a special happy hour just for you! Come eat some grub and grab some cold brews, while meeting other surf minded people!&nbsp;",
@@ -4246,19 +4200,6 @@
     "description": "Come enjoy some cold brews and great tunes!",
     "date": "2026-05-05",
     "time": "5:00 PM",
-    "category": "beer",
-    "location": "Ventura",
-    "venue": "Topa Topa Brewing - Ventura",
-    "externalUrl": "https://topatopa.beer/pages/happenings",
-    "instagramHandle": "@topatopabrewingco",
-    "source": "eventcalendarapp-topa-topa-ventura"
-  },
-  {
-    "id": "915345342cb44c10",
-    "title": "Food Truck: Easy Thai Street Food 3:00pm - 8:30pm",
-    "description": "Easy Thai Street Food serves up delicious authentic Thai Cuisine with plenty of options for both vegetarian and meat lovers alike. Their menu includes favorites such as Pad See Ew, Teriyaki Chicken Wings, Spring Rolls, Curry Bowls and so much more!\n&nbsp;\n\nFollow Easy Thai Street Food on Instagram f",
-    "date": "2026-05-05",
-    "time": "12:00 PM",
     "category": "beer",
     "location": "Ventura",
     "venue": "Topa Topa Brewing - Ventura",
@@ -4295,7 +4236,7 @@
   {
     "id": "5c876e864f03d33d",
     "title": "James Taylor",
-    "description": "&nbsp; 🎟️ Ticketing &amp; Sales AXS is the official ticketing partner for the Santa Barbara Bowl. All ticket links redirect to AXS. AXS Premium tickets are limited, market-driven-priced seats available only through AXS.com. AXS Official Resale is a secure platform for reselling and buying tickets—e",
+    "description": "🎟️ Ticketing &amp; Sales AXS is the official ticketing partner for the Santa Barbara Bowl. All ticket links redirect to AXS. AXS Premium tickets are limited, market-driven-priced seats available only through AXS.com. AXS Official Resale is a secure platform for reselling and buying tickets—even for",
     "date": "2026-05-06",
     "category": "art",
     "location": "Santa Barbara",
@@ -4404,6 +4345,18 @@
     "externalUrl": "https://tixr.com/e/179663",
     "instagramHandle": "@venturamusichall",
     "source": "ventura-music-hall"
+  },
+  {
+    "id": "54e4a9267b13ba13",
+    "title": "Omar Velasco",
+    "description": "Doors @ 7PMBased in Los Angeles, Omar Velasco is an accomplished singer-songwriter and multi-instrumentalist who draws inspiration from a range of artists, including Stevie Wonder, Milton Nascimento, Mercedes Sosa and folk luminaries like Leonard Cohen, Bob Dylan, and Silvio Rodriguez.Omar honors the sounds of the past while conjuring his own eclectic and distinctive blend of multicultural musical flavor.&nbsp; Born to a Jewish American father and Mexican mother, he proudly represents the richness of his upbringing in his music.&nbsp;&nbsp;A captivating performer, Omar has collaborated and toured with acclaimed artists such as Jonathan Wilson, Jim James and My Morning Jacket, Poolside, and Father John Misty.&nbsp; He has performed on iconic stages such as Red Rocks, Ohana Music Festival, Lobero Theater Santa Barbara, The Fillmore, The Troubadour, and many stages across Europe and the world.&nbsp;&nbsp;Omar’s upcoming album, Like the Fruit Falls from the Tree, is a reflection of his journey through heartbreak, loss, and new beginnings. It's a testament to his talent as an artist and his ability to turn life's challenges into something truly beautiful and meaningful.&nbsp;Early in 2022, Omar found himself in a whirlwind of major life changes.&nbsp; Within a matter of months, he saw the birth of his son, the death of his father, and the dissolution of his critically acclaimed band, Amo Amo, all amidst the strains of a global pandemic.&nbsp; The tumult compelled the singer-songwriter to dive headlong into his art… and look to the trees for answers.It was a job with a fruit tree care company that triggered his rebirth and reconnected him with his purpose in life and art after ingesting and feeding off of the energy of the fruit-bearing trees.&nbsp; He was struck by the inherent grace and generosity of these stoic beings, and how they are exemplars of meaningful, interconnected life.&nbsp; “The purpose of our existence is in what we offer and what fruits we bring to bear,” says Omar.&nbsp; The songs that then emerged, all within a matter of weeks, felt very much like fruits fallen from a musical tree; freely given and gratefully received.&nbsp; He then reached out to his longtime friend and collaborator, acclaimed producer Jonathan Wilson, to help translate the songs into a rich, beautiful and nuanced album.Emerging from the confluence of life’s challenges, Omar Velasco comes ready to share his journey with the world. Like the Fruit Falls from the Tree, his second LP, which drops September 28th, 2023 on Inner Cult Records, is the fruit born from a steadfast faith in the generous, redemptive nature of music and of the creative act.&nbsp;",
+    "date": "2026-05-08",
+    "category": "art",
+    "location": "Ojai",
+    "venue": "Deer Lodge",
+    "externalUrl": "https://www.deerlodgeojai.com/live-music/omar-velasco-5826-9pm",
+    "instagramHandle": "@ojaideerlodge",
+    "source": "deer-lodge"
   },
   {
     "id": "62708155e333fbab",
@@ -5317,6 +5270,19 @@
     "source": "third-window"
   },
   {
+    "id": "0c58eab12c9c650d",
+    "title": "Taproom Special: Industry Appreciation",
+    "description": "Work in the food or bar industry? Need a break after the busy weekend rush? Then come on down to Topa Topa's Downtown Ventura location to get 2 for 1 pints all day! We know just how hard you work to serve those in your community, you deserve a beer ;)\nMust bring recent paystub to verify industry emp",
+    "date": "2026-05-25",
+    "time": "12:00 PM",
+    "category": "beer",
+    "location": "Ventura",
+    "venue": "Topa Topa Brewing - Ventura",
+    "externalUrl": "https://topatopa.beer/pages/happenings",
+    "instagramHandle": "@topatopabrewingco",
+    "source": "eventcalendarapp-topa-topa-ventura"
+  },
+  {
     "id": "4710b19b032fbcb7",
     "title": "Food Truck: Ramss Tacos 2pm - 8pm",
     "description": "Featured Food Truck! Enjoy tacos and more alongside crispy beers!",
@@ -5343,11 +5309,11 @@
     "source": "eventcalendarapp-topa-topa-ventura"
   },
   {
-    "id": "0c58eab12c9c650d",
-    "title": "Taproom Special: Industry Appreciation",
-    "description": "Work in the food or bar industry? Need a break after the busy weekend rush? Then come on down to Topa Topa's Downtown Ventura location to get 2 for 1 pints all day! We know just how hard you work to serve those in your community, you deserve a beer ;)\nMust bring recent paystub to verify industry emp",
-    "date": "2026-05-25",
-    "time": "12:00 PM",
+    "id": "401be11fe8b55d14",
+    "title": "Surf Club 4:00-7:00 ",
+    "description": "Calling all surfers! After catching some waves, we are offering a special happy hour just for you! Come eat some grub and grab some cold brews, while meeting other surf minded people!&nbsp;",
+    "date": "2026-05-26",
+    "time": "4:00 PM",
     "category": "beer",
     "location": "Ventura",
     "venue": "Topa Topa Brewing - Ventura",
@@ -5361,19 +5327,6 @@
     "description": "Easy Thai Street Food serves up delicious authentic Thai Cuisine with plenty of options for both vegetarian and meat lovers alike. Their menu includes favorites such as Pad See Ew, Teriyaki Chicken Wings, Spring Rolls, Curry Bowls and so much more!\n&nbsp;\n\nFollow Easy Thai Street Food on Instagram f",
     "date": "2026-05-26",
     "time": "12:00 PM",
-    "category": "beer",
-    "location": "Ventura",
-    "venue": "Topa Topa Brewing - Ventura",
-    "externalUrl": "https://topatopa.beer/pages/happenings",
-    "instagramHandle": "@topatopabrewingco",
-    "source": "eventcalendarapp-topa-topa-ventura"
-  },
-  {
-    "id": "401be11fe8b55d14",
-    "title": "Surf Club 4:00-7:00 ",
-    "description": "Calling all surfers! After catching some waves, we are offering a special happy hour just for you! Come eat some grub and grab some cold brews, while meeting other surf minded people!&nbsp;",
-    "date": "2026-05-26",
-    "time": "4:00 PM",
     "category": "beer",
     "location": "Ventura",
     "venue": "Topa Topa Brewing - Ventura",
@@ -5648,19 +5601,6 @@
     "source": "third-window"
   },
   {
-    "id": "14945822fbecba18",
-    "title": "TRIVIA! with Ryan 6:30pm - 8:30pm",
-    "description": "You've asked for it, and now it's finally back! Trivia is at Topa Topa Downtown Ventura once again!!\nRyan creates customized trivia, bringing us witty categories and good vibes each week (while you drink great beer)! Prizes for winners and fun for all. Come test your brain power!\n1st Place- $35 Topa",
-    "date": "2026-06-01",
-    "time": "6:30 PM",
-    "category": "beer",
-    "location": "Ventura",
-    "venue": "Topa Topa Brewing - Ventura",
-    "externalUrl": "https://topatopa.beer/pages/happenings",
-    "instagramHandle": "@topatopabrewingco",
-    "source": "eventcalendarapp-topa-topa-ventura"
-  },
-  {
     "id": "81430b3718c05d18",
     "title": "Taproom Special: Industry Appreciation",
     "description": "Work in the food or bar industry? Need a break after the busy weekend rush? Then come on down to Topa Topa's Downtown Ventura location to get 2 for 1 pints all day! We know just how hard you work to serve those in your community, you deserve a beer ;)\nMust bring recent paystub to verify industry emp",
@@ -5679,6 +5619,19 @@
     "description": "Featured Food Truck! Enjoy tacos and more alongside crispy beers!",
     "date": "2026-06-01",
     "time": "2:00 PM",
+    "category": "beer",
+    "location": "Ventura",
+    "venue": "Topa Topa Brewing - Ventura",
+    "externalUrl": "https://topatopa.beer/pages/happenings",
+    "instagramHandle": "@topatopabrewingco",
+    "source": "eventcalendarapp-topa-topa-ventura"
+  },
+  {
+    "id": "14945822fbecba18",
+    "title": "TRIVIA! with Ryan 6:30pm - 8:30pm",
+    "description": "You've asked for it, and now it's finally back! Trivia is at Topa Topa Downtown Ventura once again!!\nRyan creates customized trivia, bringing us witty categories and good vibes each week (while you drink great beer)! Prizes for winners and fun for all. Come test your brain power!\n1st Place- $35 Topa",
+    "date": "2026-06-01",
+    "time": "6:30 PM",
     "category": "beer",
     "location": "Ventura",
     "venue": "Topa Topa Brewing - Ventura",
@@ -6081,11 +6034,11 @@
     "source": "eventcalendarapp-topa-topa-santa-barbara"
   },
   {
-    "id": "05d962c61fca70ed",
-    "title": "Food Truck: NICK'S SMASH BURGERS",
-    "description": "Come grabs some cold brews and great smash burgers!",
+    "id": "0ca96287ee56096c",
+    "title": " SERIES // Mend + Matter, 6-8pm",
+    "description": "A new monthly series presented by // Climate Conversations, TIGEROWL &amp; Topa Topa.\nEach Mend + Matter evening brings the community together for two things: hands-on clothing repair and meaningful conversation about the environmental and social issues that shape our local community. Guests bring g",
     "date": "2026-06-10",
-    "time": "4:00 PM",
+    "time": "6:00 PM",
     "category": "beer",
     "location": "Ventura",
     "venue": "Topa Topa Brewing - Ventura",
@@ -6094,11 +6047,11 @@
     "source": "eventcalendarapp-topa-topa-ventura"
   },
   {
-    "id": "0ca96287ee56096c",
-    "title": " SERIES // Mend + Matter, 6-8pm",
-    "description": "A new monthly series presented by // Climate Conversations, TIGEROWL &amp; Topa Topa.\nEach Mend + Matter evening brings the community together for two things: hands-on clothing repair and meaningful conversation about the environmental and social issues that shape our local community. Guests bring g",
+    "id": "05d962c61fca70ed",
+    "title": "Food Truck: NICK'S SMASH BURGERS",
+    "description": "Come grabs some cold brews and great smash burgers!",
     "date": "2026-06-10",
-    "time": "6:00 PM",
+    "time": "4:00 PM",
     "category": "beer",
     "location": "Ventura",
     "venue": "Topa Topa Brewing - Ventura",
@@ -6346,19 +6299,6 @@
     "source": "third-window"
   },
   {
-    "id": "11ac5d94337a1d61",
-    "title": "TRIVIA! with Ryan 6:30pm - 8:30pm",
-    "description": "You've asked for it, and now it's finally back! Trivia is at Topa Topa Downtown Ventura once again!!\nRyan creates customized trivia, bringing us witty categories and good vibes each week (while you drink great beer)! Prizes for winners and fun for all. Come test your brain power!\n1st Place- $35 Topa",
-    "date": "2026-06-15",
-    "time": "6:30 PM",
-    "category": "beer",
-    "location": "Ventura",
-    "venue": "Topa Topa Brewing - Ventura",
-    "externalUrl": "https://topatopa.beer/pages/happenings",
-    "instagramHandle": "@topatopabrewingco",
-    "source": "eventcalendarapp-topa-topa-ventura"
-  },
-  {
     "id": "37bc932079513272",
     "title": "Taproom Special: Industry Appreciation",
     "description": "Work in the food or bar industry? Need a break after the busy weekend rush? Then come on down to Topa Topa's Downtown Ventura location to get 2 for 1 pints all day! We know just how hard you work to serve those in your community, you deserve a beer ;)\nMust bring recent paystub to verify industry emp",
@@ -6377,6 +6317,19 @@
     "description": "Featured Food Truck! Enjoy tacos and more alongside crispy beers!",
     "date": "2026-06-15",
     "time": "2:00 PM",
+    "category": "beer",
+    "location": "Ventura",
+    "venue": "Topa Topa Brewing - Ventura",
+    "externalUrl": "https://topatopa.beer/pages/happenings",
+    "instagramHandle": "@topatopabrewingco",
+    "source": "eventcalendarapp-topa-topa-ventura"
+  },
+  {
+    "id": "11ac5d94337a1d61",
+    "title": "TRIVIA! with Ryan 6:30pm - 8:30pm",
+    "description": "You've asked for it, and now it's finally back! Trivia is at Topa Topa Downtown Ventura once again!!\nRyan creates customized trivia, bringing us witty categories and good vibes each week (while you drink great beer)! Prizes for winners and fun for all. Come test your brain power!\n1st Place- $35 Topa",
+    "date": "2026-06-15",
+    "time": "6:30 PM",
     "category": "beer",
     "location": "Ventura",
     "venue": "Topa Topa Brewing - Ventura",
@@ -6663,6 +6616,19 @@
     "source": "third-window"
   },
   {
+    "id": "1e360006fdd0114d",
+    "title": "Taproom Special: Industry Appreciation",
+    "description": "Work in the food or bar industry? Need a break after the busy weekend rush? Then come on down to Topa Topa's Downtown Ventura location to get 2 for 1 pints all day! We know just how hard you work to serve those in your community, you deserve a beer ;)\nMust bring recent paystub to verify industry emp",
+    "date": "2026-06-22",
+    "time": "12:00 PM",
+    "category": "beer",
+    "location": "Ventura",
+    "venue": "Topa Topa Brewing - Ventura",
+    "externalUrl": "https://topatopa.beer/pages/happenings",
+    "instagramHandle": "@topatopabrewingco",
+    "source": "eventcalendarapp-topa-topa-ventura"
+  },
+  {
     "id": "1a4952494974a648",
     "title": "Food Truck: Ramss Tacos 2pm - 8pm",
     "description": "Featured Food Truck! Enjoy tacos and more alongside crispy beers!",
@@ -6689,11 +6655,11 @@
     "source": "eventcalendarapp-topa-topa-ventura"
   },
   {
-    "id": "1e360006fdd0114d",
-    "title": "Taproom Special: Industry Appreciation",
-    "description": "Work in the food or bar industry? Need a break after the busy weekend rush? Then come on down to Topa Topa's Downtown Ventura location to get 2 for 1 pints all day! We know just how hard you work to serve those in your community, you deserve a beer ;)\nMust bring recent paystub to verify industry emp",
-    "date": "2026-06-22",
-    "time": "12:00 PM",
+    "id": "dfe3704f4c6e779b",
+    "title": "Surf Club 4:00-7:00 ",
+    "description": "Calling all surfers! After catching some waves, we are offering a special happy hour just for you! Come eat some grub and grab some cold brews, while meeting other surf minded people!&nbsp;",
+    "date": "2026-06-23",
+    "time": "4:00 PM",
     "category": "beer",
     "location": "Ventura",
     "venue": "Topa Topa Brewing - Ventura",
@@ -6707,19 +6673,6 @@
     "description": "Easy Thai Street Food serves up delicious authentic Thai Cuisine with plenty of options for both vegetarian and meat lovers alike. Their menu includes favorites such as Pad See Ew, Teriyaki Chicken Wings, Spring Rolls, Curry Bowls and so much more!\n&nbsp;\n\nFollow Easy Thai Street Food on Instagram f",
     "date": "2026-06-23",
     "time": "12:00 PM",
-    "category": "beer",
-    "location": "Ventura",
-    "venue": "Topa Topa Brewing - Ventura",
-    "externalUrl": "https://topatopa.beer/pages/happenings",
-    "instagramHandle": "@topatopabrewingco",
-    "source": "eventcalendarapp-topa-topa-ventura"
-  },
-  {
-    "id": "dfe3704f4c6e779b",
-    "title": "Surf Club 4:00-7:00 ",
-    "description": "Calling all surfers! After catching some waves, we are offering a special happy hour just for you! Come eat some grub and grab some cold brews, while meeting other surf minded people!&nbsp;",
-    "date": "2026-06-23",
-    "time": "4:00 PM",
     "category": "beer",
     "location": "Ventura",
     "venue": "Topa Topa Brewing - Ventura",
@@ -6968,19 +6921,6 @@
     "source": "third-window"
   },
   {
-    "id": "2bd43acf1bf7c688",
-    "title": "TRIVIA! with Ryan 6:30pm - 8:30pm",
-    "description": "You've asked for it, and now it's finally back! Trivia is at Topa Topa Downtown Ventura once again!!\nRyan creates customized trivia, bringing us witty categories and good vibes each week (while you drink great beer)! Prizes for winners and fun for all. Come test your brain power!\n1st Place- $35 Topa",
-    "date": "2026-06-29",
-    "time": "6:30 PM",
-    "category": "beer",
-    "location": "Ventura",
-    "venue": "Topa Topa Brewing - Ventura",
-    "externalUrl": "https://topatopa.beer/pages/happenings",
-    "instagramHandle": "@topatopabrewingco",
-    "source": "eventcalendarapp-topa-topa-ventura"
-  },
-  {
     "id": "2dddf3772b0827b3",
     "title": "Taproom Special: Industry Appreciation",
     "description": "Work in the food or bar industry? Need a break after the busy weekend rush? Then come on down to Topa Topa's Downtown Ventura location to get 2 for 1 pints all day! We know just how hard you work to serve those in your community, you deserve a beer ;)\nMust bring recent paystub to verify industry emp",
@@ -6999,6 +6939,19 @@
     "description": "Featured Food Truck! Enjoy tacos and more alongside crispy beers!",
     "date": "2026-06-29",
     "time": "2:00 PM",
+    "category": "beer",
+    "location": "Ventura",
+    "venue": "Topa Topa Brewing - Ventura",
+    "externalUrl": "https://topatopa.beer/pages/happenings",
+    "instagramHandle": "@topatopabrewingco",
+    "source": "eventcalendarapp-topa-topa-ventura"
+  },
+  {
+    "id": "2bd43acf1bf7c688",
+    "title": "TRIVIA! with Ryan 6:30pm - 8:30pm",
+    "description": "You've asked for it, and now it's finally back! Trivia is at Topa Topa Downtown Ventura once again!!\nRyan creates customized trivia, bringing us witty categories and good vibes each week (while you drink great beer)! Prizes for winners and fun for all. Come test your brain power!\n1st Place- $35 Topa",
+    "date": "2026-06-29",
+    "time": "6:30 PM",
     "category": "beer",
     "location": "Ventura",
     "venue": "Topa Topa Brewing - Ventura",
@@ -7474,11 +7427,11 @@
     "source": "eventcalendarapp-topa-topa-ventura"
   },
   {
-    "id": "aa521cfb1ebfdf37",
-    "title": "Food Truck: Easy Thai Street Food 3:00pm - 8:30pm",
-    "description": "Easy Thai Street Food serves up delicious authentic Thai Cuisine with plenty of options for both vegetarian and meat lovers alike. Their menu includes favorites such as Pad See Ew, Teriyaki Chicken Wings, Spring Rolls, Curry Bowls and so much more!\n&nbsp;\n\nFollow Easy Thai Street Food on Instagram f",
+    "id": "9223e83223315084",
+    "title": "Surf Club 4:00-7:00 ",
+    "description": "Calling all surfers! After catching some waves, we are offering a special happy hour just for you! Come eat some grub and grab some cold brews, while meeting other surf minded people!&nbsp;",
     "date": "2026-07-14",
-    "time": "12:00 PM",
+    "time": "4:00 PM",
     "category": "beer",
     "location": "Ventura",
     "venue": "Topa Topa Brewing - Ventura",
@@ -7487,11 +7440,11 @@
     "source": "eventcalendarapp-topa-topa-ventura"
   },
   {
-    "id": "9223e83223315084",
-    "title": "Surf Club 4:00-7:00 ",
-    "description": "Calling all surfers! After catching some waves, we are offering a special happy hour just for you! Come eat some grub and grab some cold brews, while meeting other surf minded people!&nbsp;",
+    "id": "aa521cfb1ebfdf37",
+    "title": "Food Truck: Easy Thai Street Food 3:00pm - 8:30pm",
+    "description": "Easy Thai Street Food serves up delicious authentic Thai Cuisine with plenty of options for both vegetarian and meat lovers alike. Their menu includes favorites such as Pad See Ew, Teriyaki Chicken Wings, Spring Rolls, Curry Bowls and so much more!\n&nbsp;\n\nFollow Easy Thai Street Food on Instagram f",
     "date": "2026-07-14",
-    "time": "4:00 PM",
+    "time": "12:00 PM",
     "category": "beer",
     "location": "Ventura",
     "venue": "Topa Topa Brewing - Ventura",
@@ -7761,11 +7714,11 @@
     "source": "eventcalendarapp-topa-topa-ventura"
   },
   {
-    "id": "1ebb0ce2b53cf991",
-    "title": "Surf Club 4:00-7:00 ",
-    "description": "Calling all surfers! After catching some waves, we are offering a special happy hour just for you! Come eat some grub and grab some cold brews, while meeting other surf minded people!&nbsp;",
+    "id": "adcb4494dbdaa764",
+    "title": "Food Truck: Easy Thai Street Food 3:00pm - 8:30pm",
+    "description": "Easy Thai Street Food serves up delicious authentic Thai Cuisine with plenty of options for both vegetarian and meat lovers alike. Their menu includes favorites such as Pad See Ew, Teriyaki Chicken Wings, Spring Rolls, Curry Bowls and so much more!\n&nbsp;\n\nFollow Easy Thai Street Food on Instagram f",
     "date": "2026-07-21",
-    "time": "4:00 PM",
+    "time": "12:00 PM",
     "category": "beer",
     "location": "Ventura",
     "venue": "Topa Topa Brewing - Ventura",
@@ -7774,11 +7727,11 @@
     "source": "eventcalendarapp-topa-topa-ventura"
   },
   {
-    "id": "adcb4494dbdaa764",
-    "title": "Food Truck: Easy Thai Street Food 3:00pm - 8:30pm",
-    "description": "Easy Thai Street Food serves up delicious authentic Thai Cuisine with plenty of options for both vegetarian and meat lovers alike. Their menu includes favorites such as Pad See Ew, Teriyaki Chicken Wings, Spring Rolls, Curry Bowls and so much more!\n&nbsp;\n\nFollow Easy Thai Street Food on Instagram f",
+    "id": "1ebb0ce2b53cf991",
+    "title": "Surf Club 4:00-7:00 ",
+    "description": "Calling all surfers! After catching some waves, we are offering a special happy hour just for you! Come eat some grub and grab some cold brews, while meeting other surf minded people!&nbsp;",
     "date": "2026-07-21",
-    "time": "12:00 PM",
+    "time": "4:00 PM",
     "category": "beer",
     "location": "Ventura",
     "venue": "Topa Topa Brewing - Ventura",
@@ -8691,11 +8644,11 @@
     "source": "eventcalendarapp-topa-topa-ventura"
   },
   {
-    "id": "d381b7467e13824e",
-    "title": "Surf Club 4:00-7:00 ",
-    "description": "Calling all surfers! After catching some waves, we are offering a special happy hour just for you! Come eat some grub and grab some cold brews, while meeting other surf minded people!&nbsp;",
+    "id": "0a6e15a9ff7711ce",
+    "title": "Food Truck: Easy Thai Street Food 3:00pm - 8:30pm",
+    "description": "Easy Thai Street Food serves up delicious authentic Thai Cuisine with plenty of options for both vegetarian and meat lovers alike. Their menu includes favorites such as Pad See Ew, Teriyaki Chicken Wings, Spring Rolls, Curry Bowls and so much more!\n&nbsp;\n\nFollow Easy Thai Street Food on Instagram f",
     "date": "2026-08-18",
-    "time": "4:00 PM",
+    "time": "12:00 PM",
     "category": "beer",
     "location": "Ventura",
     "venue": "Topa Topa Brewing - Ventura",
@@ -8704,11 +8657,11 @@
     "source": "eventcalendarapp-topa-topa-ventura"
   },
   {
-    "id": "0a6e15a9ff7711ce",
-    "title": "Food Truck: Easy Thai Street Food 3:00pm - 8:30pm",
-    "description": "Easy Thai Street Food serves up delicious authentic Thai Cuisine with plenty of options for both vegetarian and meat lovers alike. Their menu includes favorites such as Pad See Ew, Teriyaki Chicken Wings, Spring Rolls, Curry Bowls and so much more!\n&nbsp;\n\nFollow Easy Thai Street Food on Instagram f",
+    "id": "d381b7467e13824e",
+    "title": "Surf Club 4:00-7:00 ",
+    "description": "Calling all surfers! After catching some waves, we are offering a special happy hour just for you! Come eat some grub and grab some cold brews, while meeting other surf minded people!&nbsp;",
     "date": "2026-08-18",
-    "time": "12:00 PM",
+    "time": "4:00 PM",
     "category": "beer",
     "location": "Ventura",
     "venue": "Topa Topa Brewing - Ventura",
@@ -9230,11 +9183,11 @@
     "source": "eventcalendarapp-topa-topa-ventura"
   },
   {
-    "id": "157a51f2b95b0df5",
-    "title": "Surf Club 4:00-7:00 ",
-    "description": "Calling all surfers! After catching some waves, we are offering a special happy hour just for you! Come eat some grub and grab some cold brews, while meeting other surf minded people!&nbsp;",
+    "id": "630a49f6eead0982",
+    "title": "Food Truck: Easy Thai Street Food 3:00pm - 8:30pm",
+    "description": "Easy Thai Street Food serves up delicious authentic Thai Cuisine with plenty of options for both vegetarian and meat lovers alike. Their menu includes favorites such as Pad See Ew, Teriyaki Chicken Wings, Spring Rolls, Curry Bowls and so much more!\n&nbsp;\n\nFollow Easy Thai Street Food on Instagram f",
     "date": "2026-09-01",
-    "time": "4:00 PM",
+    "time": "12:00 PM",
     "category": "beer",
     "location": "Ventura",
     "venue": "Topa Topa Brewing - Ventura",
@@ -9243,11 +9196,11 @@
     "source": "eventcalendarapp-topa-topa-ventura"
   },
   {
-    "id": "630a49f6eead0982",
-    "title": "Food Truck: Easy Thai Street Food 3:00pm - 8:30pm",
-    "description": "Easy Thai Street Food serves up delicious authentic Thai Cuisine with plenty of options for both vegetarian and meat lovers alike. Their menu includes favorites such as Pad See Ew, Teriyaki Chicken Wings, Spring Rolls, Curry Bowls and so much more!\n&nbsp;\n\nFollow Easy Thai Street Food on Instagram f",
+    "id": "157a51f2b95b0df5",
+    "title": "Surf Club 4:00-7:00 ",
+    "description": "Calling all surfers! After catching some waves, we are offering a special happy hour just for you! Come eat some grub and grab some cold brews, while meeting other surf minded people!&nbsp;",
     "date": "2026-09-01",
-    "time": "12:00 PM",
+    "time": "4:00 PM",
     "category": "beer",
     "location": "Ventura",
     "venue": "Topa Topa Brewing - Ventura",
@@ -10049,11 +10002,11 @@
     "source": "eventcalendarapp-topa-topa-santa-barbara"
   },
   {
-    "id": "2ace30883a108463",
-    "title": "Food Truck: Ramss Tacos 2pm - 8pm",
-    "description": "Featured Food Truck! Enjoy tacos and more alongside crispy beers!",
+    "id": "04e9914e3644d62f",
+    "title": "Taproom Special: Industry Appreciation",
+    "description": "Work in the food or bar industry? Need a break after the busy weekend rush? Then come on down to Topa Topa's Downtown Ventura location to get 2 for 1 pints all day! We know just how hard you work to serve those in your community, you deserve a beer ;)\nMust bring recent paystub to verify industry emp",
     "date": "2026-10-05",
-    "time": "2:00 PM",
+    "time": "12:00 PM",
     "category": "beer",
     "location": "Ventura",
     "venue": "Topa Topa Brewing - Ventura",
@@ -10062,11 +10015,11 @@
     "source": "eventcalendarapp-topa-topa-ventura"
   },
   {
-    "id": "04e9914e3644d62f",
-    "title": "Taproom Special: Industry Appreciation",
-    "description": "Work in the food or bar industry? Need a break after the busy weekend rush? Then come on down to Topa Topa's Downtown Ventura location to get 2 for 1 pints all day! We know just how hard you work to serve those in your community, you deserve a beer ;)\nMust bring recent paystub to verify industry emp",
+    "id": "2ace30883a108463",
+    "title": "Food Truck: Ramss Tacos 2pm - 8pm",
+    "description": "Featured Food Truck! Enjoy tacos and more alongside crispy beers!",
     "date": "2026-10-05",
-    "time": "12:00 PM",
+    "time": "2:00 PM",
     "category": "beer",
     "location": "Ventura",
     "venue": "Topa Topa Brewing - Ventura",
@@ -10346,11 +10299,11 @@
     "source": "eventcalendarapp-topa-topa-santa-barbara"
   },
   {
-    "id": "d5dbd0b10068b2c4",
-    "title": "Food Truck: Ramss Tacos 2pm - 8pm",
-    "description": "Featured Food Truck! Enjoy tacos and more alongside crispy beers!",
+    "id": "f1d7531c566855c7",
+    "title": "Taproom Special: Industry Appreciation",
+    "description": "Work in the food or bar industry? Need a break after the busy weekend rush? Then come on down to Topa Topa's Downtown Ventura location to get 2 for 1 pints all day! We know just how hard you work to serve those in your community, you deserve a beer ;)\nMust bring recent paystub to verify industry emp",
     "date": "2026-10-19",
-    "time": "2:00 PM",
+    "time": "12:00 PM",
     "category": "beer",
     "location": "Ventura",
     "venue": "Topa Topa Brewing - Ventura",
@@ -10359,11 +10312,11 @@
     "source": "eventcalendarapp-topa-topa-ventura"
   },
   {
-    "id": "f1d7531c566855c7",
-    "title": "Taproom Special: Industry Appreciation",
-    "description": "Work in the food or bar industry? Need a break after the busy weekend rush? Then come on down to Topa Topa's Downtown Ventura location to get 2 for 1 pints all day! We know just how hard you work to serve those in your community, you deserve a beer ;)\nMust bring recent paystub to verify industry emp",
+    "id": "d5dbd0b10068b2c4",
+    "title": "Food Truck: Ramss Tacos 2pm - 8pm",
+    "description": "Featured Food Truck! Enjoy tacos and more alongside crispy beers!",
     "date": "2026-10-19",
-    "time": "12:00 PM",
+    "time": "2:00 PM",
     "category": "beer",
     "location": "Ventura",
     "venue": "Topa Topa Brewing - Ventura",
@@ -10645,11 +10598,11 @@
     "source": "eventcalendarapp-topa-topa-ojai"
   },
   {
-    "id": "8842484fb9dcbd80",
-    "title": "Surf Club 4:00-7:00 ",
-    "description": "Calling all surfers! After catching some waves, we are offering a special happy hour just for you! Come eat some grub and grab some cold brews, while meeting other surf minded people!&nbsp;",
+    "id": "00001d2a0cd85ce3",
+    "title": "Food Truck: Easy Thai Street Food 3:00pm - 8:30pm",
+    "description": "Easy Thai Street Food serves up delicious authentic Thai Cuisine with plenty of options for both vegetarian and meat lovers alike. Their menu includes favorites such as Pad See Ew, Teriyaki Chicken Wings, Spring Rolls, Curry Bowls and so much more!\n&nbsp;\n\nFollow Easy Thai Street Food on Instagram f",
     "date": "2026-11-03",
-    "time": "4:00 PM",
+    "time": "12:00 PM",
     "category": "beer",
     "location": "Ventura",
     "venue": "Topa Topa Brewing - Ventura",
@@ -10658,11 +10611,11 @@
     "source": "eventcalendarapp-topa-topa-ventura"
   },
   {
-    "id": "00001d2a0cd85ce3",
-    "title": "Food Truck: Easy Thai Street Food 3:00pm - 8:30pm",
-    "description": "Easy Thai Street Food serves up delicious authentic Thai Cuisine with plenty of options for both vegetarian and meat lovers alike. Their menu includes favorites such as Pad See Ew, Teriyaki Chicken Wings, Spring Rolls, Curry Bowls and so much more!\n&nbsp;\n\nFollow Easy Thai Street Food on Instagram f",
+    "id": "8842484fb9dcbd80",
+    "title": "Surf Club 4:00-7:00 ",
+    "description": "Calling all surfers! After catching some waves, we are offering a special happy hour just for you! Come eat some grub and grab some cold brews, while meeting other surf minded people!&nbsp;",
     "date": "2026-11-03",
-    "time": "12:00 PM",
+    "time": "4:00 PM",
     "category": "beer",
     "location": "Ventura",
     "venue": "Topa Topa Brewing - Ventura",
@@ -10905,11 +10858,11 @@
     "source": "eventcalendarapp-topa-topa-ventura"
   },
   {
-    "id": "16b85e0cdf814c42",
-    "title": "Surf Club 4:00-7:00 ",
-    "description": "Calling all surfers! After catching some waves, we are offering a special happy hour just for you! Come eat some grub and grab some cold brews, while meeting other surf minded people!&nbsp;",
+    "id": "85f2974068021e53",
+    "title": "Food Truck: Easy Thai Street Food 3:00pm - 8:30pm",
+    "description": "Easy Thai Street Food serves up delicious authentic Thai Cuisine with plenty of options for both vegetarian and meat lovers alike. Their menu includes favorites such as Pad See Ew, Teriyaki Chicken Wings, Spring Rolls, Curry Bowls and so much more!\n&nbsp;\n\nFollow Easy Thai Street Food on Instagram f",
     "date": "2026-11-17",
-    "time": "4:00 PM",
+    "time": "12:00 PM",
     "category": "beer",
     "location": "Ventura",
     "venue": "Topa Topa Brewing - Ventura",
@@ -10918,11 +10871,11 @@
     "source": "eventcalendarapp-topa-topa-ventura"
   },
   {
-    "id": "85f2974068021e53",
-    "title": "Food Truck: Easy Thai Street Food 3:00pm - 8:30pm",
-    "description": "Easy Thai Street Food serves up delicious authentic Thai Cuisine with plenty of options for both vegetarian and meat lovers alike. Their menu includes favorites such as Pad See Ew, Teriyaki Chicken Wings, Spring Rolls, Curry Bowls and so much more!\n&nbsp;\n\nFollow Easy Thai Street Food on Instagram f",
+    "id": "16b85e0cdf814c42",
+    "title": "Surf Club 4:00-7:00 ",
+    "description": "Calling all surfers! After catching some waves, we are offering a special happy hour just for you! Come eat some grub and grab some cold brews, while meeting other surf minded people!&nbsp;",
     "date": "2026-11-17",
-    "time": "12:00 PM",
+    "time": "4:00 PM",
     "category": "beer",
     "location": "Ventura",
     "venue": "Topa Topa Brewing - Ventura",
@@ -11009,11 +10962,11 @@
     "source": "eventcalendarapp-topa-topa-santa-barbara"
   },
   {
-    "id": "0c698f6a08de8861",
-    "title": "Taproom Special: Industry Appreciation",
-    "description": "Work in the food or bar industry? Need a break after the busy weekend rush? Then come on down to Topa Topa's Downtown Ventura location to get 2 for 1 pints all day! We know just how hard you work to serve those in your community, you deserve a beer ;)\nMust bring recent paystub to verify industry emp",
+    "id": "4b020df9ba7a9e58",
+    "title": "Food Truck: Ramss Tacos 2pm - 8pm",
+    "description": "Featured Food Truck! Enjoy tacos and more alongside crispy beers!",
     "date": "2026-11-23",
-    "time": "12:00 PM",
+    "time": "2:00 PM",
     "category": "beer",
     "location": "Ventura",
     "venue": "Topa Topa Brewing - Ventura",
@@ -11022,11 +10975,11 @@
     "source": "eventcalendarapp-topa-topa-ventura"
   },
   {
-    "id": "4b020df9ba7a9e58",
-    "title": "Food Truck: Ramss Tacos 2pm - 8pm",
-    "description": "Featured Food Truck! Enjoy tacos and more alongside crispy beers!",
+    "id": "0c698f6a08de8861",
+    "title": "Taproom Special: Industry Appreciation",
+    "description": "Work in the food or bar industry? Need a break after the busy weekend rush? Then come on down to Topa Topa's Downtown Ventura location to get 2 for 1 pints all day! We know just how hard you work to serve those in your community, you deserve a beer ;)\nMust bring recent paystub to verify industry emp",
     "date": "2026-11-23",
-    "time": "2:00 PM",
+    "time": "12:00 PM",
     "category": "beer",
     "location": "Ventura",
     "venue": "Topa Topa Brewing - Ventura",
@@ -11542,11 +11495,11 @@
     "source": "eventcalendarapp-topa-topa-santa-barbara"
   },
   {
-    "id": "219c9e404286a113",
-    "title": "Food Truck: Big Mann BBQ, 4-8pm",
-    "description": "Big Mann BBQ is BACK serving killer tri-tip and mixed plates!&nbsp;",
+    "id": "9338dfa1b49bdd21",
+    "title": "Print Exchange  6pm - 9pm",
+    "description": "Join for a pop-up community-curated art show. All artists in the community are invited to bring a few prints of their work and display it around our patio as long as space and magnets abound.&nbsp;\nEvery month, we celebrate a member of the Print Exchange Community with a featured artist Gallery Disp",
     "date": "2026-12-17",
-    "time": "4:00 PM",
+    "time": "6:00 PM",
     "category": "beer",
     "location": "Ventura",
     "venue": "Topa Topa Brewing - Ventura",
@@ -11555,11 +11508,11 @@
     "source": "eventcalendarapp-topa-topa-ventura"
   },
   {
-    "id": "9338dfa1b49bdd21",
-    "title": "Print Exchange  6pm - 9pm",
-    "description": "Join for a pop-up community-curated art show. All artists in the community are invited to bring a few prints of their work and display it around our patio as long as space and magnets abound.&nbsp;\nEvery month, we celebrate a member of the Print Exchange Community with a featured artist Gallery Disp",
+    "id": "219c9e404286a113",
+    "title": "Food Truck: Big Mann BBQ, 4-8pm",
+    "description": "Big Mann BBQ is BACK serving killer tri-tip and mixed plates!&nbsp;",
     "date": "2026-12-17",
-    "time": "6:00 PM",
+    "time": "4:00 PM",
     "category": "beer",
     "location": "Ventura",
     "venue": "Topa Topa Brewing - Ventura",
@@ -11737,11 +11690,11 @@
     "source": "eventcalendarapp-topa-topa-santa-barbara"
   },
   {
-    "id": "0f75cd1abe81b756",
-    "title": "Food Truck: Ramss Tacos 2pm - 8pm",
-    "description": "Featured Food Truck! Enjoy tacos and more alongside crispy beers!",
+    "id": "a70d5a3614c54e4d",
+    "title": "Taproom Special: Industry Appreciation",
+    "description": "Work in the food or bar industry? Need a break after the busy weekend rush? Then come on down to Topa Topa's Downtown Ventura location to get 2 for 1 pints all day! We know just how hard you work to serve those in your community, you deserve a beer ;)\nMust bring recent paystub to verify industry emp",
     "date": "2026-12-28",
-    "time": "2:00 PM",
+    "time": "12:00 PM",
     "category": "beer",
     "location": "Ventura",
     "venue": "Topa Topa Brewing - Ventura",
@@ -11750,11 +11703,11 @@
     "source": "eventcalendarapp-topa-topa-ventura"
   },
   {
-    "id": "a70d5a3614c54e4d",
-    "title": "Taproom Special: Industry Appreciation",
-    "description": "Work in the food or bar industry? Need a break after the busy weekend rush? Then come on down to Topa Topa's Downtown Ventura location to get 2 for 1 pints all day! We know just how hard you work to serve those in your community, you deserve a beer ;)\nMust bring recent paystub to verify industry emp",
+    "id": "0f75cd1abe81b756",
+    "title": "Food Truck: Ramss Tacos 2pm - 8pm",
+    "description": "Featured Food Truck! Enjoy tacos and more alongside crispy beers!",
     "date": "2026-12-28",
-    "time": "12:00 PM",
+    "time": "2:00 PM",
     "category": "beer",
     "location": "Ventura",
     "venue": "Topa Topa Brewing - Ventura",
@@ -11998,7 +11951,7 @@
   },
   {
     "id": "c50bf29190414d2b",
-    "title": " SERIES // Mend + Matter, 6-8pm",
+    "title": "SERIES // Mend + Matter, 6-8pm",
     "description": "A new monthly series presented by // Climate Conversations, TIGEROWL &amp; Topa Topa.\nEach Mend + Matter evening brings the community together for two things: hands-on clothing repair and meaningful conversation about the environmental and social issues that shape our local community. Guests bring g",
     "date": "2027-01-10",
     "time": "6:00 PM",
@@ -12296,11 +12249,11 @@
     "source": "eventcalendarapp-topa-topa-santa-barbara"
   },
   {
-    "id": "be601781fb2f06f1",
-    "title": "Taproom Special: Industry Appreciation",
-    "description": "Work in the food or bar industry? Need a break after the busy weekend rush? Then come on down to Topa Topa's Downtown Ventura location to get 2 for 1 pints all day! We know just how hard you work to serve those in your community, you deserve a beer ;)\nMust bring recent paystub to verify industry emp",
+    "id": "39752851049dabaa",
+    "title": "Food Truck: Ramss Tacos 2pm - 8pm",
+    "description": "Featured Food Truck! Enjoy tacos and more alongside crispy beers!",
     "date": "2027-01-25",
-    "time": "12:00 PM",
+    "time": "2:00 PM",
     "category": "beer",
     "location": "Ventura",
     "venue": "Topa Topa Brewing - Ventura",
@@ -12309,11 +12262,11 @@
     "source": "eventcalendarapp-topa-topa-ventura"
   },
   {
-    "id": "39752851049dabaa",
-    "title": "Food Truck: Ramss Tacos 2pm - 8pm",
-    "description": "Featured Food Truck! Enjoy tacos and more alongside crispy beers!",
+    "id": "be601781fb2f06f1",
+    "title": "Taproom Special: Industry Appreciation",
+    "description": "Work in the food or bar industry? Need a break after the busy weekend rush? Then come on down to Topa Topa's Downtown Ventura location to get 2 for 1 pints all day! We know just how hard you work to serve those in your community, you deserve a beer ;)\nMust bring recent paystub to verify industry emp",
     "date": "2027-01-25",
-    "time": "2:00 PM",
+    "time": "12:00 PM",
     "category": "beer",
     "location": "Ventura",
     "venue": "Topa Topa Brewing - Ventura",
@@ -12478,11 +12431,11 @@
     "source": "eventcalendarapp-topa-topa-ojai"
   },
   {
-    "id": "3abe17a18be89323",
-    "title": "Surf Club 4:00-7:00 ",
-    "description": "Calling all surfers! After catching some waves, we are offering a special happy hour just for you! Come eat some grub and grab some cold brews, while meeting other surf minded people!&nbsp;",
+    "id": "5fc936e3c2e92405",
+    "title": "Food Truck: Easy Thai Street Food 3:00pm - 8:30pm",
+    "description": "Easy Thai Street Food serves up delicious authentic Thai Cuisine with plenty of options for both vegetarian and meat lovers alike. Their menu includes favorites such as Pad See Ew, Teriyaki Chicken Wings, Spring Rolls, Curry Bowls and so much more!\n&nbsp;\n\nFollow Easy Thai Street Food on Instagram f",
     "date": "2027-02-02",
-    "time": "4:00 PM",
+    "time": "12:00 PM",
     "category": "beer",
     "location": "Ventura",
     "venue": "Topa Topa Brewing - Ventura",
@@ -12491,11 +12444,11 @@
     "source": "eventcalendarapp-topa-topa-ventura"
   },
   {
-    "id": "5fc936e3c2e92405",
-    "title": "Food Truck: Easy Thai Street Food 3:00pm - 8:30pm",
-    "description": "Easy Thai Street Food serves up delicious authentic Thai Cuisine with plenty of options for both vegetarian and meat lovers alike. Their menu includes favorites such as Pad See Ew, Teriyaki Chicken Wings, Spring Rolls, Curry Bowls and so much more!\n&nbsp;\n\nFollow Easy Thai Street Food on Instagram f",
+    "id": "3abe17a18be89323",
+    "title": "Surf Club 4:00-7:00 ",
+    "description": "Calling all surfers! After catching some waves, we are offering a special happy hour just for you! Come eat some grub and grab some cold brews, while meeting other surf minded people!&nbsp;",
     "date": "2027-02-02",
-    "time": "12:00 PM",
+    "time": "4:00 PM",
     "category": "beer",
     "location": "Ventura",
     "venue": "Topa Topa Brewing - Ventura",
@@ -12582,11 +12535,11 @@
     "source": "eventcalendarapp-topa-topa-santa-barbara"
   },
   {
-    "id": "30dbfb6f53045976",
-    "title": "Taproom Special: Industry Appreciation",
-    "description": "Work in the food or bar industry? Need a break after the busy weekend rush? Then come on down to Topa Topa's Downtown Ventura location to get 2 for 1 pints all day! We know just how hard you work to serve those in your community, you deserve a beer ;)\nMust bring recent paystub to verify industry emp",
+    "id": "8161aea1a30f7c1c",
+    "title": "Food Truck: Ramss Tacos 2pm - 8pm",
+    "description": "Featured Food Truck! Enjoy tacos and more alongside crispy beers!",
     "date": "2027-02-08",
-    "time": "12:00 PM",
+    "time": "2:00 PM",
     "category": "beer",
     "location": "Ventura",
     "venue": "Topa Topa Brewing - Ventura",
@@ -12595,11 +12548,11 @@
     "source": "eventcalendarapp-topa-topa-ventura"
   },
   {
-    "id": "8161aea1a30f7c1c",
-    "title": "Food Truck: Ramss Tacos 2pm - 8pm",
-    "description": "Featured Food Truck! Enjoy tacos and more alongside crispy beers!",
+    "id": "30dbfb6f53045976",
+    "title": "Taproom Special: Industry Appreciation",
+    "description": "Work in the food or bar industry? Need a break after the busy weekend rush? Then come on down to Topa Topa's Downtown Ventura location to get 2 for 1 pints all day! We know just how hard you work to serve those in your community, you deserve a beer ;)\nMust bring recent paystub to verify industry emp",
     "date": "2027-02-08",
-    "time": "2:00 PM",
+    "time": "12:00 PM",
     "category": "beer",
     "location": "Ventura",
     "venue": "Topa Topa Brewing - Ventura",
@@ -12725,11 +12678,11 @@
     "source": "eventcalendarapp-topa-topa-santa-barbara"
   },
   {
-    "id": "931779528bd3a0e8",
-    "title": "Food Truck: Ramss Tacos 2pm - 8pm",
-    "description": "Featured Food Truck! Enjoy tacos and more alongside crispy beers!",
+    "id": "8afff60c34a18182",
+    "title": "Taproom Special: Industry Appreciation",
+    "description": "Work in the food or bar industry? Need a break after the busy weekend rush? Then come on down to Topa Topa's Downtown Ventura location to get 2 for 1 pints all day! We know just how hard you work to serve those in your community, you deserve a beer ;)\nMust bring recent paystub to verify industry emp",
     "date": "2027-02-15",
-    "time": "2:00 PM",
+    "time": "12:00 PM",
     "category": "beer",
     "location": "Ventura",
     "venue": "Topa Topa Brewing - Ventura",
@@ -12738,11 +12691,11 @@
     "source": "eventcalendarapp-topa-topa-ventura"
   },
   {
-    "id": "8afff60c34a18182",
-    "title": "Taproom Special: Industry Appreciation",
-    "description": "Work in the food or bar industry? Need a break after the busy weekend rush? Then come on down to Topa Topa's Downtown Ventura location to get 2 for 1 pints all day! We know just how hard you work to serve those in your community, you deserve a beer ;)\nMust bring recent paystub to verify industry emp",
+    "id": "931779528bd3a0e8",
+    "title": "Food Truck: Ramss Tacos 2pm - 8pm",
+    "description": "Featured Food Truck! Enjoy tacos and more alongside crispy beers!",
     "date": "2027-02-15",
-    "time": "12:00 PM",
+    "time": "2:00 PM",
     "category": "beer",
     "location": "Ventura",
     "venue": "Topa Topa Brewing - Ventura",

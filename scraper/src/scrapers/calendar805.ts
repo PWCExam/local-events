@@ -9,6 +9,7 @@ const EXCLUDED_AREAS = [
   'calabasas', 'chatsworth', 'canoga park', 'northridge', 'panorama city',
   'panorama', 'the canyon', 'the oaks', 'tarantula hill', 'borchard',
   'warner ranch', 'lompoc', 'reagan library',
+  'pasadena', 'huntington',
 ];
 
 function isExcludedArea(text: string): boolean {

@@ -123,6 +123,7 @@ const OFF_TOPIC_PATTERNS = [
   /\bsenior expo\b/i, /\bsponsorship\b/i, /\bdonor\b/i,
   /\bsoft skills\b/i, /\bmanagement\s+train/i, /\bautomation workshop/i,
   /\bhow i built this/i, /\bprotect your legacy/i, /\bemerging professionals/i,
+  /\bsymposium\b/i, /\bconference\b/i, /\bsummit\b/i,
 
   // Health / wellness / medical
   /\bgut[\s-](health|endo|reset)/i, /\bperimenopausi/i, /\bdental\b/i,
@@ -131,6 +132,7 @@ const OFF_TOPIC_PATTERNS = [
   /\bfirst\s+aid\b/i, /\bcpr\b/i, /\bk9\s+emergency/i,
   /\bstrengthening parent/i, /\bmanaging emotions/i,
   /\bflower essence/i, /\bbirthing\b/i,
+  /\bembaraz/i, /\bposparto\b/i, /\bpregnancy\b/i, /\bprenatal\b/i,
 
   // Yoga / meditation / spiritual (keep sound bath / gong at music venues)
   /\byoga\b/i, /\bpilates\b/i, /\bmeditation\b/i,
@@ -144,12 +146,15 @@ const OFF_TOPIC_PATTERNS = [
   /\bhello kitty\b/i, /\bslime kitchen\b/i,
   /\bparenting\b/i, /\bmother-daughter\b/i,
 
-  // Education / training (non-music)
+  // Education / training / academic (non-music)
   /\btraining\b.*\b(installer|enphase|career|soft skill)/i,
   /\binstaller training\b/i, /\bcertification\b/i,
-  /\bcómo planificar/i, /\brendir más/i,
-  /\bconversatorios de carreras/i, /\bentrenamiento alpha/i,
-  /\bmasterclass.*futuro/i, /\bencuentro exclusivo/i,
+  /\bcomputational\b/i, /\bmodelling\b/i, /\bfire safety\b/i,
+
+  // Non-English events (French / Spanish educational / medical)
+  /\bl'ia\b/i, /\blire autrement\b/i, /\bmaîtrisez\b/i,
+  /\bannoncer une mauvaise/i, /\bmémoire.*oublis/i,
+  /\bcírculo de apoyo\b/i, /\bcírculo de mujeres\b/i,
 
   // Misc off-topic
   /\bboutique\b.*\bvendor/i, /\bscavenger hunt\b/i,

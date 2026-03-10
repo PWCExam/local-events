@@ -60,6 +60,9 @@ export async function scrapeEventbrite(): Promise<ScraperResult> {
               // Skip webinars, online events, and generic business events
               if (/webinar|online|virtual|zoom|linkedin|certification|fast-track|capm|pmp|data science|machine learn/i.test(title)) continue;
 
+              // Skip non-US Eventbrite events (eventbrite.fr, .ca, .co.uk)
+              if (url && !url.includes('eventbrite.com')) continue;
+
               const date = parseDate(startDate);
               if (!date) continue;
 
