@@ -161,8 +161,10 @@ const OFF_TOPIC_PATTERNS = [
   /\bbejewel/i, /\bjewelry\s*(making|class|workshop)/i,
   /\bcrafting\b/i, /\bcraft\s+(night|class|workshop)/i,
   /\bscrapbook/i, /\bcalligraphy\b/i, /\bpottery\b/i,
-  /\bwatercolor/i, /\bpainting\s*(class|workshop|lesson)/i,
+  /\bwatercolor/i, /\bacrylic\s*painting/i,
+  /\bpainting\s*(class|workshop|lesson|with)/i,
   /\bdrawing\s*(class|workshop|lesson)/i, /\bart\s*(class|workshop|lesson)/i,
+  /\bstudio\s*artist/i, /\bstudio\s*tour/i,
 
   // Misc off-topic
   /\bboutique\b.*\bvendor/i, /\bscavenger hunt\b/i,

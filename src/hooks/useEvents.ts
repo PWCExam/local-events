@@ -45,7 +45,7 @@ export function useEvents() {
   const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
-    const DATA_VERSION = '7';
+    const DATA_VERSION = '8';
     const VERSION_KEY = 'local-events-data-version';
     const storedVersion = localStorage.getItem(VERSION_KEY);
 
