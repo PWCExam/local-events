@@ -17,6 +17,9 @@ import { scrapeCalendar805 } from './scrapers/calendar805.js';
 import { scrapeEventbrite } from './scrapers/eventbrite.js';
 import { scrapeBandsintown } from './scrapers/bandsintown.js';
 import { scrapePopmenuSites } from './scrapers/popmenuSites.js';
+import { scrapeSoho } from './scrapers/soho.js';
+import { scrapeLobero } from './scrapers/lobero.js';
+import { scrapeColdSpringTavern } from './scrapers/coldSpringTavern.js';
 import { dedupeEvents, filterFutureEvents, isOnTopic } from './utils.js';
 import type { ScraperResult } from './types.js';
 
@@ -45,6 +48,9 @@ async function main() {
     scrapeEventbrite(),
     scrapeBandsintown(),
     scrapePopmenuSites(),
+    scrapeSoho(),
+    scrapeLobero(),
+    scrapeColdSpringTavern(),
   ]);
 
   // Collect all events

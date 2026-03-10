@@ -124,6 +124,7 @@ const OFF_TOPIC_PATTERNS = [
   /\bsoft skills\b/i, /\bmanagement\s+train/i, /\bautomation workshop/i,
   /\bhow i built this/i, /\bprotect your legacy/i, /\bemerging professionals/i,
   /\bsymposium\b/i, /\bconference\b/i, /\bsummit\b/i,
+  /\bsave democracy\b/i, /\bpolitical\b/i,
 
   // Health / wellness / medical
   /\bgut[\s-](health|endo|reset)/i, /\bperimenopausi/i, /\bdental\b/i,

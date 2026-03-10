@@ -126,6 +126,18 @@
     "source": "eventbrite"
   },
   {
+    "id": "cd5babb2b18c07ac",
+    "title": "ALOK",
+    "description": "at Lobero Theatre",
+    "date": "2026-03-10",
+    "time": "7:30 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "Lobero Theatre",
+    "externalUrl": "https://www.lobero.org/whats-on/monthly-calendar/",
+    "source": "lobero"
+  },
+  {
     "id": "2f57b473da1ca049",
     "title": "Silversun Pickups - Tenterhooks Tour",
     "description": "$41.5 — Show 7:30pmGA tickets are standing room only, with very limited seating available first come, first served.Ventura Music Hall Presents:SILVERSUN PICKUPSwith PURE HEX Silversun Pickups’ sixth album Physical Thrills came together as a serendipitous accident during a dark time. The LA band began 2020 b",
@@ -222,6 +234,18 @@
     "venue": "Ojai Deer Lodge",
     "externalUrl": "https://www.eventbrite.com/e/open-mic-night-at-ojai-deer-lodge-tickets-1965521419476",
     "source": "eventbrite"
+  },
+  {
+    "id": "3a299171611df427",
+    "title": "Tony Ybarra Presents: Nylon Roses",
+    "description": "at SOhO Restaurant & Music Club",
+    "date": "2026-03-11",
+    "time": "7:00 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "SOhO Restaurant & Music Club",
+    "externalUrl": "https://tickets.sohosb.com/",
+    "source": "soho"
   },
   {
     "id": "c55cc1fa538fb4b1",
@@ -383,6 +407,30 @@
     "source": "eventbrite"
   },
   {
+    "id": "51a02ce1bb18a371",
+    "title": "We the Beat Presents: Ray & Paul with Margot Sinclair",
+    "description": "at SOhO Restaurant & Music Club",
+    "date": "2026-03-12",
+    "time": "8:00 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "SOhO Restaurant & Music Club",
+    "externalUrl": "https://tickets.sohosb.com/",
+    "source": "soho"
+  },
+  {
+    "id": "485f72b3cd54d8f0",
+    "title": "Randall Goosby, violin",
+    "description": "at Lobero Theatre",
+    "date": "2026-03-12",
+    "time": "7:30 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "Lobero Theatre",
+    "externalUrl": "https://www.lobero.org/whats-on/monthly-calendar/",
+    "source": "lobero"
+  },
+  {
     "id": "612bff264a2705dc",
     "title": "cupcakKe",
     "description": "$65 — Show 9pmGA tickets are standing room only, with very limited seating available first come, first served.Ventura Music Hall Presents:CUPCAKKEwithDFO",
@@ -502,6 +550,30 @@
     "venue": "EOS Lounge",
     "externalUrl": "https://www.eventbrite.com/e/barbara-arias-neon-b-day-freakshow-tickets-1983973120009",
     "source": "eventbrite"
+  },
+  {
+    "id": "cfe3b5863e830ba4",
+    "title": "Funk it Up with Area 51!",
+    "description": "at SOhO Restaurant & Music Club",
+    "date": "2026-03-13",
+    "time": "8:30 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "SOhO Restaurant & Music Club",
+    "externalUrl": "https://tickets.sohosb.com/",
+    "source": "soho"
+  },
+  {
+    "id": "e8d358c6ca36fdef",
+    "title": "Electric Elton",
+    "description": "at Lobero Theatre",
+    "date": "2026-03-13",
+    "time": "7:30 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "Lobero Theatre",
+    "externalUrl": "https://www.lobero.org/whats-on/monthly-calendar/",
+    "source": "lobero"
   },
   {
     "id": "26bd283d58e66fb6",
@@ -713,14 +785,14 @@
     "source": "eventbrite"
   },
   {
-    "id": "2d2876cfc6a42ec6",
-    "title": "Jest Improv's Mainstage Improv Comedy Show: The Jesties & Besties Show!",
-    "description": "at The Bunker Theater",
+    "id": "e4b4522288f536c3",
+    "title": "Two-Prov Show",
+    "description": "at Jefferson Hall",
     "date": "2026-03-14",
     "category": "art",
-    "location": "Ventura",
-    "venue": "The Bunker Theater",
-    "externalUrl": "https://www.eventbrite.com/e/jest-improvs-mainstage-improv-comedy-show-the-jesties-besties-show-tickets-1977095858936",
+    "location": "Santa Barbara",
+    "venue": "Jefferson Hall",
+    "externalUrl": "https://www.eventbrite.com/e/two-prov-show-tickets-1982292206351",
     "source": "eventbrite"
   },
   {
@@ -744,6 +816,42 @@
     "venue": "Topa Topa Brewing Company",
     "externalUrl": "https://www.eventbrite.com.au/e/maap-equinox-experience-ojai-tickets-1984439749711",
     "source": "eventbrite"
+  },
+  {
+    "id": "3688bf0525d4e94a",
+    "title": "Canopy Club & PAKA Present: Soul Majestic and Selecta 7 Plus KnoLij Tafari",
+    "description": "at SOhO Restaurant & Music Club",
+    "date": "2026-03-14",
+    "time": "9:00 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "SOhO Restaurant & Music Club",
+    "externalUrl": "https://tickets.sohosb.com/",
+    "source": "soho"
+  },
+  {
+    "id": "782490f4c7dc3abe",
+    "title": "A Spring Celebration of Dance",
+    "description": "at Lobero Theatre",
+    "date": "2026-03-14",
+    "time": "6:00 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "Lobero Theatre",
+    "externalUrl": "https://www.lobero.org/whats-on/monthly-calendar/",
+    "source": "lobero"
+  },
+  {
+    "id": "2cd11659c1387efd",
+    "title": "Sage City Band",
+    "description": "Live music at Cold Spring Tavern",
+    "date": "2026-03-14",
+    "time": "1:30 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "Cold Spring Tavern",
+    "externalUrl": "https://www.coldspringtavern.com/entertainment/",
+    "source": "cold-spring-tavern"
   },
   {
     "id": "73d10823cc43ab80",
@@ -810,6 +918,41 @@
     "source": "third-window"
   },
   {
+    "id": "16e67bfd23eb4e41",
+    "title": "Young Singers Recital",
+    "description": "at SOhO Restaurant & Music Club",
+    "date": "2026-03-15",
+    "time": "5:30 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "SOhO Restaurant & Music Club",
+    "externalUrl": "https://tickets.sohosb.com/",
+    "source": "soho"
+  },
+  {
+    "id": "ee8856c1cdabc37a",
+    "title": "Youth Symphony",
+    "description": "at Lobero Theatre",
+    "date": "2026-03-15",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "Lobero Theatre",
+    "externalUrl": "https://www.lobero.org/whats-on/monthly-calendar/",
+    "source": "lobero"
+  },
+  {
+    "id": "d4be583ff59cb899",
+    "title": "Tom Ball and Kenny Sultan",
+    "description": "Live music at Cold Spring Tavern",
+    "date": "2026-03-15",
+    "time": "1:30 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "Cold Spring Tavern",
+    "externalUrl": "https://www.coldspringtavern.com/entertainment/",
+    "source": "cold-spring-tavern"
+  },
+  {
     "id": "169acc8f097ab6f9",
     "title": "Taproom Special: Industry Appreciation",
     "description": "Work in the food or bar industry? Need a break after the busy weekend rush? Then come on down to Topa Topa's Downtown Ventura location to get 2 for 1 pints all day! We know just how hard you work to serve those in your community, you deserve a beer ;)\nMust bring recent paystub to verify industry emp",
@@ -847,6 +990,18 @@
     "externalUrl": "https://topatopa.beer/pages/happenings",
     "instagramHandle": "@topatopabrewingco",
     "source": "eventcalendarapp-topa-topa-ventura"
+  },
+  {
+    "id": "8d63d760811fa427",
+    "title": "Young Singers Recital",
+    "description": "at SOhO Restaurant & Music Club",
+    "date": "2026-03-16",
+    "time": "5:30 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "SOhO Restaurant & Music Club",
+    "externalUrl": "https://tickets.sohosb.com/",
+    "source": "soho"
   },
   {
     "id": "e7fb65c8546d6a86",
@@ -909,7 +1064,7 @@
     "category": "beer",
     "location": "Ventura",
     "venue": "MadeWest Brewing",
-    "externalUrl": "https://topatopa.beer/pages/happenings",
+    "externalUrl": "https://madewest.com",
     "instagramHandle": "@madewestbeer",
     "source": "eventcalendarapp-madewest"
   },
@@ -936,6 +1091,18 @@
     "venue": "Mission Audio Video",
     "externalUrl": "https://www.eventbrite.com/e/st-patricks-day-construction-happy-hour-tickets-1983597223693",
     "source": "eventbrite"
+  },
+  {
+    "id": "637e302c0b99a192",
+    "title": "St. Patrick's Day Bash: Spencer & the Worried Lads",
+    "description": "at SOhO Restaurant & Music Club",
+    "date": "2026-03-17",
+    "time": "6:00 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "SOhO Restaurant & Music Club",
+    "externalUrl": "https://tickets.sohosb.com/",
+    "source": "soho"
   },
   {
     "id": "cd613a85d8afce81",
@@ -1010,6 +1177,18 @@
     "venue": "CEC's Environmental Hub",
     "externalUrl": "https://www.eventbrite.com/e/aiasb-march-general-meeting-tickets-1983995944277",
     "source": "eventbrite"
+  },
+  {
+    "id": "8763f981bf0bbab8",
+    "title": "Salvidoria and Horse to Water",
+    "description": "at SOhO Restaurant & Music Club",
+    "date": "2026-03-18",
+    "time": "8:00 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "SOhO Restaurant & Music Club",
+    "externalUrl": "https://tickets.sohosb.com/",
+    "source": "soho"
   },
   {
     "id": "e866b0efa76e17e2",
@@ -1098,14 +1277,16 @@
     "source": "eventbrite"
   },
   {
-    "id": "14582fdc00e1988c",
-    "title": "An Evening with Kate Bowler and Jen Garner",
-    "description": "",
+    "id": "90ca60f6dc8d83aa",
+    "title": "Nefesh Mountain",
+    "description": "at SOhO Restaurant & Music Club",
     "date": "2026-03-19",
+    "time": "8:00 PM",
     "category": "art",
-    "location": "Ventura",
-    "externalUrl": "https://www.eventbrite.com/e/an-evening-with-kate-bowler-and-jen-garner-tickets-1982794546865",
-    "source": "eventbrite"
+    "location": "Santa Barbara",
+    "venue": "SOhO Restaurant & Music Club",
+    "externalUrl": "https://tickets.sohosb.com/",
+    "source": "soho"
   },
   {
     "id": "b780a69803cdf715",
@@ -1156,6 +1337,18 @@
     "externalUrl": "https://thirdwindowbrewing.com/pages/events",
     "instagramHandle": "@thirdwindowbrewing",
     "source": "third-window"
+  },
+  {
+    "id": "ff800cc07468ac0e",
+    "title": "False Puppet and The Framers",
+    "description": "at SOhO Restaurant & Music Club",
+    "date": "2026-03-20",
+    "time": "8:00 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "SOhO Restaurant & Music Club",
+    "externalUrl": "https://tickets.sohosb.com/",
+    "source": "soho"
   },
   {
     "id": "6505a0308a356b07",
@@ -1307,15 +1500,51 @@
     "source": "eventbrite"
   },
   {
-    "id": "f8de39860b9e4e1d",
-    "title": "Standing Room: A Standup Showcase",
-    "description": "at The Bunker Theater",
+    "id": "36f9e9dbc8b82bb5",
+    "title": "The Moon And Broken Glass",
+    "description": "at SOhO Restaurant & Music Club",
+    "date": "2026-03-21",
+    "time": "5:30 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "SOhO Restaurant & Music Club",
+    "externalUrl": "https://tickets.sohosb.com/",
+    "source": "soho"
+  },
+  {
+    "id": "3d5c524ce448ba72",
+    "title": "ME Sabor Presents: Orquesta Latin Sol Salsa Night",
+    "description": "at SOhO Restaurant & Music Club",
+    "date": "2026-03-21",
+    "time": "9:00 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "SOhO Restaurant & Music Club",
+    "externalUrl": "https://tickets.sohosb.com/",
+    "source": "soho"
+  },
+  {
+    "id": "db14cf6e6bb17efb",
+    "title": "RECESS!",
+    "description": "at Lobero Theatre",
     "date": "2026-03-21",
     "category": "art",
-    "location": "Ventura",
-    "venue": "The Bunker Theater",
-    "externalUrl": "https://www.eventbrite.com/e/standing-room-a-standup-showcase-tickets-1984440824927",
-    "source": "eventbrite"
+    "location": "Santa Barbara",
+    "venue": "Lobero Theatre",
+    "externalUrl": "https://www.lobero.org/whats-on/monthly-calendar/",
+    "source": "lobero"
+  },
+  {
+    "id": "52a3741b43d08898",
+    "title": "Free Radicals",
+    "description": "Live music at Cold Spring Tavern",
+    "date": "2026-03-21",
+    "time": "1:30 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "Cold Spring Tavern",
+    "externalUrl": "https://www.coldspringtavern.com/entertainment/",
+    "source": "cold-spring-tavern"
   },
   {
     "id": "7b952bab27c19777",
@@ -1404,6 +1633,30 @@
     "venue": "Majestic Ventura Theater",
     "externalUrl": "https://www.bandsintown.com/t/1037193424?app_id=js_local&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket",
     "source": "bandsintown"
+  },
+  {
+    "id": "c1c73f3b3e91198f",
+    "title": "Kim Collin's Jazz Combo Workshop",
+    "description": "at SOhO Restaurant & Music Club",
+    "date": "2026-03-22",
+    "time": "12:00 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "SOhO Restaurant & Music Club",
+    "externalUrl": "https://tickets.sohosb.com/",
+    "source": "soho"
+  },
+  {
+    "id": "252f2b388afb30a9",
+    "title": "Tom Ball and Kenny Sultan",
+    "description": "Live music at Cold Spring Tavern",
+    "date": "2026-03-22",
+    "time": "1:30 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "Cold Spring Tavern",
+    "externalUrl": "https://www.coldspringtavern.com/entertainment/",
+    "source": "cold-spring-tavern"
   },
   {
     "id": "7b728df225c7f4bc",
@@ -1510,6 +1763,18 @@
     "source": "eventcalendarapp-topa-topa-ojai"
   },
   {
+    "id": "2f254f30f1cc9c48",
+    "title": "The Motet with Michael Wilbur",
+    "description": "at SOhO Restaurant & Music Club",
+    "date": "2026-03-24",
+    "time": "8:00 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "SOhO Restaurant & Music Club",
+    "externalUrl": "https://tickets.sohosb.com/",
+    "source": "soho"
+  },
+  {
     "id": "ea52ae642b61bf0e",
     "title": "Food Truck: NICK'S SMASH BURGERS",
     "description": "Come grabs some cold brews and great smash burgers!",
@@ -1595,6 +1860,30 @@
     "externalUrl": "https://thirdwindowbrewing.com/pages/events",
     "instagramHandle": "@thirdwindowbrewing",
     "source": "third-window"
+  },
+  {
+    "id": "600e88e0cf7159b7",
+    "title": "Dreamland- A Tribute to the Music of Joni Mitchell feat. Kimberly Ford",
+    "description": "at SOhO Restaurant & Music Club",
+    "date": "2026-03-26",
+    "time": "7:30 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "SOhO Restaurant & Music Club",
+    "externalUrl": "https://tickets.sohosb.com/",
+    "source": "soho"
+  },
+  {
+    "id": "28f85c135f7baa62",
+    "title": "Cristela Alonzo",
+    "description": "at Lobero Theatre",
+    "date": "2026-03-26",
+    "time": "7:30 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "Lobero Theatre",
+    "externalUrl": "https://www.lobero.org/whats-on/monthly-calendar/",
+    "source": "lobero"
   },
   {
     "id": "909a7cb63d6e4c10",
@@ -1857,6 +2146,30 @@
     "source": "eventbrite"
   },
   {
+    "id": "1f51fb8f2858ae87",
+    "title": "Booker T. Jones",
+    "description": "at Lobero Theatre",
+    "date": "2026-03-28",
+    "time": "7:30 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "Lobero Theatre",
+    "externalUrl": "https://www.lobero.org/whats-on/monthly-calendar/",
+    "source": "lobero"
+  },
+  {
+    "id": "461ad878245ef0eb",
+    "title": "Brian Kinsella Band",
+    "description": "Live music at Cold Spring Tavern",
+    "date": "2026-03-28",
+    "time": "1:30 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "Cold Spring Tavern",
+    "externalUrl": "https://www.coldspringtavern.com/entertainment/",
+    "source": "cold-spring-tavern"
+  },
+  {
     "id": "4c18ba7c9307245c",
     "title": "Football Sundays, Open at 10!",
     "description": "Come join us for NFL Football in the Taproom!",
@@ -1892,6 +2205,18 @@
     "externalUrl": "https://thirdwindowbrewing.com/pages/events",
     "instagramHandle": "@thirdwindowbrewing",
     "source": "third-window"
+  },
+  {
+    "id": "c647db510b96af82",
+    "title": "Teresa Russell",
+    "description": "Live music at Cold Spring Tavern",
+    "date": "2026-03-29",
+    "time": "1:30 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "Cold Spring Tavern",
+    "externalUrl": "https://www.coldspringtavern.com/entertainment/",
+    "source": "cold-spring-tavern"
   },
   {
     "id": "13c93615faca25ef",
@@ -1942,6 +2267,30 @@
     "venue": "Harmon Canyon Preserve",
     "externalUrl": "https://www.eventbrite.com/e/2026-harmon-canyon-hike-club-tickets-1980574262936",
     "source": "eventbrite"
+  },
+  {
+    "id": "5c615193e90d6e20",
+    "title": "An Evening with The Black Market Trust",
+    "description": "at SOhO Restaurant & Music Club",
+    "date": "2026-03-30",
+    "time": "7:00 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "SOhO Restaurant & Music Club",
+    "externalUrl": "https://tickets.sohosb.com/",
+    "source": "soho"
+  },
+  {
+    "id": "7f57c7ceebf79898",
+    "title": "Keb’ Mo’",
+    "description": "at Lobero Theatre",
+    "date": "2026-03-30",
+    "time": "7:30 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "Lobero Theatre",
+    "externalUrl": "https://www.lobero.org/whats-on/monthly-calendar/",
+    "source": "lobero"
   },
   {
     "id": "82eea49890c94abf",
@@ -2009,6 +2358,18 @@
     "source": "leashless"
   },
   {
+    "id": "0c1bade18c8ef65f",
+    "title": "A River Runs Through It",
+    "description": "at Lobero Theatre",
+    "date": "2026-03-31",
+    "time": "6:15 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "Lobero Theatre",
+    "externalUrl": "https://www.lobero.org/whats-on/monthly-calendar/",
+    "source": "lobero"
+  },
+  {
     "id": "c256b8473da9a873",
     "title": "The Menzingers",
     "description": "$32 — Show 8pmGA tickets are standing room only, with very limited seating available first come, first served.Ventura Music Hall Presents:THE MENZINGERSwith I AM THE AVALANCHEAt this point, the Menzingers are an absolute institution. The Philadelphia punk legends’ multi-decade reputation as road warriors ",
@@ -2061,14 +2422,16 @@
     "source": "eventcalendarapp-topa-topa-santa-barbara"
   },
   {
-    "id": "302dab07684f8cc4",
-    "title": "NASA's Artemis II Mission Launch",
-    "description": "",
+    "id": "b7e0e45d635c0143",
+    "title": "Justin Hayward",
+    "description": "at Lobero Theatre",
     "date": "2026-04-01",
+    "time": "7:30 PM",
     "category": "art",
-    "location": "Ventura",
-    "externalUrl": "https://www.eventbrite.com/e/nasas-artemis-ii-mission-launch-registration-1074571685839",
-    "source": "eventbrite"
+    "location": "Santa Barbara",
+    "venue": "Lobero Theatre",
+    "externalUrl": "https://www.lobero.org/whats-on/monthly-calendar/",
+    "source": "lobero"
   },
   {
     "id": "c5c6b311282ffa09",
@@ -2119,6 +2482,18 @@
     "externalUrl": "https://thirdwindowbrewing.com/pages/events",
     "instagramHandle": "@thirdwindowbrewing",
     "source": "third-window"
+  },
+  {
+    "id": "92a7304022f62196",
+    "title": "Donavon Frankenreiter",
+    "description": "at Lobero Theatre",
+    "date": "2026-04-02",
+    "time": "7:30 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "Lobero Theatre",
+    "externalUrl": "https://www.lobero.org/whats-on/monthly-calendar/",
+    "source": "lobero"
   },
   {
     "id": "2b7930684c6cea64",
@@ -2180,6 +2555,18 @@
     "venue": "3451 Foothill Rd",
     "externalUrl": "https://www.eventbrite.com/e/the-starving-artist-cabaret-tickets-1982410455036",
     "source": "eventbrite"
+  },
+  {
+    "id": "e587bca4af932746",
+    "title": "Lele Aloha presents Lahaina: Voices of Change",
+    "description": "at Lobero Theatre",
+    "date": "2026-04-03",
+    "time": "7:30 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "Lobero Theatre",
+    "externalUrl": "https://www.lobero.org/whats-on/monthly-calendar/",
+    "source": "lobero"
   },
   {
     "id": "160b03dd797dc3b2",
@@ -2278,6 +2665,18 @@
     "location": "Santa Barbara",
     "externalUrl": "https://www.bandsintown.com/e/107995343?app_id=js_local&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
     "source": "bandsintown"
+  },
+  {
+    "id": "37c04c29ec76ef4c",
+    "title": "Richard Thompson with Zara Phillips",
+    "description": "at Lobero Theatre",
+    "date": "2026-04-04",
+    "time": "7:30 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "Lobero Theatre",
+    "externalUrl": "https://www.lobero.org/whats-on/monthly-calendar/",
+    "source": "lobero"
   },
   {
     "id": "9a557e81183a1fd7",
@@ -2599,6 +2998,18 @@
     "source": "third-window"
   },
   {
+    "id": "b3d089700a01f05b",
+    "title": "Benefit Concert for the More Mesa Preservation Coalition",
+    "description": "at Lobero Theatre",
+    "date": "2026-04-09",
+    "time": "7:30 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "Lobero Theatre",
+    "externalUrl": "https://www.lobero.org/whats-on/monthly-calendar/",
+    "source": "lobero"
+  },
+  {
     "id": "b3d7dc51524da079",
     "title": "Paul Thorn with special guest Will Hoge | Fully Seated",
     "description": "$45 — Show 8pmFULLY SEATED Ventura Music Hall Presents:PAUL THORNwith Special Guest WILL HOGEWhen it comes to songwriting, less is more, and simplicity is strength. Just ask Paul Thorn,  who’s spent three decades turning soulful grooves and small syllables into songs that pack a big  wallop. Maybe he lear",
@@ -2673,6 +3084,18 @@
     "externalUrl": "https://thirdwindowbrewing.com/pages/events",
     "instagramHandle": "@thirdwindowbrewing",
     "source": "third-window"
+  },
+  {
+    "id": "656037afff21798b",
+    "title": "Emo Kids",
+    "description": "at SOhO Restaurant & Music Club",
+    "date": "2026-04-10",
+    "time": "8:00 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "SOhO Restaurant & Music Club",
+    "externalUrl": "https://tickets.sohosb.com/",
+    "source": "soho"
   },
   {
     "id": "8d7e90d4bf1410dc",
@@ -2858,6 +3281,29 @@
     "externalUrl": "https://thirdwindowbrewing.com/pages/events",
     "instagramHandle": "@thirdwindowbrewing",
     "source": "third-window"
+  },
+  {
+    "id": "a17cf0e8f59b14b6",
+    "title": "An Evening with Garrison Starr & Abby Posner",
+    "description": "at SOhO Restaurant & Music Club",
+    "date": "2026-04-12",
+    "time": "7:30 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "SOhO Restaurant & Music Club",
+    "externalUrl": "https://tickets.sohosb.com/",
+    "source": "soho"
+  },
+  {
+    "id": "dcfc3365ace3ffb0",
+    "title": "Prime Time Band Spring Concert: Legendary Movie Music and More",
+    "description": "at Lobero Theatre",
+    "date": "2026-04-12",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "Lobero Theatre",
+    "externalUrl": "https://www.lobero.org/whats-on/monthly-calendar/",
+    "source": "lobero"
   },
   {
     "id": "f6282438c0445a4c",
@@ -3114,6 +3560,17 @@
     "source": "third-window"
   },
   {
+    "id": "4690fd607b959907",
+    "title": "Hats Off, Boots On",
+    "description": "at Lobero Theatre",
+    "date": "2026-04-17",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "Lobero Theatre",
+    "externalUrl": "https://www.lobero.org/whats-on/monthly-calendar/",
+    "source": "lobero"
+  },
+  {
     "id": "eae0bbe36501703a",
     "title": "Pentagram",
     "description": "$28 — Show 9pmGA tickets are standing room only, with very limited seating available first come, first served. Ventura Music Hall Presents:PENTAGRAM",
@@ -3247,6 +3704,17 @@
     "source": "eventbrite"
   },
   {
+    "id": "891c486402ca905a",
+    "title": "Nerf Herder",
+    "description": "at Lobero Theatre",
+    "date": "2026-04-18",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "Lobero Theatre",
+    "externalUrl": "https://www.lobero.org/whats-on/monthly-calendar/",
+    "source": "lobero"
+  },
+  {
     "id": "0e3ca7246185f7e1",
     "title": "The Paradise Kings",
     "description": "Free, all ages show.The Paradise Kings play a variety of cover and original material that includes rock, blues, and a few swing tunes that will make you want to dance!The Santa Barbara based band has been performing for many years and is currently booking gigs for wineries, corporate events, local venues, private house parties, festivals, opening acts for blues shows and more.",
@@ -3297,6 +3765,17 @@
     "source": "third-window"
   },
   {
+    "id": "ecbfd969d508862b",
+    "title": "AHA! Sing It Out!",
+    "description": "at Lobero Theatre",
+    "date": "2026-04-19",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "Lobero Theatre",
+    "externalUrl": "https://www.lobero.org/whats-on/monthly-calendar/",
+    "source": "lobero"
+  },
+  {
     "id": "7921efe3820b151a",
     "title": "Taproom Special: Industry Appreciation",
     "description": "Work in the food or bar industry? Need a break after the busy weekend rush? Then come on down to Topa Topa's Downtown Ventura location to get 2 for 1 pints all day! We know just how hard you work to serve those in your community, you deserve a beer ;)\nMust bring recent paystub to verify industry emp",
@@ -3334,6 +3813,30 @@
     "externalUrl": "https://topatopa.beer/pages/happenings",
     "instagramHandle": "@topatopabrewingco",
     "source": "eventcalendarapp-topa-topa-ventura"
+  },
+  {
+    "id": "1a223679fe93e338",
+    "title": "4/20 with 10 ft. Ganja Plant feat. Rastan and Double Tiger",
+    "description": "at SOhO Restaurant & Music Club",
+    "date": "2026-04-20",
+    "time": "8:00 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "SOhO Restaurant & Music Club",
+    "externalUrl": "https://tickets.sohosb.com/e/10-ft-ganja-plant-with-rastan-and-double-tiger-soh",
+    "source": "soho"
+  },
+  {
+    "id": "7f3037db00a911f6",
+    "title": "Journey through Jazz",
+    "description": "at Lobero Theatre",
+    "date": "2026-04-20",
+    "time": "7:15 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "Lobero Theatre",
+    "externalUrl": "https://www.lobero.org/whats-on/monthly-calendar/",
+    "source": "lobero"
   },
   {
     "id": "14fa90f6cea37df6",
@@ -3412,6 +3915,17 @@
     "externalUrl": "https://topatopa.beer/pages/happenings",
     "instagramHandle": "@topatopabrewingco",
     "source": "eventcalendarapp-topa-topa-ojai"
+  },
+  {
+    "id": "04810ad50c7dcb14",
+    "title": "Drew & Ellie Holcomb",
+    "description": "at Lobero Theatre",
+    "date": "2026-04-21",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "Lobero Theatre",
+    "externalUrl": "https://www.lobero.org/whats-on/monthly-calendar/",
+    "source": "lobero"
   },
   {
     "id": "c3e29571455a5857",
@@ -3501,6 +4015,30 @@
     "externalUrl": "https://thirdwindowbrewing.com/pages/events",
     "instagramHandle": "@thirdwindowbrewing",
     "source": "third-window"
+  },
+  {
+    "id": "0d89a145e340e4d0",
+    "title": "An Evening with The Mother Hips",
+    "description": "at SOhO Restaurant & Music Club",
+    "date": "2026-04-23",
+    "time": "8:00 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "SOhO Restaurant & Music Club",
+    "externalUrl": "https://tickets.sohosb.com/",
+    "source": "soho"
+  },
+  {
+    "id": "043429c24480028f",
+    "title": "Riders of the Purple Sage",
+    "description": "at Lobero Theatre",
+    "date": "2026-04-23",
+    "time": "7:30 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "Lobero Theatre",
+    "externalUrl": "https://www.lobero.org/whats-on/monthly-calendar/",
+    "source": "lobero"
   },
   {
     "id": "df06b18318ac95f3",
@@ -3663,6 +4201,18 @@
     "venue": "Soule Park Golf Course",
     "externalUrl": "https://www.eventbrite.com/e/spring-festival-at-soule-park-registration-1979984277273",
     "source": "eventbrite"
+  },
+  {
+    "id": "ad415e25ee17485d",
+    "title": "Hot Club of Los Angeles",
+    "description": "at SOhO Restaurant & Music Club",
+    "date": "2026-04-25",
+    "time": "6:30 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "SOhO Restaurant & Music Club",
+    "externalUrl": "https://tickets.sohosb.com/",
+    "source": "soho"
   },
   {
     "id": "82471db4aabf5213",
@@ -3928,6 +4478,18 @@
     "externalUrl": "https://thirdwindowbrewing.com/pages/events",
     "instagramHandle": "@thirdwindowbrewing",
     "source": "third-window"
+  },
+  {
+    "id": "25aae16b6eedd666",
+    "title": "Elmer Gantry",
+    "description": "at Lobero Theatre",
+    "date": "2026-05-01",
+    "time": "7:30 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "Lobero Theatre",
+    "externalUrl": "https://www.lobero.org/whats-on/monthly-calendar/",
+    "source": "lobero"
   },
   {
     "id": "b0aaf97dbdde3c35",
@@ -4234,6 +4796,18 @@
     "source": "eventcalendarapp-topa-topa-ojai"
   },
   {
+    "id": "d05ce9f7d2f6c4d8",
+    "title": "Pat Metheny",
+    "description": "at Lobero Theatre",
+    "date": "2026-05-05",
+    "time": "7:30 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "Lobero Theatre",
+    "externalUrl": "https://www.lobero.org/whats-on/monthly-calendar/",
+    "source": "lobero"
+  },
+  {
     "id": "5c876e864f03d33d",
     "title": "James Taylor",
     "description": "🎟️ Ticketing &amp; Sales AXS is the official ticketing partner for the Santa Barbara Bowl. All ticket links redirect to AXS. AXS Premium tickets are limited, market-driven-priced seats available only through AXS.com. AXS Official Resale is a secure platform for reselling and buying tickets—even for",
@@ -4382,6 +4956,18 @@
     "externalUrl": "https://thirdwindowbrewing.com/pages/events",
     "instagramHandle": "@thirdwindowbrewing",
     "source": "third-window"
+  },
+  {
+    "id": "9fe404166105c464",
+    "title": "Chaplin",
+    "description": "at Lobero Theatre",
+    "date": "2026-05-08",
+    "time": "7:30 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "Lobero Theatre",
+    "externalUrl": "https://www.lobero.org/whats-on/monthly-calendar/",
+    "source": "lobero"
   },
   {
     "id": "ced9b8a9c509c09a",
@@ -4588,6 +5174,18 @@
     "source": "eventcalendarapp-topa-topa-santa-barbara"
   },
   {
+    "id": "b1a3649ab82583ec",
+    "title": "Jim Messina",
+    "description": "at Lobero Theatre",
+    "date": "2026-05-12",
+    "time": "7:30 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "Lobero Theatre",
+    "externalUrl": "https://www.lobero.org/whats-on/monthly-calendar/",
+    "source": "lobero"
+  },
+  {
     "id": "a0567849c3f5da30",
     "title": "Food Truck: NICK'S SMASH BURGERS",
     "description": "Come grabs some cold brews and great smash burgers!",
@@ -4675,6 +5273,30 @@
     "externalUrl": "https://thirdwindowbrewing.com/pages/events",
     "instagramHandle": "@thirdwindowbrewing",
     "source": "third-window"
+  },
+  {
+    "id": "f72fc5a351c764cc",
+    "title": "The Heavy Heavy with Lou Hazel",
+    "description": "at SOhO Restaurant & Music Club",
+    "date": "2026-05-14",
+    "time": "7:00 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "SOhO Restaurant & Music Club",
+    "externalUrl": "https://tickets.sohosb.com/",
+    "source": "soho"
+  },
+  {
+    "id": "afb439512cdeab51",
+    "title": "Lizz Wright",
+    "description": "at Lobero Theatre",
+    "date": "2026-05-14",
+    "time": "7:30 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "Lobero Theatre",
+    "externalUrl": "https://www.lobero.org/whats-on/monthly-calendar/",
+    "source": "lobero"
   },
   {
     "id": "f595abd8eb4f994d",
@@ -5270,6 +5892,17 @@
     "source": "third-window"
   },
   {
+    "id": "208fd48bb87e2ebd",
+    "title": "Santa Barbara Symphony Youth Ensembles",
+    "description": "at Lobero Theatre",
+    "date": "2026-05-24",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "Lobero Theatre",
+    "externalUrl": "https://www.lobero.org/whats-on/monthly-calendar/",
+    "source": "lobero"
+  },
+  {
     "id": "0c58eab12c9c650d",
     "title": "Taproom Special: Industry Appreciation",
     "description": "Work in the food or bar industry? Need a break after the busy weekend rush? Then come on down to Topa Topa's Downtown Ventura location to get 2 for 1 pints all day! We know just how hard you work to serve those in your community, you deserve a beer ;)\nMust bring recent paystub to verify industry emp",
@@ -5437,6 +6070,18 @@
     "source": "third-window"
   },
   {
+    "id": "5536481b45db4c31",
+    "title": "Gerald Clayton Trio",
+    "description": "at Lobero Theatre",
+    "date": "2026-05-28",
+    "time": "7:30 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "Lobero Theatre",
+    "externalUrl": "https://www.lobero.org/whats-on/monthly-calendar/",
+    "source": "lobero"
+  },
+  {
     "id": "63d1bef136cf9407",
     "title": "Third World",
     "description": "$25 — Show 9pmGA tickets are standing room only, with very limited seating available first come, first served.Ventura Music Hall Presents:THIRD WORLD",
@@ -5486,6 +6131,18 @@
     "externalUrl": "https://thirdwindowbrewing.com/pages/events",
     "instagramHandle": "@thirdwindowbrewing",
     "source": "third-window"
+  },
+  {
+    "id": "2b7c16fdfe2888e7",
+    "title": "British Beat: The Legends of 60s British Rock",
+    "description": "at Lobero Theatre",
+    "date": "2026-05-29",
+    "time": "7:30 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "Lobero Theatre",
+    "externalUrl": "https://www.lobero.org/whats-on/monthly-calendar/",
+    "source": "lobero"
   },
   {
     "id": "4f19fc7b48f8f969",
@@ -5806,6 +6463,18 @@
     "source": "third-window"
   },
   {
+    "id": "ca0e96ef74b944a5",
+    "title": "Sam Grisman Project",
+    "description": "at Lobero Theatre",
+    "date": "2026-06-04",
+    "time": "7:30 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "Lobero Theatre",
+    "externalUrl": "https://www.lobero.org/whats-on/monthly-calendar/",
+    "source": "lobero"
+  },
+  {
     "id": "1824516e304b253a",
     "title": "The Lagoons",
     "description": "$22 — Show 9pmAll AgesVentura Music Hall Presents:THE LAGOONS",
@@ -5842,6 +6511,18 @@
     "externalUrl": "https://thirdwindowbrewing.com/pages/events",
     "instagramHandle": "@thirdwindowbrewing",
     "source": "third-window"
+  },
+  {
+    "id": "85cd295092c537a7",
+    "title": "Christopher Cross",
+    "description": "at Lobero Theatre",
+    "date": "2026-06-05",
+    "time": "7:30 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "Lobero Theatre",
+    "externalUrl": "https://www.lobero.org/whats-on/monthly-calendar/",
+    "source": "lobero"
   },
   {
     "id": "b3fb46d3c52db478",
@@ -6134,6 +6815,18 @@
     "externalUrl": "https://thirdwindowbrewing.com/pages/events",
     "instagramHandle": "@thirdwindowbrewing",
     "source": "third-window"
+  },
+  {
+    "id": "47d1cf31b63a4d95",
+    "title": "Starring Matt Stone",
+    "description": "at Lobero Theatre",
+    "date": "2026-06-11",
+    "time": "7:30 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "Lobero Theatre",
+    "externalUrl": "https://www.lobero.org/whats-on/monthly-calendar/",
+    "source": "lobero"
   },
   {
     "id": "d249686c49c1eba9",
@@ -6477,6 +7170,18 @@
     "externalUrl": "https://thirdwindowbrewing.com/pages/events",
     "instagramHandle": "@thirdwindowbrewing",
     "source": "third-window"
+  },
+  {
+    "id": "a6e5121cf25df58d",
+    "title": "Branford Marsalis Quartet",
+    "description": "at Lobero Theatre",
+    "date": "2026-06-18",
+    "time": "7:30 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "Lobero Theatre",
+    "externalUrl": "https://www.lobero.org/whats-on/monthly-calendar/",
+    "source": "lobero"
   },
   {
     "id": "aa4aae90a68de35b",
@@ -7361,6 +8066,17 @@
     "externalUrl": "https://venturaraceway.com/printable-schedule/",
     "instagramHandle": "@venturaraceway",
     "source": "ventura-raceway"
+  },
+  {
+    "id": "c7b953fdbd7b165a",
+    "title": "The Magical Music of Motown",
+    "description": "at Lobero Theatre",
+    "date": "2026-07-11",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "Lobero Theatre",
+    "externalUrl": "https://www.lobero.org/whats-on/monthly-calendar/",
+    "source": "lobero"
   },
   {
     "id": "be423135c459a82e",
@@ -9784,6 +10500,18 @@
     "source": "eventcalendarapp-topa-topa-santa-barbara"
   },
   {
+    "id": "a559d54b5b14d077",
+    "title": "CROCE PLAYS CROCE:",
+    "description": "at Lobero Theatre",
+    "date": "2026-09-23",
+    "time": "7:30 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "Lobero Theatre",
+    "externalUrl": "https://www.lobero.org/whats-on/monthly-calendar/",
+    "source": "lobero"
+  },
+  {
     "id": "9d15f8bc54edd091",
     "title": "Black Dog Trivia ",
     "description": "Come test your knowledge with Black Dog Trivia",
@@ -10132,6 +10860,18 @@
     "source": "eventcalendarapp-topa-topa-ventura"
   },
   {
+    "id": "a81e0a9d25b86145",
+    "title": "Trae Crowder",
+    "description": "at Lobero Theatre",
+    "date": "2026-10-10",
+    "time": "7:30 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "Lobero Theatre",
+    "externalUrl": "https://www.lobero.org/whats-on/monthly-calendar/",
+    "source": "lobero"
+  },
+  {
     "id": "36ad906df85a5aae",
     "title": "Football Sundays, Open at 10!",
     "description": "Come join us for NFL Football in the Taproom!",
@@ -10169,6 +10909,18 @@
     "externalUrl": "https://topatopa.beer/pages/happenings",
     "instagramHandle": "@topatopabrewingco",
     "source": "eventcalendarapp-topa-topa-ventura"
+  },
+  {
+    "id": "64304dae024dd818",
+    "title": "The Rush Tribute Project",
+    "description": "at Lobero Theatre",
+    "date": "2026-10-12",
+    "time": "7:30 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "Lobero Theatre",
+    "externalUrl": "https://www.lobero.org/whats-on/monthly-calendar/",
+    "source": "lobero"
   },
   {
     "id": "cc569778b51c6410",
@@ -10401,6 +11153,18 @@
     "externalUrl": "https://topatopa.beer/pages/happenings",
     "instagramHandle": "@topatopabrewingco",
     "source": "eventcalendarapp-topa-topa-santa-barbara"
+  },
+  {
+    "id": "bdd7816187f1f468",
+    "title": "Julian Lage Quartet",
+    "description": "at Lobero Theatre",
+    "date": "2026-10-22",
+    "time": "7:30 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "Lobero Theatre",
+    "externalUrl": "https://www.lobero.org/whats-on/monthly-calendar/",
+    "source": "lobero"
   },
   {
     "id": "97aee9ba21d5763b",
@@ -10674,6 +11438,18 @@
     "externalUrl": "https://topatopa.beer/pages/happenings",
     "instagramHandle": "@topatopabrewingco",
     "source": "eventcalendarapp-topa-topa-santa-barbara"
+  },
+  {
+    "id": "d2bac693f711659d",
+    "title": "Rigoletto",
+    "description": "at Lobero Theatre",
+    "date": "2026-11-06",
+    "time": "7:30 PM",
+    "category": "art",
+    "location": "Santa Barbara",
+    "venue": "Lobero Theatre",
+    "externalUrl": "https://www.lobero.org/whats-on/monthly-calendar/",
+    "source": "lobero"
   },
   {
     "id": "ce099411aaa1c80d",

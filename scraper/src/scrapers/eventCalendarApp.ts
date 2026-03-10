@@ -9,6 +9,7 @@ interface ECAWidget {
   venue: string;
   location: 'Ventura' | 'Santa Barbara' | 'Ojai';
   instagramHandle?: string;
+  fallbackUrl: string;
 }
 
 const WIDGETS: ECAWidget[] = [
@@ -19,6 +20,7 @@ const WIDGETS: ECAWidget[] = [
     venue: 'Topa Topa Brewing - Ventura',
     location: 'Ventura',
     instagramHandle: '@topatopabrewingco',
+    fallbackUrl: 'https://topatopa.beer/pages/happenings',
   },
   {
     name: 'Topa Topa Santa Barbara',
@@ -27,6 +29,7 @@ const WIDGETS: ECAWidget[] = [
     venue: 'Topa Topa Brewing - Santa Barbara',
     location: 'Santa Barbara',
     instagramHandle: '@topatopabrewingco',
+    fallbackUrl: 'https://topatopa.beer/pages/happenings',
   },
   {
     name: 'Topa Topa Ojai',
@@ -35,6 +38,7 @@ const WIDGETS: ECAWidget[] = [
     venue: 'Topa Topa Brewing - Ojai',
     location: 'Ojai',
     instagramHandle: '@topatopabrewingco',
+    fallbackUrl: 'https://topatopa.beer/pages/happenings',
   },
   {
     name: 'MadeWest',
@@ -43,6 +47,7 @@ const WIDGETS: ECAWidget[] = [
     venue: 'MadeWest Brewing',
     location: 'Ventura',
     instagramHandle: '@madewestbeer',
+    fallbackUrl: 'https://madewest.com',
   },
 ];
 
@@ -135,7 +140,7 @@ async function scrapeWidget(widget: ECAWidget): Promise<ScrapedEvent[]> {
       category: 'beer',
       location: widget.location,
       venue: widget.venue,
-      externalUrl: raw.ticketsLink || 'https://topatopa.beer/pages/happenings',
+      externalUrl: raw.ticketsLink || widget.fallbackUrl,
       instagramHandle: widget.instagramHandle,
       source: `eventcalendarapp-${widget.name.toLowerCase().replace(/\s+/g, '-')}`,
     });
