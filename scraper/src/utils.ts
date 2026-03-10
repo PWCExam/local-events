@@ -157,6 +157,13 @@ const OFF_TOPIC_PATTERNS = [
   /\bannoncer une mauvaise/i, /\bmémoire.*oublis/i,
   /\bcírculo de apoyo\b/i, /\bcírculo de mujeres\b/i,
 
+  // Crafts / DIY / art classes
+  /\bbejewel/i, /\bjewelry\s*(making|class|workshop)/i,
+  /\bcrafting\b/i, /\bcraft\s+(night|class|workshop)/i,
+  /\bscrapbook/i, /\bcalligraphy\b/i, /\bpottery\b/i,
+  /\bwatercolor/i, /\bpainting\s*(class|workshop|lesson)/i,
+  /\bdrawing\s*(class|workshop|lesson)/i, /\bart\s*(class|workshop|lesson)/i,
+
   // Misc off-topic
   /\bboutique\b.*\bvendor/i, /\bscavenger hunt\b/i,
   /\bbingo\b/i, /\bcasino\b/i, /\bbook\s+(club|fair|talk)\b/i,

@@ -763,36 +763,14 @@
     "source": "805calendar"
   },
   {
-    "id": "b148086198cf2a51",
-    "title": "Bejewel a Book at Smitten",
-    "description": "at Smitten",
+    "id": "2d2876cfc6a42ec6",
+    "title": "Jest Improv's Mainstage Improv Comedy Show: The Jesties & Besties Show!",
+    "description": "at The Bunker Theater",
     "date": "2026-03-14",
     "category": "art",
     "location": "Ventura",
-    "venue": "Smitten",
-    "externalUrl": "https://www.eventbrite.com/e/bejewel-a-book-at-smitten-tickets-1982454944104",
-    "source": "eventbrite"
-  },
-  {
-    "id": "ac09e8d30e3dd651",
-    "title": "Rustic Doors and Windows in Watercolors",
-    "description": "at Red Brick Art",
-    "date": "2026-03-14",
-    "category": "art",
-    "location": "Ventura",
-    "venue": "Red Brick Art",
-    "externalUrl": "https://www.eventbrite.com/e/rustic-doors-and-windows-in-watercolors-tickets-1981379786278",
-    "source": "eventbrite"
-  },
-  {
-    "id": "e4b4522288f536c3",
-    "title": "Two-Prov Show",
-    "description": "at Jefferson Hall",
-    "date": "2026-03-14",
-    "category": "art",
-    "location": "Santa Barbara",
-    "venue": "Jefferson Hall",
-    "externalUrl": "https://www.eventbrite.com/e/two-prov-show-tickets-1982292206351",
+    "venue": "The Bunker Theater",
+    "externalUrl": "https://www.eventbrite.com/e/jest-improvs-mainstage-improv-comedy-show-the-jesties-besties-show-tickets-1977095858936",
     "source": "eventbrite"
   },
   {
@@ -1082,6 +1060,16 @@
     "source": "ovlc"
   },
   {
+    "id": "ea54c62a05af18f7",
+    "title": "Atelier en ligne Psycom : prise en main du Cosmos Mental",
+    "description": "",
+    "date": "2026-03-17",
+    "category": "art",
+    "location": "Ventura",
+    "externalUrl": "https://www.eventbrite.com/e/billets-atelier-en-ligne-psycom-prise-en-main-du-cosmos-mental-1967493942345",
+    "source": "eventbrite"
+  },
+  {
     "id": "9fc5acfe1920aab3",
     "title": "St. Patrick's Day Construction Happy Hour",
     "description": "at Mission Audio Video",
@@ -1155,6 +1143,16 @@
     "externalUrl": "https://ovlc.org/events/alq2xiorgwcu5dekm7v3qtqi1hdxa8-hkn72-x4f63-9x735-hra3x-xt8fr-9btm5-agnph-7rs9f-r22tn-6zk54",
     "instagramHandle": "@ojaivalleylandconservancy",
     "source": "ovlc"
+  },
+  {
+    "id": "d958113a7b313270",
+    "title": "Visas de travail (H-1B/L-1/E-2)",
+    "description": "",
+    "date": "2026-03-18",
+    "category": "art",
+    "location": "Ventura",
+    "externalUrl": "https://www.eventbrite.com/e/billets-visas-de-travail-h-1bl-1e-2-1980830876474",
+    "source": "eventbrite"
   },
   {
     "id": "8c76b0c9a2a15464",
@@ -1497,6 +1495,17 @@
     "location": "Ventura",
     "venue": "JEST Improv",
     "externalUrl": "https://www.eventbrite.com/e/saturday-afternoon-intro-to-improv-comedy-drop-in-class-tickets-1017396940637",
+    "source": "eventbrite"
+  },
+  {
+    "id": "f8de39860b9e4e1d",
+    "title": "Standing Room: A Standup Showcase",
+    "description": "at The Bunker Theater",
+    "date": "2026-03-21",
+    "category": "art",
+    "location": "Ventura",
+    "venue": "The Bunker Theater",
+    "externalUrl": "https://www.eventbrite.com/e/standing-room-a-standup-showcase-tickets-1984440824927",
     "source": "eventbrite"
   },
   {
