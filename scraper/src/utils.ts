@@ -135,44 +135,59 @@ const OFF_TOPIC_PATTERNS = [
   /\bflower essence/i, /\bbirthing\b/i,
   /\bembaraz/i, /\bposparto\b/i, /\bpregnancy\b/i, /\bprenatal\b/i,
 
-  // Yoga / meditation / spiritual (keep sound bath / gong at music venues)
+  // Yoga / meditation / spiritual / sound healing
   /\byoga\b/i, /\bpilates\b/i, /\bmeditation\b/i,
   /\bkundalini\b/i, /\breiki\b/i, /\bchakra\b/i,
   /\bpsychic\b/i, /\btarot\b/i, /\bastrology\b/i,
   /\bprayer\b/i, /\bbible\b/i, /\bchurch\b/i,
   /\bspiritual\b/i, /\bcacao circle/i, /\bbreathwork\b/i,
+  /\bsound\s*(journey|bath|healing)\b/i, /\bdeep\s*rest\b/i,
 
   // Kids / family specific
   /\bkids\b.*\bclass/i, /\bages\s+\d+\+?\b/i, /\bpre-junior/i,
   /\bhello kitty\b/i, /\bslime kitchen\b/i,
   /\bparenting\b/i, /\bmother-daughter\b/i,
 
-  // Education / training / academic (non-music)
+  // Education / training / academic / tech (non-music)
   /\btraining\b.*\b(installer|enphase|career|soft skill)/i,
   /\binstaller training\b/i, /\bcertification\b/i,
   /\bcomputational\b/i, /\bmodelling\b/i, /\bfire safety\b/i,
+  /\bimprov\s*(class|lesson|audition|program|101|102)\b/i,
+  /\bdrop.in\s*class/i, /\bintro\s+to\s+improv/i,
+  /\baudition/i,
+  /\bagentic\s*ai\b/i, /\bai\s+for\s+everyone/i,
+  /\bgeneral\s*meeting\b/i, /\bchapter\s*event\b/i,
 
   // Non-English events (French / Spanish educational / medical)
   /\bl'ia\b/i, /\blire autrement\b/i, /\bmaîtrisez\b/i,
   /\bannoncer une mauvaise/i, /\bmémoire.*oublis/i,
   /\bcírculo de apoyo\b/i, /\bcírculo de mujeres\b/i,
+  /\batelier\s+en\s+ligne/i, /\bprise\s+en\s+main/i,
+  /\bvisas?\s+de\s+travail/i, /\bpsycom\b/i,
 
-  // Crafts / DIY / art classes
+  // Crafts / DIY / art classes / art events
   /\bbejewel/i, /\bjewelry\s*(making|class|workshop)/i,
   /\bcrafting\b/i, /\bcraft\s+(night|class|workshop)/i,
   /\bscrapbook/i, /\bcalligraphy\b/i, /\bpottery\b/i,
   /\bwatercolor/i, /\bacrylic\s*painting/i,
-  /\bpainting\s*(class|workshop|lesson|with)/i,
+  /\bpainting\s*(class|workshop|lesson|with|party)/i,
+  /\bpaint\s*(party|night|nite|and\s*sip)\b/i,
   /\bdrawing\s*(class|workshop|lesson)/i, /\bart\s*(class|workshop|lesson)/i,
-  /\bstudio\s*artist/i, /\bstudio\s*tour/i,
+  /\bstudio\s*artist/i, /\bstudio\s*tour/i, /\bopen\s*studio/i,
+  /\bgallery\s*(opening|reception)\b/i, /\bart\s*walk\b/i,
+  /\bart\s*&?\s*wine\s*tour/i, /\bcabaret\b/i,
 
   // Misc off-topic
   /\bboutique\b.*\bvendor/i, /\bscavenger hunt\b/i,
-  /\bbingo\b/i, /\bcasino\b/i, /\bbook\s+(club|fair|talk)\b/i,
+  /\bbingo\b/i, /\bcasino\b/i, /\bbook\s+(club|fair|talk|signing|reading|launch)\b/i,
   /\bknitting\b/i, /\bsewing\b/i,
   /\bwedding\b/i, /\bbridal\b/i,
   /\bdivorce\b/i, /\bpotluck\b/i,
   /\bluncheon\b.*\bsponsorship/i, /\bladies luncheon/i,
+  /\bconstruction\s*happy/i, /\bindustry\s*happy\s*hour/i,
+  /\bhospital\b/i, /\bcottage\s*hospital/i,
+  /\bhistorical\s*museum\b/i, /\bstreets\s+of\b/i,
+  /\bstarving\s*artist/i,
   /\bparkinson/i, /\bmoving day\b/i,
 
   // Calendar site boilerplate / spam

@@ -146,6 +146,11 @@ function parseEventLine(
 
   if (!title || title.length < 3) return;
 
+  // Skip fragments / broken parsing artifacts (titles that are clearly not events)
+  if (/^(Market|County|Blvd|Drive|Street|Ave|Info|click)\b/i.test(title)) return;
+  if (/^\d+\s+(W|E|N|S)\s+\w+\s+(St|Ave|Blvd|Rd|Dr)/i.test(title)) return;
+  if (title.includes('Senior Nutrition') || title.includes('parking lot of')) return;
+
   // Skip events from excluded areas (south of Oxnard, inland valleys, LA)
   if (isExcludedArea(title) || isExcludedArea(venue) || isExcludedArea(text)) return;
 
