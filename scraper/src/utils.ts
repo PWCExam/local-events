@@ -46,6 +46,7 @@ export function parseDate(dateStr: string): string | null {
           if (isBefore(result, startOfDay(now))) {
             result = new Date(now.getFullYear() + 1, parsed.getMonth(), parsed.getDate());
           }
+          return format(result, 'yyyy-MM-dd');
         }
         return format(parsed, 'yyyy-MM-dd');
       }
